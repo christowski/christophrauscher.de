@@ -9,7 +9,7 @@ socialImage: "media/socialimage.png"
 
 <section class="stage">
   <figure>
-    <img src="media/keyvisual.png" alt="Keyvisual"/>
+    <img src="media/keyvisual.jpg" alt="Keyvisual"/>
   </figure>
   <div class="introduction">
     <div><p>Hello, I’m Christoph Rauscher: a <em>designer</em>, <em>illustrator</em>, <em>writer</em> and <em>visual thinker</em> based in Berlin, Germany.</p>

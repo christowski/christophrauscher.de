@@ -591,13 +591,14 @@ section.writing {
     }
   }
   a {
+    color: $accent !important; 
     text-decoration: none;
     background-color: rgba($secondary, 0.1);
     padding: 0rem 0.5rem;
     border-radius: 8px;
     &:hover, &:focus {
-      color: white;
-      background-color: rgba($secondary, 0.2);
+      color: $charcoal !important;
+      background-color: $secondary;
     }
   }
   @media (min-width: $breakpoint-l-1024) {

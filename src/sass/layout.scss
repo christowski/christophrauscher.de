@@ -111,8 +111,12 @@ section {
 
 // sections with larger inner spacings, e.g. on Home
 .section--large {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  @media (min-width: $breakpoint-m-769) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 .section--medium {
   padding-top: 3rem;

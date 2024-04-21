@@ -310,6 +310,12 @@ body.body--post .post-container .content img {
   max-width: 100%;
 }
 
+@media (max-width: 420px) {
+  section.recent-posts {
+    padding: 0;
+  }
+}
+
 .post-list {
   margin-bottom: 2rem;
 }
@@ -321,10 +327,10 @@ body.body--post .post-container .content img {
   border-top: 1px solid #CBC8C6;
 }
 .post-teaser a.post-teaser--link {
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: start;
   gap: 1rem;
-  padding: 1.5rem 1rem;
+  padding: 1.25rem 0;
   color: #140D05;
   display: flex;
   text-decoration: none;
@@ -343,6 +349,12 @@ body.body--post .post-container .content img {
   .post-teaser a.post-teaser--link {
     align-items: center;
     gap: 1.5rem;
+  }
+}
+@media (min-width: 769px) {
+  .post-teaser a.post-teaser--link {
+    padding: 1.5rem 1rem;
+    flex-direction: row;
   }
 }
 .post-teaser img.post-teaser--thumb {
@@ -377,7 +389,7 @@ body.body--post .post-container .content img {
   gap: 0.5rem;
 }
 .post-teaser .post-teaser--data .post-teaser--title h2, .post-teaser .post-teaser--data .post-teaser--title h3 {
-  font-family: "Faktum", Futura, Helvetica, Arial, sansserif;
+  font-family: "Faktum", Helvetica, Arial, sansserif;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0.25rem;
@@ -408,7 +420,7 @@ body.body--post .post-teaser a.post-teaser--link:hover, body.body--post .post-te
 }
 @media (max-width: 420px) {
   body.body--post .post-teaser a.post-teaser--link {
-    padding: 1.5rem 0.5rem;
+    padding: 1.5rem 0;
   }
 }
 
@@ -700,8 +712,14 @@ section {
 }
 
 .section--large {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media (min-width: 769px) {
+  .section--large {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 
 .section--medium {
@@ -808,7 +826,7 @@ h2 {
 h3 {
   font-size: 1.125rem;
   line-height: 1.2;
-  font-family: "Faktum", Futura, Helvetica, Arial, sansserif;
+  font-family: "Faktum", Helvetica, Arial, sansserif;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
@@ -834,7 +852,7 @@ p {
 }
 
 strong, b {
-  font-family: "Faktum", Futura, Helvetica, Arial, sansserif;
+  font-family: "Faktum", Helvetica, Arial, sansserif;
   font-weight: bold;
 }
 
@@ -847,7 +865,7 @@ em {
 }
 .content p, .content ul, .content ol, .content li {
   font-size: 1.125rem;
-  font-family: "Faktum", Futura, Helvetica, Arial, sansserif;
+  font-family: "Faktum", Helvetica, Arial, sansserif;
   margin-bottom: 0.75rem;
 }
 @media (min-width: 769px) {
@@ -919,7 +937,7 @@ html {
 body {
   background-color: #EEE9E6;
   color: #140D05;
-  font-family: "Faktum", Futura, Helvetica, Arial, sansserif, "Inter", sans-serif;
+  font-family: "Faktum", Helvetica, Arial, sansserif, "Inter", sans-serif;
   font-size: 100%;
 }
 
@@ -1094,7 +1112,7 @@ hr {
   opacity: 0.5;
 }
 .pageheader--accent .text .description p {
-  font-family: "Faktum", Futura, Helvetica, Arial, sansserif;
+  font-family: "Faktum", Helvetica, Arial, sansserif;
   font-size: 1.125rem;
   line-height: 1.5;
 }
@@ -1186,7 +1204,7 @@ input, button {
 
 a.button, a.button-arrow, button {
   border: none;
-  font-family: "Faktum", Futura, Helvetica, Arial, sansserif;
+  font-family: "Faktum", Helvetica, Arial, sansserif;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -1581,14 +1599,15 @@ section.writing .section-header {
   }
 }
 .writing-card a {
+  color: #AF5F00 !important;
   text-decoration: none;
   background-color: rgba(202, 202, 208, 0.1);
   padding: 0rem 0.5rem;
   border-radius: 8px;
 }
 .writing-card a:hover, .writing-card a:focus {
-  color: white;
-  background-color: rgba(202, 202, 208, 0.2);
+  color: #140D05 !important;
+  background-color: #CACAD0;
 }
 @media (min-width: 1024px) {
   .writing-card {
@@ -1628,7 +1647,7 @@ section.writing .section-header {
   border-radius: 0;
   color: #EEE9E6;
   display: inline-block;
-  font-family: "Faktum", Futura, Helvetica, Arial, sansserif;
+  font-family: "Faktum", Helvetica, Arial, sansserif;
   font-size: 1.25rem;
   margin-right: 0.5rem;
   margin-bottom: 1rem;

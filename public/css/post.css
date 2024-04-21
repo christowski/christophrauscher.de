@@ -117,6 +117,12 @@ body.body--post .post-container .content img {
   max-width: 100%;
 }
 
+@media (max-width: 420px) {
+  section.recent-posts {
+    padding: 0;
+  }
+}
+
 .post-list {
   margin-bottom: 2rem;
 }
@@ -128,10 +134,10 @@ body.body--post .post-container .content img {
   border-top: 1px solid #CBC8C6;
 }
 .post-teaser a.post-teaser--link {
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: start;
   gap: 1rem;
-  padding: 1.5rem 1rem;
+  padding: 1.25rem 0;
   color: #140D05;
   display: flex;
   text-decoration: none;
@@ -150,6 +156,12 @@ body.body--post .post-container .content img {
   .post-teaser a.post-teaser--link {
     align-items: center;
     gap: 1.5rem;
+  }
+}
+@media (min-width: 769px) {
+  .post-teaser a.post-teaser--link {
+    padding: 1.5rem 1rem;
+    flex-direction: row;
   }
 }
 .post-teaser img.post-teaser--thumb {
@@ -184,7 +196,7 @@ body.body--post .post-container .content img {
   gap: 0.5rem;
 }
 .post-teaser .post-teaser--data .post-teaser--title h2, .post-teaser .post-teaser--data .post-teaser--title h3 {
-  font-family: "Faktum", Futura, Helvetica, Arial, sansserif;
+  font-family: "Faktum", Helvetica, Arial, sansserif;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0.25rem;
@@ -215,7 +227,7 @@ body.body--post .post-teaser a.post-teaser--link:hover, body.body--post .post-te
 }
 @media (max-width: 420px) {
   body.body--post .post-teaser a.post-teaser--link {
-    padding: 1.5rem 0.5rem;
+    padding: 1.5rem 0;
   }
 }
 

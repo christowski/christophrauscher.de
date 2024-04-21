@@ -83,7 +83,7 @@ h2 {
 h3 {
   font-size: 1.125rem;
   line-height: 1.2;
-  font-family: "Faktum", Futura, Helvetica, Arial, sansserif;
+  font-family: "Faktum", Helvetica, Arial, sansserif;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
@@ -109,7 +109,7 @@ p {
 }
 
 strong, b {
-  font-family: "Faktum", Futura, Helvetica, Arial, sansserif;
+  font-family: "Faktum", Helvetica, Arial, sansserif;
   font-weight: bold;
 }
 
@@ -122,7 +122,7 @@ em {
 }
 .content p, .content ul, .content ol, .content li {
   font-size: 1.125rem;
-  font-family: "Faktum", Futura, Helvetica, Arial, sansserif;
+  font-family: "Faktum", Helvetica, Arial, sansserif;
   margin-bottom: 0.75rem;
 }
 @media (min-width: 769px) {
