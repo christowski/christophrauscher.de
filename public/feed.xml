@@ -355,25 +355,6 @@
 	
     
     <entry>
-      <title>“Goodbye, heavy friends”</title>
-      <link href="https://christophrauscher.de/11ty/writing/posts/__goodbye-heavy-friends/"/>
-      <updated>2018-04-27T00:00:00Z</updated>
-      <id>https://christophrauscher.de/11ty/writing/posts/__goodbye-heavy-friends/</id>
-      <content type="html"><![CDATA[
-        <p>I don’t want to write too many words on this, because I am about to ask you to read this blog post by Frank Chimero. Read it entirely, read it thoroughly. He composed a list of all the things he learned about productivity, and actually, about general happiness as a workaholic. It can pick you up. For example, he suggests:</p>
-<blockquote>
-<p>Dump your brain on to a sheet of paper—every single thing you could hope to do in the next 3 to 4 months. Then, look at your task list. Have the author sign each one. Did you write it, or was it fear, that nasty tyrant in your head? Cross off anything written out of fear. Listen: some drudgery is unavoidable, but you’re living your one and only life. You get to drive; no bullies at the wheel.</p>
-</blockquote>
-<p>… And after a while, Frank comes back to that sheet of paper:</p>
-<blockquote>
-<p>(…) Many of the things you thought you needed to do in the next few months were left undone without noticeable consequences. Perhaps now you can now cut their weight. “Goodbye, heavy friends. Maybe someone else will give you the attention you need.”</p>
-</blockquote>
-
-      ]]></content>
-    </entry>
-	
-    
-    <entry>
       <title>I’ve Never Liked Anything In My Entire Life</title>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/18-ive-never-liked-anything-in-my-entire-life/"/>
       <updated>2018-05-04T00:00:00Z</updated>
@@ -1079,27 +1060,28 @@
 	
     
     <entry>
-      <title>Where is the better world through AI?</title>
-      <link href="https://christophrauscher.de/11ty/writing/posts/__where-is-the-better-world-through-ai/"/>
+      <title>The Muse visits during the act of creation</title>
+      <link href="https://christophrauscher.de/11ty/writing/posts/the-muse-visits-during-the-act-of-creation/"/>
       <updated>2024-03-21T00:00:00Z</updated>
-      <id>https://christophrauscher.de/11ty/writing/posts/__where-is-the-better-world-through-ai/</id>
+      <id>https://christophrauscher.de/11ty/writing/posts/the-muse-visits-during-the-act-of-creation/</id>
       <content type="html"><![CDATA[
-        <p>Jürgen (tante) Geuter</p>
-<p>https://www.linkedin.com/posts/tante_festival-crowd-boos-at-video-of-conference-activity-7175401061241778176-F012?utm_source=share&amp;utm_medium=member_desktop</p>
+        <p>I recently stumbled upon a <a href="https://www.linkedin.com/posts/tante_festival-crowd-boos-at-video-of-conference-activity-7175401061241778176-F012?utm_source=share&amp;utm_medium=member_desktop">LinkedIn</a> post by Jürgen Geuter (maybe better known as <em>tante</em> on the web), commenting on the current hype of AI, more precisely, on the a recent incident at SXSW 2024, where a euphoric reel about AI andf its future has been booed by the audience. I quite liked his thoughts and accusations towards the AI hype:</p>
 <blockquote>
 <p>Because where are all the promised gains in efficiency? Where is the better world? All we see is a wasteful technology that's propped up by VC and Microsoft money that's easily detected as a way to further centralize our digital infrastructures while laying our digital spaces to waste.</p>
 </blockquote>
+<p>And further:</p>
 <blockquote>
 <p>Some systems labeled &quot;AI&quot; today will stick around. Especially the non-generative stuff (for image processing, object detection, pattern recognition in data streams, heuristics to detect errors in work products, etc.) but a lot of the #genAI field is just spam creation. And it's actually making some - especially creative things - harder to achieve.</p>
 </blockquote>
+<p>The overall promise of “artifical intelligence” and generative AI being <em>creative</em> and supporting creative work, made me suspicious in the first place, and tante has the right quotes and references for my scepticism:</p>
 <blockquote>
-<p>Famous film critic Roger Ebert once said &quot;The Muse visits during the act of creation, not before.&quot; and the booing is people coming back to realizing this simple fact. You are not creative and then create something, you become creative by working on something, creativity is a byproduct of work.</p>
+<p>Famous film critic Roger Ebert once said “The Muse visits during the act of creation, not before.” and the booing is people coming back to realizing this simple fact. You are not creative and then create something, you become creative by working on something, creativity is a byproduct of work.</p>
 </blockquote>
+<p>I will tell this to all my students and colleagues and friends and anyone else, too.</p>
 <blockquote>
-<p>In this way #AI is deeply dehumanizing: Making the spaces and opportunities for people to grow and be human smaller and smaller. Applying a straitjacket of past mediocrity to our minds and spirits.</p>
+<p>In this way AI is deeply dehumanizing: Making the spaces and opportunities for people to grow and be human smaller and smaller. Applying a straitjacket of past mediocrity to our minds and spirits.</p>
 </blockquote>
-<p>See also: “How to find your taste”; people were pushed into sameness so much that it became hard to know what you like, everything is so much <em>the same</em>.</p>
-
+<!-- See also: “How to find your taste”; people were pushed into sameness so much that it became hard to know what you like, everything is so much *the same*. -->
       ]]></content>
     </entry>
 	
