@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Faktum-Con";
+  src: url("/media/fonts/Faktum-ConRegular/font.woff2") format("woff2"), url("../media/fonts/Faktum-ConRegular/font.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Faktum-Con";
+  src: url("/media/fonts/Faktum-ConSemiBold/font.woff2") format("woff2"), url("../media/fonts/Faktum-ConSemiBold/font.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GTAplina";
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Trial.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GTAplina-Italic";
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: "GTAplina-Light";
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GTAplina-Light";
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+h1 {
+  line-height: 1.3;
+  font-size: 2rem;
+  font-family: "GTAplina-Light", Georgia, "Times New Roman", serif;
+}
+@media (min-width: 769px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: "GTAplina-Light", Georgia, "Times New Roman", serif;
+}
+@media (min-width: 769px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  font-size: 1.125rem;
+  line-height: 1.3;
+  font-family: "Faktum-Con", Futura, Helvetica, Arial, sansserif;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 769px) {
+  h3 {
+    font-size: 1.25rem;
+  }
+}
+
+small {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 0.875rem;
+}
+
+p, li {
+  line-height: 1.5;
+  font-size: 1.125rem;
+}
+
+p {
+  margin-bottom: 0.75rem;
+}
+
+strong, b {
+  font-family: "Faktum-Con", Futura, Helvetica, Arial, sansserif;
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.content {
+  flex-grow: 1;
+}
+.content p, .content ul, .content ol, .content li {
+  font-size: 1.125rem;
+  font-family: "Faktum-Con", Futura, Helvetica, Arial, sansserif;
+  margin-bottom: 0.75rem;
+}
+@media (min-width: 769px) {
+  .content p, .content ul, .content ol, .content li {
+    font-size: 1.25rem;
+  }
+}
+.content ul, .content ol {
+  margin-bottom: 2rem;
+}
+.content ul {
+  list-style-type: none;
+}
+.content ul li {
+  margin-left: 1.3rem;
+}
+.content ul li:before {
+  content: "–";
+  width: 1.3rem;
+  display: inline-block;
+  margin-left: -1.3rem;
+}
+.content ol {
+  margin-left: 1.75rem;
+  list-style-type: roman;
+}
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.content h2, .content h3 {
+  margin-bottom: 1.75rem;
+}
+.content p.intro {
+  color: #948F89;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+.content blockquote {
+  padding: 1.5rem;
+  background-color: #EEE9E6;
+  border-radius: 8px;
+  margin: 1rem 0 2rem;
+}
+.content blockquote p {
+  margin-bottom: 0;
+}
+.content figure {
+  margin-bottom: 2rem;
+}
+.content figure img {
+  margin: 0 0 0.75rem 0;
+}
+.content figure figcaption {
+  color: #948F89;
+}
+.content img {
+  max-width: 100%;
+  margin: 1.5rem 0 2rem;
+}
+
+/*# sourceMappingURL=typography.css.map */

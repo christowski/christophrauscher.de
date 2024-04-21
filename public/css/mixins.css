@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Faktum-Con";
+  src: url("/media/fonts/Faktum-ConRegular/font.woff2") format("woff2"), url("../media/fonts/Faktum-ConRegular/font.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Faktum-Con";
+  src: url("/media/fonts/Faktum-ConSemiBold/font.woff2") format("woff2"), url("../media/fonts/Faktum-ConSemiBold/font.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GTAplina";
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Trial.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GTAplina-Italic";
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: "GTAplina-Light";
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GTAplina-Light";
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=mixins.css.map */
