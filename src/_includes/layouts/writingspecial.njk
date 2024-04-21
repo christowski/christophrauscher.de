@@ -1,0 +1,28 @@
+{% extends "layouts/base.njk" %} 
+
+{% block content %}
+
+  <article>
+    <div class="pageheader--accent">
+      <div class="text">
+        <h1>{{ title }} <span class="label">{{ label }}</span></h1>
+        <div class="description">
+          <p>{{ description }}</p>
+        </div>
+      </div>
+      <figure>
+        <img src="{{ hero.image }}" alt="{{ hero.imageAlt }}" />
+      </figure>
+    </div>
+
+    <div class="container--narrow">
+      
+      <div class="content-container">
+        <div class="content">
+          {{ content | safe }}
+        </div>
+      </div>
+
+    </div>
+  
+{% endblock %}

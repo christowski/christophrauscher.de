@@ -1,12 +1,13 @@
 {% for item in collections.writing %}
-  <li class="project-grid--tile">
-    {# <img src="{{ item.data.hero.image }}" 
-      srcset="{{ item.data.hero.image }} 1x, {{ item.data.hero.image2x }} 2x"
-      alt="{{ item.data.hero.imageAlt }}" /> #}
+  <li class="writing-card">
     <a href="{{ item.url }}">
-      <p>{{ item.data.kicker }}</p>
+      <p>{{ item.data.label }}</p>
       <h3>{{ item.data.title }}</h3>
-      <p>{{ item.data.intro }}</p>
+      <p>{{ item.data.description }}</p>
     </a>
   </li>
 {% endfor %}
+
+{# <img src="{{ item.data.hero.image }}" 
+      srcset="{{ item.data.hero.image }} 1x, {{ item.data.hero.image2x }} 2x"
+      alt="{{ item.data.hero.imageAlt }}" /> #}

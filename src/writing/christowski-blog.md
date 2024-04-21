@@ -1,10 +1,12 @@
 ---
-kicker: "Personal weblog"
+layout: "layouts/writingspecial.njk"
+label: "Personal weblog"
 title: "Christowski Blog"
-intro: "“The best joke is still myself” – Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+description: "“The best joke is still myself” – Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
 displayOrder: 4
-image: "/media/writing-ibook.jpg"
-imageAlt: "Alt"
+hero:
+  image: "/media/writing-ibook.jpg"
+  imageAlt: "A miniature duotone picture of a laptop"
 url: "https://christowski.de"
 ---
 

@@ -21,6 +21,7 @@ body {
 body.body--home {
   nav.nav--primary {border-bottom: none}
 }
+
 // Workaround to remove all empty paragraphs
 p:empty {
   display: none;
@@ -115,22 +116,90 @@ hr {
 
 // Title element on top of sub pages
 .pageheader {
-  padding: 1rem 1rem 1.2rem;
-  margin: 3rem 0 1.5rem;
-  max-width: 1000px;
-  width: 80%;
+  padding: 2rem 1rem;
   h1, p {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     @include lh-head;
     font-family: $serifstack;
   }
   p { color: $concrete; }
 
   @media (min-width: $breakpoint-s-420) {
-    padding: 1.5rem 1.5rem 1.8rem 1.5rem;
+    padding: 2.5rem 1.5rem;
+    h1, p {
+      max-width: 80%;
+    }
   }
   @media (min-width: $breakpoint-m-769) {
-    padding: 1.5rem 2rem 2rem 2rem;
+    padding: 3rem 2.5rem;
+    h1, p {
+      font-size: 2.5rem;
+    }
+  }
+  @media (min-width: $breakpoint-l-1024) {
+    padding: 4rem 2.5rem;
+    h1, p {
+      font-size: 2.75rem;
+    }
+  }
+}
+// Highlight title element on top of sub pages
+.pageheader--accent {
+  padding: 2rem 1rem;
+  background-color: $accent;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+  .text {
+    color: white;
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      span.label {
+        display: block;
+        font-style: italic;
+        opacity: 0.5;
+      }
+    }
+    .description p {
+      font-family: $sansstack;
+      @include body-l;
+      @include lh-body;
+    }
+  }
+  figure {text-align: right;}
+  img {
+    max-width: 100%; 
+    filter: grayscale(1);
+    mix-blend-mode: multiply;
+  }
+  @media (min-width: $breakpoint-s-420) {
+    padding: 2.5rem 1.5rem;
+  }
+  @media (min-width: $breakpoint-m-769) {
+    padding: 3rem 2.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    .text {
+      max-width: 100%;
+      h1, p {max-width: 100%; }
+      h1 { font-size: 3rem; }
+    }
+  }
+  @media (min-width: $breakpoint-l-1024) {
+    padding: 4rem 2.5rem;
+    align-items: end;
+    .text {
+      max-width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h1 { font-size: 4.5rem; line-height: 1.1; margin-bottom: 3rem; }
+      .description {max-width: 80%;}
+    }
+    img {
+      margin-right: 2rem;
+    }
   }
 }
 

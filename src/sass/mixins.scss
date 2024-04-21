@@ -2,7 +2,7 @@
 @import "fonts.scss";
 
 @mixin lh-head {
-  line-height: 1.3;
+  line-height: 1.2;
 }
 @mixin lh-body {
   line-height: 1.5;
@@ -64,8 +64,11 @@
   }
 }
 @mixin body-l {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   @media (min-width: $breakpoint-m-769) {
+    font-size: 1.25rem;
+  }
+  @media (min-width: $breakpoint-l-1024) {
     font-size: 1.5rem;
   }
 }

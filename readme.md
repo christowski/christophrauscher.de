@@ -56,3 +56,15 @@ Collection: Projects (for, well, projects)
 [] colophone, changelog
 [] teaching
 [] library
+
+---
+
+## URL Structure
+
+/
+⦦ writing
+  ⦦ /posts/
+  ⦦ /newsletters/ 
+⦦ newsletter
+⦦ drawings
+⦦ projects
