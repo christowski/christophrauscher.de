@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Faktum-Con';
+  font-family: 'Faktum';
   src: url('/media/fonts/Faktum-ConRegular/font.woff2') format('woff2'), url('../media/fonts/Faktum-ConRegular/font.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Faktum-Con';
+  font-family: 'Faktum';
   src: url('/media/fonts/Faktum-ConSemiBold/font.woff2') format('woff2'), url('../media/fonts/Faktum-ConSemiBold/font.woff') format('woff');
   font-weight: bold;
   font-style: normal;
@@ -35,4 +35,32 @@
   src: url('/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2') format('woff2');
   font-weight: normal;
   font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Signifier Light';
+  src: url('/media/fonts/test-signifier-light.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Signifier Light';
+  src: url('/media/fonts/test-signifier-light-italic.woff') format('woff');
+  font-weight: 200;
+  font-style: oblique;
+}
+
+
+@font-face {
+  font-family: 'Epicene Light';
+  src: url('/media/fonts/test-epicene-text-light.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Epicene Light';
+  src: url('/media/fonts/test-epicene-text-light-italic.woff2') format('woff');
+  font-weight: 200;
+  font-style: oblique;
 }

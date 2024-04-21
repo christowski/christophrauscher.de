@@ -20,7 +20,7 @@ But I wasn’t interested in Mac OS 8. I wanted Mac OS X! Panther! So I bought a
 My “real” first Mac was the first white Intel MacBook. It ran MacOS X Tiger, and I had so much trouble with it. It was broken constantly, I needed to have the motherboard replaced twice, and there were still hardly any Mac sellers in my area back then. It didn’t bother me. It made school so much more fun; using Keynote and iLife and making little websites on it. I was such a weirdo running around with this alienating piece of tech.
 
 <figure>
-  <img src="media/postimg/MyFirstMac-MacBook2006.jpg" alt="My first white MacBook from 2006" />
+  <img src="/media/postimg/MyFirstMac-MacBook2006.jpg" alt="My first white MacBook from 2006" />
 </figure>
 
 I also still really love the plastic cases of the mid-2000s Macs; they feel less precious and were nice to touch and use. I wish my current MacBook Air was built like that.
@@ -30,7 +30,7 @@ Anyway. Every once in a while, I get to use a Windows PC and I am still fascinat
 As I got older and Macs just turned into a tool I needed for my work (and life, I guess), I started buying old Apple stuff on eBay, just to fulfill some teenage dreams. I don’t hoard Apple hardware excessively, but I keep some things around that I just love and cannot get rid of. One example is the 2003 Apple Cinema display with its acrylic case. The product design, inspired by a painter’s easel, just keeps delighting me. It’s not usable anymore with my M1 MacBook Air, but I loved writing my Master’s thesis on it in 2018.
 
 <figure>
-  <img src="media/postimg/MyFirstMac-CinemaDisplay.jpg" alt="My Acryl Apple Cinema Display from 2003" />
+  <img src="/media/postimg/MyFirstMac-CinemaDisplay.jpg" alt="My Acryl Apple Cinema Display from 2003" />
 </figure>
 
 My current setup as of 2024, besides the MacBook Air, is a 2019 iMac with a huge 27″ inch retina screen. It’s great to use, but as it stands on my desk, taking up all that space, it lacks joy, at times.

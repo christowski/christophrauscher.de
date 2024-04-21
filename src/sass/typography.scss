@@ -59,7 +59,9 @@ em {
       font-size: 1.25rem;
     }
   }
-  
+  p:has(+figure) {
+    margin-bottom: 2rem;
+  }
   ul, ol {
     margin-bottom: 2rem;
   }
@@ -105,7 +107,7 @@ em {
   }
 
   figure {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     img {margin: 0 0 0.75rem 0;};
     figcaption {color: $concrete;}
   }

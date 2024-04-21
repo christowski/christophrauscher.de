@@ -9,7 +9,7 @@ tags:
   - note
 ---
 
-I recently stumbled upon a [LinkedIn](https://www.linkedin.com/posts/tante_festival-crowd-boos-at-video-of-conference-activity-7175401061241778176-F012?utm_source=share&utm_medium=member_desktop) post by Jürgen Geuter (maybe better known as _tante_ on the web), commenting on the current hype of AI, more precisely, on the a recent incident at SXSW 2024, where a euphoric reel about AI andf its future has been booed by the audience. I quite liked his thoughts and accusations towards the AI hype:
+I recently stumbled upon a [LinkedIn post](https://www.linkedin.com/posts/tante_festival-crowd-boos-at-video-of-conference-activity-7175401061241778176-F012?utm_source=share&utm_medium=member_desktop) by Jürgen Geuter (maybe better known as _tante_ on the web), commenting on the current hype of AI, more precisely, on the a recent incident at SXSW 2024, where a euphoric reel about AI andf its future has been booed by the audience. I quite liked his thoughts and accusations towards the AI hype:
 
 > Because where are all the promised gains in efficiency? Where is the better world? All we see is a wasteful technology that's propped up by VC and Microsoft money that's easily detected as a way to further centralize our digital infrastructures while laying our digital spaces to waste.
 
