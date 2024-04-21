@@ -293,7 +293,7 @@ a.link--rss {
 // ------------ Navigation ------------
 
 nav.nav--primary {
-  padding: 1rem 1rem;
+  padding: 1rem 1rem 1.5rem;
   align-items: center;
   vertical-align: middle;
   font-size: 1.125rem;
@@ -454,7 +454,7 @@ footer {
     background-color: $charcoal;
     padding: clamp(2rem, 3vw, 4rem) clamp(1rem, 3vw, 5rem);
     p {
-      font-size: clamp(1.5rem, 3vw, 2.75rem);
+      font-size: clamp(1.75rem, 3.5vw, 3.5rem);
       @include lh-head;
       font-family: $serifstack;
       margin-bottom: 2rem;
@@ -734,6 +734,7 @@ section.writing {
   }
   @media (min-width: $breakpoint-m-769) {
     &:first-of-type {border-top: none;}
+    border-bottom: none;
     a.newsletter-teaser--link {
       flex-direction: column;
       text-align: center;

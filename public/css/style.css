@@ -1279,7 +1279,7 @@ a.link--rss:hover:before {
 }
 
 nav.nav--primary {
-  padding: 1rem 1rem;
+  padding: 1rem 1rem 1.5rem;
   align-items: center;
   vertical-align: middle;
   font-size: 1.125rem;
@@ -1453,7 +1453,7 @@ footer a:hover, footer a:visited:hover {
   padding: clamp(2rem, 3vw, 4rem) clamp(1rem, 3vw, 5rem);
 }
 .stage .introduction p {
-  font-size: clamp(1.5rem, 3vw, 2.75rem);
+  font-size: clamp(1.75rem, 3.5vw, 3.5rem);
   line-height: 1.2;
   font-family: "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
   margin-bottom: 2rem;
@@ -1754,6 +1754,9 @@ section.writing .section-header {
   }
 }
 @media (min-width: 769px) {
+  .newsletter-teaser {
+    border-bottom: none;
+  }
   .newsletter-teaser:first-of-type {
     border-top: none;
   }
