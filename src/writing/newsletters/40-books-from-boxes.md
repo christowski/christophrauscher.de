@@ -2,7 +2,7 @@
 title: "Books from Boxes"
 abstract: "A newsletter from December 2022"
 date: "2022-12-26"
-image: "/media/newsletterimg/02-2022-1.jpg"
+image: "/media/newsletterimg/02-2022.jpg"
 imageAlt: "Drawing of me underneath a lot of moving boxes"
 caption: ""
 featured: false
