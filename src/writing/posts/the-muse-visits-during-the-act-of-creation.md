@@ -2,9 +2,9 @@
 title: "The Muse visits during the act of creation"
 date: "2024-03-21"
 abstract: "Where exactly is the better world through artifical intelligence?"
-image: "/media/postimg/.jpg"
-imageAlt: ""
-caption: ""
+image: "/media/postimg/joseph-steinmetz-egg-balancing-trick.jpg"
+imageAlt: "Joseph Steinmetz doing an egg balancing trick"
+caption: "Joseph Steinmetz doing an egg balancing trick"
 tags: 
   - note
 ---
@@ -21,7 +21,7 @@ The overall promise of “artifical intelligence” and generative AI being _cre
 
 > Famous film critic Roger Ebert once said “The Muse visits during the act of creation, not before.” and the booing is people coming back to realizing this simple fact. You are not creative and then create something, you become creative by working on something, creativity is a byproduct of work.
 
-I will tell this to all my students and colleagues and friends and anyone else, too.
+I will tell this to all my students and colleagues and friends and anyone else, too. This quote by Roger Ebert is the ultimate hall pass to be weird, to do something unexpected, to surprise yourself and others. Test your boundaries, dip your toes into the unknown. It’s what adds joy to life and work. Joy is a _huge_ part of creative processes—and outcomes.
 
 > In this way AI is deeply dehumanizing: Making the spaces and opportunities for people to grow and be human smaller and smaller. Applying a straitjacket of past mediocrity to our minds and spirits.
 
