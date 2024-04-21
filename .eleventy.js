@@ -6,8 +6,6 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 
-const drawingsImages = fg.sync(['**/drawings/*', '!**/public']);
-
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addWatchTarget("./src/sass");
@@ -34,13 +32,13 @@ module.exports = function(eleventyConfig) {
     });
     return arr.slice(0, 1);
   });
-  // end of example
 
   // Posts collection is all written stuff like blog posts, newsletters, essay, etc.
   // Posts collection in reverse date order
   eleventyConfig.addCollection('posts', collection => {
     return collection
-      .getFilteredByGlob('./src/writing/*/*.md');
+      .getFilteredByGlob('./src/writing/*/*.md')
+      .sort((a, b) => (Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1));
   });
 
   // Projects collection, sorted by display order

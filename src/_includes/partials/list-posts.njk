@@ -1,14 +1,13 @@
-{% set blogposts = collections.posts | limit(3) | reverse %}
-{% for item in blogposts %}
+{% for post in collections.note | reverse | limit(3) %}
   <li class="post-teaser">
-    <a class="post-teaser--link" href="{{ item.url }}">
-        <img class="post-teaser--thumb" src="{{ item.data.image }}" alt="{{ item.data.imageAlt }}">
+    <a class="post-teaser--link" href="{{ post.url }}">
+        <img class="post-teaser--thumb" src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
       <div class="post-teaser--data">
         <div class="post-teaser--title">
-          <h3>{{ item.data.title }}</h3>
-          <p>{{ item.data.abstract }}</p>
+          <h3>{{ post.data.title }}</h3>
+          <p>{{ post.data.abstract }}</p>
       </div>
-        <time class="post-teaser--date">{{ item.data.date | dateFilter }}</time>
+        <time class="post-teaser--date">{{ post.data.date | dateFilter }}</time>
       </div>
     </a>
   </li>
