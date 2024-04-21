@@ -1,0 +1,116 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+h1 {
+  @include lh-head;
+  font-size: 2rem;
+  font-family: $serifstack;
+  @media (min-width: $breakpoint-m-769) {
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: $serifstack;
+  @media (min-width: $breakpoint-m-769) {
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  font-size: 1.125rem;
+  @include lh-head;
+  font-family: $sansstack;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  @media (min-width: $breakpoint-m-769) {
+    font-size: 1.25rem;
+  }
+}
+
+small {
+  @include uppercase-text;
+}
+p, li {
+  @include lh-body;
+  font-size: 1.125rem;
+}
+p {
+  margin-bottom: 0.75rem;
+}
+strong, b {
+  font-family: $sansstack;
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+// ----------------------------------------
+
+.content {
+  flex-grow: 1;
+
+  p, ul, ol, li {
+    font-size: 1.125rem;
+    font-family: $sansstack;
+    margin-bottom: 0.75rem;
+    @media (min-width: $breakpoint-m-769) {
+      font-size: 1.25rem;
+    }
+  }
+  
+  ul, ol {
+    margin-bottom: 2rem;
+  }
+  ul {
+    list-style-type: none;
+    li {
+      margin-left: 1.3rem;
+      &:before {
+        content: "–";
+        width: 1.3rem;
+        display: inline-block;
+        margin-left: -1.3rem;
+      }
+    }
+  }
+
+  ol {
+    margin-left: 1.75rem;
+    list-style-type: roman;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  h2, h3 {
+    margin-bottom: 1.75rem;
+  }
+  
+  p.intro {
+    color: $concrete;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  blockquote {
+    padding: 1.5rem;
+    background-color: $warmgrey;
+    @include round-corners-m;
+    margin: 1rem 0 2rem;
+    p {margin-bottom: 0;}
+  }
+
+  figure {
+    margin-bottom: 2rem;
+    img {margin: 0 0 0.75rem 0;};
+    figcaption {color: $concrete;}
+  }
+  img {
+    max-width: 100%;
+    margin: 1.5rem 0 2rem;
+  }
+}

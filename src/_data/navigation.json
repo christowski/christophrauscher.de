@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "text": "Projects",
+      "url": "/projects"
+    },
+    {
+      "text": "Writing",
+      "url": "/writing"
+    },
+    {
+      "text": "Newsletter",
+      "url": "/newsletter"
+    },
+    {
+      "text": "Drawings",
+      "url": "/drawings"
+    }
+  ]
+}

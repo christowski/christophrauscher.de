@@ -1,0 +1,715 @@
+@import "reset.scss";
+@import "variables.scss";
+@import "mixins.scss";
+@import "project.scss";
+@import "post.scss";
+@import "drawings.scss";
+@import "layout.scss";
+@import "typography.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $warmgrey;
+  color: $charcoal;
+  font-family: $sansstack, "Inter", sans-serif;
+  font-size: 100%;
+}
+
+body.body--home {
+  nav.nav--primary {border-bottom: none}
+}
+// Workaround to remove all empty paragraphs
+p:empty {
+  display: none;
+}
+
+// ------------ Helpers ------------
+
+.spacer-b--s {
+  margin-bottom: 1rem;
+  @media (min-width: $breakpoint-m-769) {
+    margin-bottom: 2rem;
+  }
+  @media (min-width: $breakpoint-l-1024) {
+    margin-bottom: 3rem;
+  }
+}
+.spacer-b--m {
+  margin-bottom: 2rem;
+  @media (min-width: $breakpoint-m-769) {
+    margin-bottom: 3.5rem;
+  }
+  @media (min-width: $breakpoint-l-1024) {
+    margin-bottom: 5rem;
+  }
+}
+
+hr {
+  border: none;
+  height: 10px;
+  background: url("/media/wiggle.svg") repeat-x;
+  margin: 4rem 0 3.5rem 0;
+}
+
+// ------------ Layout ------------
+
+.wrapper {
+  max-width: 100%;
+  margin: 0;
+  background-color: white;
+  @media (min-width: $breakpoint-s-420) {
+    margin: 1rem;
+  }
+  @media (min-width: $breakpoint-m-769) {
+    margin: 1.5rem;
+  }
+  @media (min-width: 1664px) {
+    margin: 1.5rem auto;
+    max-width: 1600px;
+  }
+}
+
+// content-container is the main text container for paragraphs, headings, etc., except for blog posts
+.content-container {
+  margin: 2rem auto 4rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;  // horizontal center alignment of elements within
+  align-items: stretch; // vertical stretch of elements within
+  gap: 2rem; // gap between flex elements
+  @media (min-width: $breakpoint-m-769) {
+    margin: 4rem auto 5rem auto;
+  }
+  @media (min-width: $breakpoint-m-769) {
+    padding: 0 2rem;
+  }
+  @media (min-width: $breakpoint-l-1024) {
+    padding: 0;
+  }
+
+  aside {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100%;
+    @include uppercase-text;
+    border-top: 1px dashed $midgrey;
+    padding-top: 1.5rem;
+    @media (min-width: $breakpoint-m-769) {
+      border-top: 0;
+      border-right: 1px dashed $midgrey;
+      padding-top: 0;
+      padding-right: 1rem;
+      max-width: 300px;
+      width: 20%;
+    }
+  }
+
+  @media (min-width: $breakpoint-m-769) {
+    flex-direction: row;
+  }
+}
+
+// Title element on top of sub pages
+.pageheader {
+  padding: 1rem 1rem 1.2rem;
+  margin: 3rem 0 1.5rem;
+  max-width: 1000px;
+  width: 80%;
+  h1, p {
+    font-size: 2.5rem;
+    @include lh-head;
+    font-family: $serifstack;
+  }
+  p { color: $concrete; }
+
+  @media (min-width: $breakpoint-s-420) {
+    padding: 1.5rem 1.5rem 1.8rem 1.5rem;
+  }
+  @media (min-width: $breakpoint-m-769) {
+    padding: 1.5rem 2rem 2rem 2rem;
+  }
+}
+
+a, a:visited {
+  color: $charcoal;
+  text-decoration: underline;
+  text-decoration-color: $midgrey;
+  text-underline-offset: 3px;
+  transition: $fade-fast;
+  display: inline-block;
+  &:active {
+    transform: $jump-click;
+  }
+  &:hover {
+    color: $accent;
+    text-decoration-color: $accent;
+  }
+}
+
+input, button {
+  box-sizing: border-box;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+a.button, button {
+  border: none;
+  font-family: $sansstack;
+  font-size: 1rem;
+  @include uppercase-text;
+  background-color: $charcoal;
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.2rem;
+  display: inline-block;
+  border-radius: 1.5rem;
+  transition: $fade-fast;
+  &:hover, &:focus {
+    cursor: pointer;
+    color: white;
+    background-color: $accent;
+  }
+  &:active { transform: $jump-click; }
+}
+a.button-arrow, button.button-arrow {
+  @extend .button;
+  &:after {
+    content: "→";
+    padding-left: 0.75rem;
+  }
+}
+
+a.link--pill {
+  @include uppercase-text;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem; 
+  border-radius: 20px;
+  &:hover {
+    color: $charcoal;
+    background-color: $warmgrey;
+  }
+  @media (max-width: $breakpoint-s-420) {
+    background-color: $warmgrey;
+  }
+}
+
+a.link--more {
+  @include uppercase-text;
+  &:after { content: " →"; }
+}
+
+a.link--rss {
+  display: flex;
+  vertical-align: baseline;
+  background-color: rgba($concrete, 0.2);
+  &:before {
+    content: url("../media/icon-rss.svg");
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.3rem;
+  }
+  &:hover {
+    color: white;
+    background-color: $accent;
+    &:before { content: url("../media/icon-rss-invert.svg"); }
+  }
+}
+
+// ------------ Navigation ------------
+
+nav.nav--primary {
+  padding: 1rem 1rem;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 1.125rem;
+  border-bottom: none;
+  @media (min-width: $breakpoint-s-420) {
+    border-bottom: 1px solid $midgrey;
+  }
+  @media (min-width: $breakpoint-m-769) {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  .cr-logo {
+    margin-bottom: 1rem;
+    a {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-between;
+      img {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+    @media (min-width: $breakpoint-s-420) {
+      a {
+        flex-direction: row;
+        justify-content: start;
+        gap: 0.5rem;
+      }
+    }
+    @media (min-width: $breakpoint-m-769) {
+      margin-bottom: 0;
+    }
+  }
+  // Default Nav link style
+  a, a:active, a:visited {
+    text-decoration: none;
+    color: $charcoal;
+    &:hover, &:focus {
+      color: $accent;
+    }
+  }
+}
+
+ul.nav-items {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  row-gap: 0.5rem;
+  li {
+    width: calc(50% - 0.5rem);
+    a { 
+      display: block;
+      border-bottom: 1px solid $midgrey;
+      &:hover {
+        border-color: $accent;
+      }
+    }
+  }
+
+  @media (min-width: $breakpoint-s-420) {
+    flex-direction: row;
+    column-gap: 1.25rem;
+    li {
+      width: auto;
+      a { 
+        border: none;
+      }
+    }
+  }
+}
+
+footer {
+  color: $concrete;
+  background-color: $charcoal;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  @media (min-width: $breakpoint-m-769) {
+    padding: 2rem;
+  }
+  p, li {
+    font-size: 1rem;
+  }
+  a, a:visited {
+    color: $concrete;
+    text-decoration: none;
+    // text-decoration-color: rgba($concrete, 0.5);
+    &:hover {
+      color: $warmgrey;
+      // text-decoration-color: $midgrey;
+    }
+  }
+}
+
+.footer-nav--primary,
+.footer-nav--secondary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.footer-nav--primary {
+  align-items: center;
+  border-bottom: 1px solid rgba($midgrey, 0.3);
+}
+
+.footer-nav--secondary {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba($midgrey, 0.3);
+  }
+  @media (min-width: $breakpoint-m-769) {
+    flex-direction: row;
+    ul {
+      flex-direction: row;
+      padding-bottom: 0;
+      border-bottom: none;
+      li {
+        &:after { content: "·"; opacity: 0.5; margin-left: 0.875rem; }
+        &:last-of-type::after { content: ""; }
+      }
+    }
+  }
+}
+
+// ------------ Stage Layout ------------ 
+
+.stage {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  @media (min-width: $breakpoint-m-769) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(32rem, 50rem);
+    grid-gap: 0;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .introduction {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    color: $warmgrey;
+    background-color: $charcoal;
+    padding: clamp(2rem, 3vw, 4rem) clamp(1rem, 3vw, 5rem);
+    p {
+      font-size: clamp(1.5rem, 3vw, 2.75rem);
+      @include lh-head;
+      font-family: $serifstack;
+      margin-bottom: 2rem;
+    }
+    @media (min-width: $breakpoint-s-420) {
+      p { max-width: 80%; }
+    }
+    @media (min-width: $breakpoint-m-769) {
+      p { max-width: 100%; }
+    }
+  }
+}
+
+.social {
+  a, a:active, a:visited {
+    border: none;
+    text-decoration: none;
+    opacity: 0.8;
+    img {
+      max-width: 2rem;
+      max-height: 2rem;
+      transition: $basic-fade;
+    }
+  }
+  a:hover, a:focus {
+    opacity: 1;
+    img {
+      transform: $scale-up;
+    }
+  }
+}
+
+
+.section-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  @media (min-width: $breakpoint-m-769) {
+    margin-bottom: 2rem;
+  }
+  .header--title {
+    background-color: none;
+  }
+  .header--meta {
+    background-color: none;
+  }
+  @media (max-width: $breakpoint-s-420) {
+    span { display: none; }
+  }
+}
+
+.layout-grid--duo {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1.5rem;
+  justify-content: start;
+  @media (min-width: $breakpoint-m-769) {
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.layout-grid--trio {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  justify-content: start;
+  @media (min-width: $breakpoint-m-769) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+// ------------ Project stuff ------------ 
+
+.project-grid {
+  margin-bottom: 1.5rem;
+}
+.project-grid--tile {
+  img {
+    width: 100%;
+    margin-bottom: 0.75rem;
+    background-color: $charcoal;
+    transition: $fade-medium;
+    @include round-corners-s;
+  }
+  a {
+    text-decoration: none;
+    color: $charcoal;
+    transition: $fade-medium;
+    &:hover, &:focus {
+      img {filter: brightness(0.9);}
+    }
+  }
+  p {
+    color: $concrete;
+    max-width: 90%;
+    @media (max-width: $breakpoint-s-420) {
+      max-width: 100%;
+    }
+  }
+}
+
+// ------------ Writing stuff ------------ 
+
+section.writing {
+  color: $warmgrey;
+  .layout-grid--duo {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.5rem;
+    @media (min-width: $breakpoint-l-1024) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .section-header {
+    margin-bottom: 3rem;
+  }
+  
+}
+.writing-card {
+  background-color: rgba($concrete, 0.2);
+  color: $midgrey;
+  align-content: space-between;
+  @include round-corners-m;
+  transform: rotate(-0.8deg);
+  padding: clamp(2rem, 2.5vw, 3.75rem);
+  p {
+    font-size: clamp(1.5rem, 2vw, 2.75rem);
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+    font-family: $serifstack;
+    @media (min-width: $breakpoint-m-769) {
+      font-size: 2rem;
+    }
+  }
+  a {
+    text-decoration: none;
+    background-color: rgba($secondary, 0.1);
+    padding: 0rem 0.5rem;
+    border-radius: 8px;
+    &:hover, &:focus {
+      color: white;
+      background-color: rgba($secondary, 0.2);
+    }
+  }
+  @media (min-width: $breakpoint-l-1024) {
+    @include round-corners-l;
+  }
+}
+
+
+// ------------ Newsletter ------------ 
+
+.newsletter-signup {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+  div.newsletter-signup--descr {
+    flex-grow: 1;
+    max-width: 41rem;
+  }
+  .newsletter-signup--img img {
+    max-width: 230px;
+    height: auto;
+  }
+  @media (min-width: $breakpoint-l-1024) {
+    flex-direction: row;
+    gap: 4rem;
+    .newsletter-signup--img img {
+      max-width: 320px;
+      height: auto;
+    }
+  }
+
+  .newsletter-signup--form {
+    margin: 2rem 0 2rem;
+    input {
+      background: transparent;
+      border-bottom: 1.5px solid $charcoal;
+      border-radius: 0;
+      color: $warmgrey;
+      display: inline-block;
+      font-family: $sansstack;
+      font-size: 1.25rem;
+      margin-right: 0.5rem;
+      margin-bottom: 1rem;
+      padding: 0.6rem 0.5rem 0.5rem 0;
+      transition: $fade-medium;
+      width: 320px;
+      &:focus {
+        border-bottom: 2px solid white;
+      }
+      @media (min-width: $breakpoint-m-769) {
+        font-size: 1.25rem;
+        max-width: 320px;
+      }
+      &::placeholder {
+        color: rgba($charcoal, 0.8);
+      }
+    }
+    p, a {
+      @include body-xs;
+      margin-top: 0.5rem;
+      color: rgba(white, 0.5);
+    }
+    @media (max-width: $breakpoint-s-420) {
+       input, button { width: 100%; }
+    }
+  }
+}
+
+.newsletter-teaser {
+  border-bottom: 1px solid $midgrey;
+  &:first-of-type {
+    border-top: 1px solid $midgrey;
+  }
+  
+  a.newsletter-teaser--link {
+    flex-direction: row;
+    align-items: start;
+    gap: 1rem;
+    padding: 1.5rem 0;
+    color: $charcoal;
+    display: flex;
+    text-decoration: none;
+    transform: $fade-slow;
+    &:hover, &:focus {
+      h2, h3 { color: $charcoal; }
+      img {filter: grayscale(1); transform:scale(1.01);}
+    }
+    &:active { transform: $jump-click; }
+  }
+  img {
+    min-width: 50px;
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .newsletter-teaser--data {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    flex-grow: 1;
+
+    .newsletter-teaser--title {
+      flex-grow: 1;
+      gap: 0.5rem;
+      h2, h3 {
+        font-family: $serifstack;
+        font-size: 1.5rem;
+        font-weight: normal;
+        @include lh-head;
+        margin-bottom: 0.25rem;
+      }
+      p {
+        @include uppercase-text;
+        color: $concrete;
+      }
+      // h2 only on /newsletter overview
+      h2 { font-size: 1.25rem; }
+
+    }
+  }
+
+  @media (min-width: $breakpoint-s-420) {
+    a.newsletter-teaser--link {
+      align-items: center;
+      gap: 1.5rem;
+    }
+    img {
+      min-width: 100px;
+      max-width: 200px;
+      border-radius: 50%;
+    }
+  }
+  @media (min-width: $breakpoint-m-769) {
+    &:first-of-type {border-top: none;}
+    a.newsletter-teaser--link {
+      flex-direction: column;
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+    .newsletter-teaser--data {
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+    img {
+      max-width: 280px;
+      width: 100%;
+      border-radius: 50%;
+    }
+    h2 {font-size: 1.35rem;}
+    p {font-size: 1.125rem;}
+  }
+
+}
+
+
+// ------------ About module ------------ 
+
+section.about {
+  .layout-grid--duo {
+    grid-gap: 3rem;
+  }
+}
+img.workshop-photo {
+  max-width: 35%;
+  min-width: 7rem;
+  float: left;
+  margin-right: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+ul.list--services {
+  margin-bottom: 1.5rem;
+  li {
+    border-bottom: 1px solid $midgrey;
+    padding: 0.75rem 0;
+  }
+}
+
+.contact-cta {
+  margin: 1.5rem 0 2rem 0;
+}

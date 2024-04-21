@@ -1,0 +1,24 @@
+---
+title: "Stay Golden"
+abstract: "A newsletter from October 2017"
+date: "2017-10-02"
+image: "/media/newsletterimg/03-2017.jpg"
+imageAlt: "A close-up ohoto from a poster with text, repeating “Alles viel zu leise alles viel zu laut”"
+caption: ""
+featured: false
+
+---
+
+As the sun is making an appearance after a couple of weeks of rain and cold weather here in Berlin, I am sitting on the back seat of the M41 bus line (the only bus line that has [its own song](https://soundcloud.com/michaelamariamueller/die-wartenden-fahrgaeste-m41)). Next to me, a woman—probably in her early sixties—explains to her friend: “For a long time, I was only able to take selfies with this phone, because I didn’t know how to switch the camera around! Yesterday, my daughter explained it to me. Look!” She clumsily points at the camera interface to take a photo of the sun breaking through the dirty windows. It’s autumn, friends! Welcome back to this newsletter. 
+
+So many things happened within the last months, and at the same time, nothing exciting happened at all. Life just passed by; I passed through it. The woman’s situation on the bus reminded me of all the bad technology that we’re surrounded with. Like the visit to my parent’s house earlier this month, where my dad has a technology setup I just don’t understand anymore (and therefore hardly can help with tech problems). He switched to an Apple ecosystem a while ago, but the Windows DOS mindset is buried very deeply within his brain and pedantry. Everything could be so easy, but people don’t want things to be easy. (Except that one time, when Microsoft announced a couple of months ago that their infamous MS Paint software would be discontinued—no worries though, [it will be around somehow](https://blogs.windows.com/windowsexperience/2017/07/24/ms-paint-stay/)). Sometimes, it’s the dumb and simple things that have a strong cultural and emotional impact. 
+
+Speaking of dumb: I watched “The Circle” the other night. To clarify: I haven’t read the book, so I can’t compare the differences there, but even though the movie was fine as a simple piece of entertainment, it had so many flaws within the storyline and the topic in general! I just didn’t believe a word Emma Watson said as her character Mae, and I got tired by the very thin dialogues. Half of the story and all possible twists were left open-ended. There was simply nothing either desirable or dystopian—it was just silly most of the time. The semi-futuristic interfaces looked like they were designed in 2002 (check out [this great film](https://vimeo.com/103554797) on how to depict the internet and messaging in film!). Even to logo of “The Circle” was horribly executed! [The one Jessica Hische drew](http://jessicahische.is/joiningthecircle) for the book in 2013 was much nicer. To sum it up: I was very glad that in my reality, we already overcame platforms like Facebook and 24/7 oversharing of boring nonsense. The movie’s topic _almost_ became obsolete for me. 
+
+Most of the time, at least. I’ve been consuming Instagram excessively during the last months, and experimented with their Story feature a couple of times. What bothers me there: People don’t take the time to actually tell stories. They just use it as a dumpster for candids. If you have recommendations for great Instagram story tellers, ping me! My current favorites are [Jürgen Siebert’s](https://www.instagram.com/j_siebert/) “Fontstories”, [Kübra’s](https://www.instagram.com/kuebrag/) diary posts and [Sophie Passmann’s](https://www.instagram.com/fraupassmann/) jabbering. 
+
+Some more personal and project-related news: At ZEIT ONLINE, we launched a new digital magazine called [“Arbeit”](http://zeit.de/arbeit). It’s a platform about our relationship to work and work-life-balance, about changes and chances, and failures, too. I designed the thing (and am still totally in love with Milieu Grotesque’s [Patron](https://www.milieugrotesque.com/typefaces/patron/) font family). 
+
+I was also working on a book which will go to print later this month—my first assignment as a copywriter, which was exciting and fun. Also, I am still working on a seminar paper, which I’ll publish in a couple of weeks, too. Follow me on [Twitter](https://www.twitter.com/christowski) and [Instagram](https://www.instagram.com/christowski) to never ever miss out again about my exciting life (spent on my couch for 80 percent of the day). 
+
+Ok. So far. Have a great start into autumn, and let’s hope that the sun makes a couple of more appearances before it finally gets grey and cold outside for good. Also: remember to switch your phone’s front camera to the back from time to time, to capture some of the rays and golden leaves. Happy October!

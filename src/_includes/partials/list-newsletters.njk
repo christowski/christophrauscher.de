@@ -1,0 +1,5 @@
+{% for item in collections.newsletters %}
+  <li>
+    <a href="{{ item.url }}">{{ item.data.title }}</a> {{ post.data.date }}
+  </li>
+{% endfor %}

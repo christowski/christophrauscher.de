@@ -1,0 +1,23 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+body.body--project {
+  figure.hero {
+    width: 100%;
+    img {
+      width: 100%;
+      margin: 2.5rem 0 1.5rem;
+    }
+    
+    figcaption {
+      color: $concrete;
+    }
+  }
+  .project-imagery {
+    width: 100%;
+    margin: 5rem 0;
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<header role="banner">
+  <nav class="nav--primary">
+    
+    <div class="cr-logo">
+      <a aria-label="{{ site.name }} - Home" href="/">
+      <img src="/media/cr-logo.svg">
+      {{ site.name }}</a>
+    </div>
+
+    <ul class="nav-items">
+      {% for item in navigation.items %}
+        <li>
+          <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
+            >{{ item.text }}</a
+          >
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

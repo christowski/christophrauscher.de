@@ -1,0 +1,15 @@
+{% set blogposts = collections.posts | limit(3) | reverse %}
+{% for item in blogposts %}
+  <li class="post-teaser">
+    <a class="post-teaser--link" href="{{ item.url }}">
+        <img class="post-teaser--thumb" src="{{ item.data.image }}" alt="{{ item.data.imageAlt }}">
+      <div class="post-teaser--data">
+        <div class="post-teaser--title">
+          <h3>{{ item.data.title }}</h3>
+          <p>{{ item.data.abstract }}</p>
+      </div>
+        <time class="post-teaser--date">{{ item.data.date | dateFilter }}</time>
+      </div>
+    </a>
+  </li>
+{% endfor %}

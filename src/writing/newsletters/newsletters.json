@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/newsletter.njk",
+  "tags": "Newsletter",
+  "class": "body--post"
+}

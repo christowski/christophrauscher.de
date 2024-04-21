@@ -1,0 +1,13 @@
+{% extends "layouts/base.njk" %} 
+{% block content %}
+
+  <div class="pageheader">
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+  </div>
+
+  <section>
+    {{ content | safe }}
+  </section>
+
+{% endblock %}

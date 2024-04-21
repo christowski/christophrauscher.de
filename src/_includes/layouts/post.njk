@@ -1,0 +1,40 @@
+{% extends "layouts/base.njk" %} 
+
+{% block content %}
+
+  <article>
+    <div class="post-container content-container container--normal">
+      <aside>
+        <time>{{ date | dateFilter }}</time>
+        <p>{{ keywords }}</p>
+        <a href="/writing">See all posts</a>
+      </aside>
+      
+      <div class="content">
+        <div class="content-head">
+          <h1>{{ title }}</h1>
+          <p class="intro">{{ abstract }}</p>
+        </div>
+        <figure>
+          <img src="{{ image }}" alt="imageAlt" />
+          <figcaption>{{ caption }}</figcaption>
+        </figure>
+        <p>{{ intro }}</p>
+      {{ content | safe }}
+      </div>
+    </div>  
+  </article>
+
+  <div class="container--normal spacer-b--m recent-posts">
+  <div class="section-header">
+    <h2 class="header--title">More posts</h2>
+    <div class="header--meta">
+      <a class="link--more link--pill" href="/writing">All posts</a>
+    </div>
+  </div>
+    <ul class="post-list">
+      {% include "partials/list-posts.njk" %}
+    </ul>
+  </div>
+
+{% endblock %}

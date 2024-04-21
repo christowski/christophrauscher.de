@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/project.njk",
+  "class": "body--project",
+  "tags": "project"
+}

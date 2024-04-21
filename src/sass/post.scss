@@ -1,0 +1,189 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+// --------------- Styling article/post page ---------------
+
+body.body--post {
+  main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  nav.nav--primary {
+    border-bottom: 1px solid rgba($midgrey, 0.5);
+  }
+  .wrapper {
+    background-color: $lightgrey;
+  }
+  
+  .post-container {
+    margin: 1rem auto 3rem;
+    padding: 2rem 1rem 3rem 1rem;
+    background-color: white;
+    background-image: url("/media/donkeyear.svg");
+    background-size: 1.75rem;
+    background-position: top right;
+    background-repeat: no-repeat;
+    @media (min-width: $breakpoint-l-1024) {
+      background-size: 2rem;
+      margin: 4.5rem auto 2rem;
+      transform: translateY(-2rem);
+      transition: ease transform 0.5s;
+    }
+    @media (min-width: $breakpoint-h-1200) {
+      padding: 3rem 3rem 6rem 3rem;
+    }
+
+    aside {
+      & > * {
+        display: block;
+        margin-bottom: 0.75rem;
+      }
+    }
+    
+    // these styles override the default .content styles
+    .content {
+      max-width: 660px;
+      
+      .content-head {
+        h1, p {
+          @include head-xxl;
+          @include lh-head;
+          font-family: $serifstack;
+        }
+      }
+
+      p, li { font-family: $serifstack; }
+      h1 { margin-bottom: 0; }
+      img { max-width: 100%; }
+    }
+    
+  }
+}
+
+// --------------- Styling post teaser lists ---------------
+
+.post-list {
+  margin-bottom: 2rem;
+}
+.post-teaser {
+  border-bottom: 1px solid $midgrey;
+  &:first-of-type {
+    border-top: 1px solid $midgrey;
+  }
+  a.post-teaser--link {
+    flex-direction: row;
+    align-items: start;
+    gap: 1rem;
+    padding: 1.5rem 1rem;
+    color: $charcoal;
+    display: flex;
+    text-decoration: none;
+    transition: $fade-fast;
+    &:hover, &:focus {
+      background-color: $lightgrey;
+      h2, h3, date {
+        color: $charcoal;
+      }
+    }
+    &:active {
+      transform: $jump-click;
+    }
+    @media (min-width: $breakpoint-s-420) {
+      align-items: center;
+      gap: 1.5rem;
+    }
+  }
+  img.post-teaser--thumb {
+    min-width: 48px;
+    width: 48px;
+    aspect-ratio: 1 / 1;
+    border-radius: 4px;
+    object-fit: cover;
+    @media (min-width: $breakpoint-s-420) {
+      min-width: 120px;
+      width: 120px;
+    }
+  }
+  .post-teaser--data {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    flex-grow: 1;
+    @media (min-width: $breakpoint-m-769) {
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+    
+    .post-teaser--title {
+      flex-grow: 1;
+      gap: 0.5rem;
+      h2, h3 {
+        font-family: $sansstack;
+        font-weight: bold;
+        @include lh-head;
+        margin-bottom: 0.25rem;
+      }
+      p {
+        font-family: $serifstack;
+        color: $concrete;
+        // font-size: 1rem;
+      }
+      // h2 only on /posts overview
+      h2 { font-size: 1.25rem; }
+
+      @media (min-width: $breakpoint-m-769) {
+        h2 {font-size: 1.35rem;}
+        p {font-size: 1.125rem;}
+      }
+    }
+
+    .post-teaser--date {
+      @include uppercase-text;
+    }
+  }
+}
+
+body.body--post {
+  .post-teaser a.post-teaser--link {
+    &:hover, &:focus {
+      background-color: $warmgrey;
+    }
+    @media (max-width: $breakpoint-s-420) {
+      padding: 1.5rem 0.5rem;
+    }
+  }
+}
+
+// --------------- Post on homepage (Dark section) ---------
+
+section.dark {
+  .post-teaser {
+    border-bottom: 1px solid rgba($concrete, 0.5);
+    &:first-of-type {
+      border-top: 1px solid rgba($concrete, 0.5);
+    }
+    a.post-teaser--link {
+      color: $warmgrey;
+      &:hover, &:focus {
+        background-color: rgba($concrete, 0.07);;
+        h2, h3, date {
+          color: white;
+        }
+      }
+    }
+    img.post-teaser--thumb {
+      min-width: 48px;
+      width: 48px;
+      border-radius: 4px;
+      @media (min-width: $breakpoint-s-420) {
+        min-width: 80px;
+        width: 80px;
+      }
+    }
+    .post-teaser--date {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/drawings.njk",
+  "tags": "drawing",
+  "class": "body--drawings"
+}

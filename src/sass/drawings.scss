@@ -1,0 +1,36 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+// --------------- Styling drawings page ---------------
+
+body.body--drawings {
+
+  .drawings-grid {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 1.5rem;
+    padding: 0 1.5rem 3rem;
+
+    @media (min-width: $breakpoint-s-420) {
+      grid-gap: 1rem;
+    }
+    @media (min-width: $breakpoint-m-769) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 3rem;
+      padding: 0 3rem 3rem;
+    }
+    @media (min-width: $breakpoint-l-1024) {
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 4rem;
+      padding: 0 4rem 4rem;
+    }
+  }
+
+  figure {
+    img {
+      max-width: 100%;
+    }
+  }
+}

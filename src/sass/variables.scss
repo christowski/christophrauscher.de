@@ -1,0 +1,27 @@
+// colors
+$accent: #AF5F00;
+$accent-dark: #864900;
+$charcoal: #140D05;
+$concrete: #948F89;
+$secondary: #CACAD0;
+$midgrey: #CBC8C6;
+$warmgrey: #EEE9E6;
+$lightgrey: #F7F4F3;
+
+$breakpoint-s-420: 420px;
+$breakpoint-m-769: 769px;
+$breakpoint-l-1024: 1024px;
+$breakpoint-h-1200: 1200px;
+
+$basic-fade: all ease 100ms;
+
+// font stacks
+$sansstack: "Faktum-Con", Futura, Helvetica, Arial, sansserif;
+$serifstack: "GTAplina-Light", Georgia, "Times New Roman", serif;
+
+// animation
+$fade-slow: all ease 1200ms;
+$fade-medium: all ease 200ms;
+$fade-fast: all ease 100ms;
+$jump-click: translateY(2px);
+$scale-up: scale(1.01);
