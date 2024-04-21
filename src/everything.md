@@ -8,24 +8,24 @@ layout: "layouts/base.njk"
   <p>Making websites is time-consuming. Until I get around doing all the things I want to do this little internet’s space, here’s a long list of texts, newsletters, essays, projects, and more. Lists forever!</p>
 </div>
 
-<section class="container--normal">
+<section>
   <div class="section-header">
     <h2 class="header--title">Blog like its 2005. All posts:</h2>
   </div>
   <ul>
-    {%- for item in collections.note | reverse -%}
-      <!-- <li><a href="{{ post.url }}">{{ post.data.title }}</a> {{ post.data.date }}</li> -->
+    {% for post in collections.note | reverse %}
       <li class="post-teaser">
       <a class="post-teaser--link" href="{{ item.url }}">
         <div class="post-teaser--data">
           <div class="post-teaser--title">
-            <h3>{{ item.data.title }}</h3>
+            <h3>{{ post.data.title }}</h3>
+            <p>{{ post.data.abstract }}</p>
         </div>
-          <time class="post-teaser--date">{{ item.data.date | dateFilter }}</time>
+          <time class="post-teaser--date">{{ post.data.date | dateFilter }}</time>
         </div>
       </a>
     </li>
-    {%- endfor -%}
+    {% endfor %}
   </ul>
 </section>
 
@@ -34,21 +34,19 @@ layout: "layouts/base.njk"
     <h2 class="header--title">More than a note: My essays</h2>
   </div>
   <ol>
-    {%- for item in collections.essay | reverse -%}
-      <!-- <li><a href="{{ post.url }}">{{ post.data.title }}</a> {{ post.data.date }}</li> -->
+    {% for item in collections.essay | reverse %}
       <li class="post-teaser">
       <a class="post-teaser--link" href="{{ item.url }}">
-          <img class="post-teaser--thumb" src="{{ item.data.image }}" alt="{{ item.data.imageAlt }}">
         <div class="post-teaser--data">
           <div class="post-teaser--title">
             <h3>{{ item.data.title }}</h3>
             <p>{{ item.data.abstract }}</p>
-        </div>
+          </div>
           <time class="post-teaser--date">{{ item.data.date | dateFilter }}</time>
         </div>
       </a>
     </li>
-    {%- endfor -%}
+    {% endfor %}
   </ol>
 </section>
 
@@ -59,19 +57,19 @@ layout: "layouts/base.njk"
     <h2 class="header--title">My newsletter archive (since 2016!)</h2>
   </div>
   <ol>
-    {%- for item in collections.newsletter -%}
+    {% for post in collections.Newsletter | reverse %}
       <li class="post-teaser">
-      <a class="post-teaser--link" href="{{ item.url }}">
-          <img class="post-teaser--thumb" src="{{ item.data.image }}" alt="{{ item.data.imageAlt }}">
+      <a class="post-teaser--link" href="{{ post.url }}">
         <div class="post-teaser--data">
           <div class="post-teaser--title">
-            <h3>{{ item.data.title }}</h3>
-            <p>{{ item.data.abstract }}</p>
+            <h3>{{ post.data.title }}</h3>
+            <p>{{ post.data.abstract }}</p>
           </div>
+          <time class="post-teaser--date">{{ item.data.date | dateFilter }}</time>
         </div>
       </a>
     </li>
-    {%- endfor -%}
+    {% endfor %}
   </ol>
 </section>
 
