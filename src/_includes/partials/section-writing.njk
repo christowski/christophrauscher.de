@@ -11,13 +11,26 @@
   <section class="recent-posts">
     <div class="container--normal">
       <div class="section-header">
-        <h2 class="header--title">Musings on the blog</h2>
+        <h2 class="header--title">Recently published</h2>
         <div class="header--meta">
           <a class="link--pill link--rss" href="{{ site.url }}/feed.xml">RSS</a>
         </div>
       </div>
       <ul class="post-list">
-        {% include "partials/list-posts.njk" %}
+        {% for post in collections.posts | limit(3) | reverse %}
+          <li class="post-teaser">
+            <a class="post-teaser--link" href="{{ post.url }}">
+              <img class="post-teaser--thumb" src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
+              <div class="post-teaser--data">
+                <div class="post-teaser--title">
+                  <h3>{{ post.data.title }}</h3>
+                  <p>{{ post.data.abstract }}</p>
+                </div>
+                {# <time class="post-teaser--date">{{ post.data.date | dateFilter }}</time> #}
+              </div>
+            </a>
+          </li>
+        {% endfor %}
       </ul>
       <a class="button-arrow" href="/writing">All posts</a>
     <div>
