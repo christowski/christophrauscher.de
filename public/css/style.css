@@ -1130,7 +1130,7 @@ hr {
   text-align: right;
 }
 .pageheader--accent img {
-  max-width: 100%;
+  max-width: 250px;
   filter: grayscale(1);
   mix-blend-mode: multiply;
 }
