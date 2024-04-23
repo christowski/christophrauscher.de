@@ -1,10 +1,9 @@
 ---
 title: "About this website"
 layout: "layouts/textpage.njk"
-aside: "Typography"
 ---
 
-<img style="max-height: 80px;" src="/media/about-this-website.gif">
+<img style="max-height: 80px;" src="/media/about-this-website.gif" alt="About this website">
 
 Welcome to my personal _and_ professional website! I use this site for three things: First off, it’s a place to communicate what I do and what I work on. This is a somewhat professional environment, not my diary. However, I try to keep it personal. This website is meant to be read and viewed by humans, not machines or marketeers. I do want to grow my audience, but I want the _right_ audience for me.
 
@@ -16,27 +15,19 @@ And finally, this page exists as I like to keep an independent archive of things
 
 ## Colophone
 
-This website is built with 11ty. Thanks to Robin Rendle and others for publishing their websites on GitHub so I can peek into their code base. Accessbility-wise, I try to maintain AA color contrast levels, use image alt texts and keep a semantic site structure. This site is far from perfect, but I’m working on it.
+This website is built with <a href="https://www.11ty.dev/" target="_blank">11ty</a>. Thanks to <a href="https://robinrendle.com/" target="_blank">Robin Rendle</a> and others for publishing their websites on GitHub so I can peek into their code base. Accessbility-wise, I try to maintain AA color contrast levels for text, use image descriptions and keep a semantic site structure. This website is far from perfect, but aren’t we all, and I’m working on it.
 
-The site currently lacks a dark mode, which I didn’t get around to implement by now. The biggest problem at the moment are responsive images, which are _non-existant_—I’m sorry for that.
+The site currently lacks a dark mode, which I didn’t get around implementing by now. The biggest problem at the moment are responsive images, which are _non-existant_—I’m sorry for that.
 
-Typefaces: Faktum by René Bieder and Signifier by Klim Type.
+Typefaces: <a href="https://www.renebieder.com/fonts/neue-faktum" target="_blank">Faktum</a> by René Bieder and <a href="https://klim.co.nz/retail-fonts/signifier/" target="_blank">Signifier</a> by Klim Type. Portrait picture: <a href="https://normanposselt.com/" target="_blank">Norman Posselt</a>
 
 --- 
 
 <h2 id="feeds">RSS Feeds</h2>
 
-Alle RSS Feeds
+Currently, the site offers only one RSS feed for posts (blog posts aswell as the english newsletter). You can get it here:
 
-## Changelog
+- [RSS Feed]({{ site.url }}/feed.xml) (Posts and newsletters)
+- [Newsletter feed]({{ site.url }}/feed.xml) (via ButtonDown)
 
-* List item labore et d
-* List item sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna a
-* List item met, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
-
-
-1. List item labore et ddsfrg
-2. List item sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna a
-3. List item met, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+I also write a German blog ([Christowski](https://christowski.de)) which is more personal and usually disconneced from my work stuff. You can visit it here, and subscribe to the [RSS feed](https://christowski.de/blog/feed/) (it’s a separate one!).
