@@ -9,8 +9,11 @@ tags:
   - art direction
   - graphic design
   - production design
+featureImg:
+  image: "/media/projectimg/berlinaletalents2021-teaser-3x4-featured.jpg"
+  imageAlt: "Berlinale Talents 2021: A Möbius band as key visual"
 hero:
-  image: "/media/projectimg/berlinaletalents-teaser.jpg"
+  image: "/media/projectimg/berlinaletalents2021-teaser-3x4-featured.jpg"
   image2x: "/media/projectimg/berlinaletalents-teaser@2x.jpg"
   imageAlt: "Berlinale Talents 2021: A Möbius band as key visual"
 ---

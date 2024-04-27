@@ -28,16 +28,12 @@ socialImage: "media/socialimage.png"
       <a class="link--more link--pill" href="/projects">All <span>projects</span></a>
     </div>
   </div>
-  <ul class="layout-grid--duo project-grid"> 
-    {% for item in collections.featuredProjects %}<li class="project-grid--tile">
-      <img src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" />
+  <ul class="layout-grid--trio project-grid"> 
+    {% for item in collections.featuredProjects %}
+    <li class="project-grid--tile">
+      <img src="{{ item.data.featureImg.image }}" alt="{{ item.data.featureImg.imageAlt }}" />
       <h3>{{ item.data.title }}</h3>
       <p>{{ item.data.description }}</p>
-      <!-- <a href="{{ item.url }}">
-        <img src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" />
-        <h3>{{ item.data.title }}</h3>
-        <p>{{ item.data.description }}</p>
-      </a> -->
     </li>
   {% endfor %}
   </ul>

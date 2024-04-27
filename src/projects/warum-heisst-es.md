@@ -8,10 +8,13 @@ featured: true
 tags:
   - books
   - illustration
+featureImg:
+  image: "/media/projectimg/warum-heisst-es-teaser-3x4-featured.jpg"
+  imageAlt: "Book shot of my book titled Warum heißt es Traum und nicht Memoryschaum"
 hero:
-  image: "/media/projectimg/warum-heisst-es-teaser.jpg"
+  image: "/media/projectimg/warum-heisst-es-teaser-3x4-featured.jpg"
   image2x: "/media/projectimg/warum-heisst-es-teaser@2x.jpg"
-  imageAlt: "Warum heißt es Traum und nicht Memoryschaum? Book cover"
+  imageAlt: "Book shot of my book titled Warum heißt es Traum und nicht Memoryschaum"
 ---
 
 ## Project2 content subheadline
