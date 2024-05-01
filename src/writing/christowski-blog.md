@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 layout: "layouts/writingspecial.njk"
 label: "Personal weblog"
 title: "Christowski Blog"

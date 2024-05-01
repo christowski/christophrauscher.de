@@ -574,7 +574,9 @@ section.writing {
   }
   
 }
-.writing-card {
+
+// writing-card--summary is the big writing card on the home page
+.writing-card--summary {
   background-color: rgba($concrete, 0.2);
   color: $midgrey;
   align-content: space-between;
@@ -591,9 +593,9 @@ section.writing {
     }
   }
   a {
-    color: $accent !important; 
+    color: $secondary !important; 
     text-decoration: none;
-    background-color: rgba($secondary, 0.1);
+    background-color: rgba($secondary, 0.15);
     padding: 0rem 0.5rem;
     border-radius: 8px;
     &:hover, &:focus {
@@ -604,6 +606,23 @@ section.writing {
   @media (min-width: $breakpoint-l-1024) {
     @include round-corners-l;
   }
+}
+
+// writing-card is the card for separate writing pages on the writing detail site
+.writing-card {
+  background-color: $accent;
+  padding: 2rem;
+  @include round-corners-l;
+  a, a:active, a:hover, a:focus {
+    text-decoration: none;
+    color: white;
+  }
+  figure {max-width: 200px; height: 200px;}
+  img {max-width: 100%; mix-blend-mode: multiply;}
+}
+.writing-card:nth-child(even) {
+  background-color: $charcoal;
+  img {filter: invert(1); mix-blend-mode: screen;}
 }
 
 

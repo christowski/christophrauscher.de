@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 layout: "layouts/writingspecial.njk"
 label: "Writing books"
 title: "Der beste Witz bin immer noch ich selbst"

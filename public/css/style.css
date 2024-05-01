@@ -1579,7 +1579,7 @@ section.writing .section-header {
   margin-bottom: 3rem;
 }
 
-.writing-card {
+.writing-card--summary {
   background-color: rgba(148, 143, 137, 0.2);
   color: #CBC8C6;
   align-content: space-between;
@@ -1587,32 +1587,58 @@ section.writing .section-header {
   transform: rotate(-0.8deg);
   padding: clamp(2rem, 2.5vw, 3.75rem);
 }
-.writing-card p {
+.writing-card--summary p {
   font-size: clamp(1.5rem, 2vw, 2.75rem);
   line-height: 1.4;
   margin-bottom: 1.5rem;
   font-family: "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
 }
 @media (min-width: 769px) {
-  .writing-card p {
+  .writing-card--summary p {
     font-size: 2rem;
   }
 }
-.writing-card a {
-  color: #AF5F00 !important;
+.writing-card--summary a {
+  color: #CACAD0 !important;
   text-decoration: none;
-  background-color: rgba(202, 202, 208, 0.1);
+  background-color: rgba(202, 202, 208, 0.15);
   padding: 0rem 0.5rem;
   border-radius: 8px;
 }
-.writing-card a:hover, .writing-card a:focus {
+.writing-card--summary a:hover, .writing-card--summary a:focus {
   color: #140D05 !important;
   background-color: #CACAD0;
 }
 @media (min-width: 1024px) {
-  .writing-card {
+  .writing-card--summary {
     border-radius: 16px;
   }
+}
+
+.writing-card {
+  background-color: #AF5F00;
+  padding: 2rem;
+  border-radius: 16px;
+}
+.writing-card a, .writing-card a:active, .writing-card a:hover, .writing-card a:focus {
+  text-decoration: none;
+  color: white;
+}
+.writing-card figure {
+  max-width: 200px;
+  height: 200px;
+}
+.writing-card img {
+  max-width: 100%;
+  mix-blend-mode: multiply;
+}
+
+.writing-card:nth-child(even) {
+  background-color: #140D05;
+}
+.writing-card:nth-child(even) img {
+  filter: invert(1);
+  mix-blend-mode: screen;
 }
 
 .newsletter-signup {
