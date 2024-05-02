@@ -114,7 +114,7 @@ body.body--post .post-container .content h1 {
   margin-bottom: 0;
 }
 body.body--post .post-container .content img {
-  max-width: 100%;
+  width: 100%;
 }
 
 @media (max-width: 420px) {
@@ -165,8 +165,8 @@ body.body--post .post-container .content img {
   }
 }
 .post-teaser img.post-teaser--thumb {
-  min-width: 48px;
-  width: 48px;
+  min-width: 64px;
+  width: 64px;
   aspect-ratio: 1/1;
   border-radius: 4px;
   object-fit: cover;

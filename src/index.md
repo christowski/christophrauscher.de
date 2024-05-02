@@ -23,9 +23,9 @@ socialImage: "media/socialimage.png"
 
 <section class="section--large white">
   <div class="section-header">
-    <h2 class="header--title">Some recent projects</h2>
+    <h2 class="header--title">Recent projects</h2>
     <div class="header--meta">
-      <a class="link--more link--pill" href="/projects">All <span>projects</span></a>
+      <a class="link--more link--pill" href="/projects">See all <span>projects</span></a>
     </div>
   </div>
   <ul class="layout-grid--trio project-grid"> 

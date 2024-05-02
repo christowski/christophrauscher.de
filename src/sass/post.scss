@@ -54,7 +54,7 @@ body.body--post {
 
       p, li { font-family: $serifstack; }
       h1 { margin-bottom: 0; }
-      img { max-width: 100%; }
+      img { width: 100%; }
     }
     
   }
@@ -101,8 +101,8 @@ section.recent-posts {
     }
   }
   img.post-teaser--thumb {
-    min-width: 48px;
-    width: 48px;
+    min-width: 64px;
+    width: 64px;
     aspect-ratio: 1 / 1;
     border-radius: 4px;
     object-fit: cover;

@@ -5,7 +5,7 @@ layout: "layouts/collection.njk"
 ---
 
 <section>
-  <ul class="layout-grid--duo spacer-b--m">
+  <ul class="layout-grid--duo spacer-b--l">
     {% for item in collections.writing %}
       <li class="writing-card">
         <a href="{{ item.url }}">
@@ -21,7 +21,7 @@ layout: "layouts/collection.njk"
   </ul>
 
   <div class="section-header">
-    <h2 class="header--title">Frequent ramblings</h2>
+    <h2 class="header--title">Recent ramblings</h2>
     <div class="header--meta">
       <a class="link--pill link--rss" href="{{ site.url }}/feed.xml">RSS</a>
     </div>
@@ -38,7 +38,7 @@ layout: "layouts/collection.njk"
               <h2>{{ post.data.title }}</h2>
               <p>{{ post.data.abstract }}</p>
             </div>
-            <date class="post-teaser--date">{{ post.data.date | dateFilter }}</date>
+            {# <date class="post-teaser--date">{{ post.data.date | dateFilter }}</date> #}
           </div>
         </a>
       </li>

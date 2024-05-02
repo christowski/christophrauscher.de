@@ -47,12 +47,24 @@ p:empty {
     margin-bottom: 5rem;
   }
 }
+.spacer-b--l {
+  margin-bottom: 3rem;
+  @media (min-width: $breakpoint-m-769) {
+    margin-bottom: 4.5rem;
+  }
+  @media (min-width: $breakpoint-l-1024) {
+    margin-bottom: 5.5rem;
+  }
+}
 
 hr {
   border: none;
   height: 10px;
   background: url("/media/wiggle.svg") repeat-x;
-  margin: 4rem 0 3.5rem 0;
+  margin: 2.5rem 0 2.5rem 0;
+  @media (min-width: $breakpoint-m-769) {
+    margin: 4rem 0 3.5rem 0;
+  }
 }
 
 // ------------ Layout ------------
@@ -521,9 +533,9 @@ footer {
 .layout-grid--trio {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 2rem;
   justify-content: start;
   @media (min-width: $breakpoint-m-769) {
+    grid-gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -578,11 +590,12 @@ section.writing {
 // writing-card--summary is the big writing card on the home page
 .writing-card--summary {
   background-color: rgba($concrete, 0.2);
-  color: $midgrey;
+  color: rgba($warmgrey, 0.8);
   align-content: space-between;
   @include round-corners-m;
   transform: rotate(-0.8deg);
-  padding: clamp(2rem, 2.5vw, 3.75rem);
+  padding: clamp(1.75rem, 2.5vw, 3.75rem);
+  margin-bottom: 2rem;
   p {
     font-size: clamp(1.5rem, 2vw, 2.75rem);
     line-height: 1.4;
@@ -593,7 +606,7 @@ section.writing {
     }
   }
   a {
-    color: $secondary !important; 
+    color: $warmgrey !important; 
     text-decoration: none;
     background-color: rgba($secondary, 0.15);
     padding: 0rem 0.5rem;
@@ -605,6 +618,7 @@ section.writing {
   }
   @media (min-width: $breakpoint-l-1024) {
     @include round-corners-l;
+    margin-bottom: 0;
   }
 }
 
@@ -694,7 +708,7 @@ section.writing {
   
   a.newsletter-teaser--link {
     flex-direction: row;
-    align-items: start;
+    align-items: center;
     gap: 1rem;
     padding: 1.5rem 0;
     color: $charcoal;
@@ -708,8 +722,8 @@ section.writing {
     &:active { transform: $jump-click; }
   }
   img {
-    min-width: 50px;
-    width: 50px;
+    min-width: 80px;
+    width: 80px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
@@ -742,7 +756,6 @@ section.writing {
 
   @media (min-width: $breakpoint-s-420) {
     a.newsletter-teaser--link {
-      align-items: center;
       gap: 1.5rem;
     }
     img {

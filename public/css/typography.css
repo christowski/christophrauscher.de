@@ -71,7 +71,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-family: "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
 }
 @media (min-width: 769px) {
@@ -157,7 +157,7 @@ em {
   margin-bottom: 2rem;
 }
 .content h2, .content h3 {
-  margin-bottom: 1.75rem;
+  margin: 1.5rem 0 1.5rem 0;
 }
 .content p.intro {
   color: #948F89;
@@ -184,7 +184,7 @@ em {
 }
 .content img {
   max-width: 100%;
-  margin: 1.5rem 0 2rem;
+  margin: 1rem 0 0.75rem 0;
 }
 
 /*# sourceMappingURL=typography.css.map */

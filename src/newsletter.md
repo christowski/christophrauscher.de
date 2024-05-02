@@ -23,7 +23,7 @@ socialImage: "media/socialimage.png"
         <div class="newsletter-teaser--data">
           <div class="newsletter-teaser--title">
             <h3>{{ post.data.title }}</h3>
-            <p>{{ post.data.abstract }}</p>
+            <p><date class="post-teaser--date">{{ post.data.date | dateFilter }}</date></p>
           </div>
         </div>
       </a>
