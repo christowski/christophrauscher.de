@@ -59,3 +59,6 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/
 
 Spamfree email link
 https://spamstop.org/spamtools/email
+
+Animated gif text
+https://www.textstudio.com/text-animation-generator

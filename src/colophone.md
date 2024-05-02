@@ -3,13 +3,13 @@ title: "About this website"
 layout: "layouts/textpage.njk"
 ---
 
-<img style="max-height: 80px;" src="/media/about-this-website.gif" alt="About this website">
+<img style="max-height: 130px; margin-bottom: 1.5rem" src="/media/about-this-website-2.gif" alt="About this website" title="About this website">
 
-Welcome to my personal _and_ professional website! I use this site for three things: First off, it’s a place to communicate what I do and what I work on. This is a somewhat professional environment, not my diary. However, I try to keep it personal. This website is meant to be read and viewed by humans, not machines or marketeers. I do want to grow my audience, but I want the _right_ audience for me.
+Welcome to my personal _and_ professional website! I use this site for three things: First off, it’s a place to communicate what I do and what I work on. This is a somewhat professional environment, not my diary. However, I try to keep it personal. This website is meant to be read and viewed by humans, not machines.
 
 Another goal with this website is to try and learn things. I am a designer, not a developer, but I like to try stuff and build it myself, rather than use an out-of-the-box solution (which would have been perfectly fine and sufficient, too).
 
-And finally, this page exists as I like to keep an independent archive of things—like my drawings, my writing and thoughts. This place is a start.
+And finally, this page exists as I like to keep an independent archive of things—like my drawings, my writing and projects. This place is a start.
 
 ---
 
@@ -30,4 +30,4 @@ Currently, the site offers only one RSS feed for posts (blog posts aswell as the
 - [RSS Feed]({{ site.url }}/feed.xml) (Posts and newsletters)
 - [Newsletter feed]({{ site.url }}/feed.xml) (via ButtonDown)
 
-I also write a German blog ([Christowski](https://christowski.de)) which is more personal and usually disconneced from my work stuff. You can visit it here, and subscribe to the [RSS feed](https://christowski.de/blog/feed/) (it’s a separate one!).
+I also write a German blog ([Christowski Blog](https://christowski.de)) which is more personal and usually disconneced from my work stuff. You can visit it here, and subscribe to the [RSS feed](https://christowski.de/blog/feed/) (it’s a separate one!).
