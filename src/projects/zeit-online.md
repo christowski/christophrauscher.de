@@ -10,7 +10,8 @@ tags:
   - web design
   - editorial design
 featureImg:
-  image: "/media/projectimg/zeitonline-teaser-3x4-featured.jpg"
+  image: "/media/projectimg/zeitonline-teaser-1x1.jpg"
+  # image: "/media/projectimg/zeitonline-teaser-3x4-featured.jpg"
   imageAlt: "Zeit Online – Website design"
 hero:
   image: "/media/projectimg/zeitonline-teaser-1x1.jpg"

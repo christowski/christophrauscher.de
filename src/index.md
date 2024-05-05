@@ -31,13 +31,13 @@ socialImage: "media/socialimage.png"
   <div class="section-header">
     <h2 class="header--title">Recent design work</h2>
     <div class="header--meta">
-      <a class="link--more link--pill" href="/projects">See all <span>projects</span></a>
+      <a class="link--more link--pill" href="/projects"><span>See </span>all <span>projects</span></a>
     </div>
   </div>
-  <ul class="layout-grid--trio project-grid"> 
-    {% for item in collections.featuredProjects %}
+  <ul class="layout-grid--duo project-grid"> 
+    {% for item in collections.featuredProjects | limit(4) %}
     <li class="project-grid--tile">
-      <img src="{{ item.data.featureImg.image }}" alt="{{ item.data.featureImg.imageAlt }}" />
+      <img src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" />
       <h3>{{ item.data.title }}</h3>
       <p>{{ item.data.description }}</p>
     </li>
@@ -53,15 +53,27 @@ socialImage: "media/socialimage.png"
 <section class="section--large white">
   <div class="section-header">
     <h2 class="header--title">From the sketchbook</h2>
-    <div class="header--meta">
-      <a class="link--more link--pill" href="/drawings">See more <span>drawings</span></a>
-    </div>
   </div>
 
-  <div class="layout-grid--trio"> 
-    <img src="../media/drawings/akropolis-800.jpg" alt="Drawing: Akropolis and a foot">
-    <img src="../media/drawings/andrea-humboldthain-800.jpg" alt="Drawing: Andrea in the park">
-    <img src="../media/drawings/im-teppich-800.jpg" alt="Drawing: Me in the carpet">
+  <div class="drawings-grid"> 
+    <figure>
+      <img src="../media/drawings/akropolis-800.jpg" alt="Drawing: Akropolis and a foot">
+    </figure>
+
+    <figure>
+      <img src="../media/drawings/andrea-humboldthain-800.jpg" alt="Drawing: Andrea in the park">
+    </figure>
+
+    <figure>
+      <img src="../media/drawings/im-teppich-800.jpg" alt="Drawing: Me in the carpet">
+    </figure>
+
+    <figure>
+      <img src="../media/drawings/phonefall-800.gif" alt="Drawing: Phone falling on your face in bed">
+    </figure>
+  </div>
+  <div class="header--meta">
+    <span><a class="link--more link--pill" href="/drawings">See more drawings</a></span>
   </div>
 </section>
 

@@ -20,7 +20,9 @@ body {
 }
 
 body.body--home {
-  nav.nav--primary {border-bottom: none}
+  nav.nav--primary {
+    border-bottom: none;
+  }
 }
 
 // Workaround to remove all empty paragraphs
@@ -567,7 +569,7 @@ footer {
   grid-gap: 1.5rem;
   justify-content: start;
   @media (min-width: $breakpoint-m-769) {
-    grid-gap: 2rem;
+    grid-gap: 3rem;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -577,7 +579,7 @@ footer {
   grid-template-columns: 1fr;
   justify-content: start;
   @media (min-width: $breakpoint-m-769) {
-    grid-gap: 2rem;
+    grid-gap: 3rem;
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -829,9 +831,6 @@ section.writing {
   }
 
 }
-
-// ------------ Drawing stuff ------------ 
-
 
 // ------------ About module ------------ 
 

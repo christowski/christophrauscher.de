@@ -9,10 +9,11 @@ tags:
   - books
   - illustration
 featureImg:
-  image: "/media/projectimg/warum-heisst-es-teaser-3x4-featured.jpg"
+  image: "/media/projectimg/warum-heisst-es-teaser-1x1.jpg"
+  # image: "/media/projectimg/warum-heisst-es-teaser-3x4-featured.jpg"
   imageAlt: "Book shot of my book titled Warum heißt es Traum und nicht Memoryschaum"
 hero:
-  image: "/media/projectimg/warum-heisst-es-teaser-3x4-featured.jpg"
+  image: "/media/projectimg/warum-heisst-es-teaser-1x1.jpg"
   image2x: "/media/projectimg/warum-heisst-es-teaser@2x.jpg"
   imageAlt: "Book shot of my book titled Warum heißt es Traum und nicht Memoryschaum"
 ---
