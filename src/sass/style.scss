@@ -569,7 +569,7 @@ footer {
   grid-gap: 1.5rem;
   justify-content: start;
   @media (min-width: $breakpoint-m-769) {
-    grid-gap: 3rem;
+    grid-gap: 2.5rem;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -579,7 +579,7 @@ footer {
   grid-template-columns: 1fr;
   justify-content: start;
   @media (min-width: $breakpoint-m-769) {
-    grid-gap: 3rem;
+    grid-gap: 2.5rem;
     grid-template-columns: repeat(3, 1fr);
   }
 }

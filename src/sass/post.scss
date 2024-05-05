@@ -11,11 +11,11 @@ body.body--post {
   nav.nav--primary {
     border-bottom: none;
     @media (min-width: $breakpoint-m-769) {
-      border-bottom: 1px solid rgba($midgrey, 0.5);
+      border-bottom: 1px solid $midgrey;
     }
   }
   .wrapper {
-    background-color: $lightgrey;
+    background-color: $warmgrey;
   }
   
   .post-container {

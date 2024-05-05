@@ -67,11 +67,11 @@ body.body--post nav.nav--primary {
 }
 @media (min-width: 769px) {
   body.body--post nav.nav--primary {
-    border-bottom: 1px solid rgba(203, 200, 198, 0.5);
+    border-bottom: 1px solid #CBC8C6;
   }
 }
 body.body--post .wrapper {
-  background-color: #F7F4F3;
+  background-color: #EEE9E6;
 }
 body.body--post .post-container {
   margin: 1rem auto 3rem;

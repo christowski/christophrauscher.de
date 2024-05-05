@@ -17,6 +17,7 @@ socialImage: "media/socialimage.png"
       <ul class="nav--stage">
         <li><a href="/projects" title="Check out my recent projects">Design</a></li>
         <li><a href="/writing" title="Read what I write">Writing</a></li>
+        <li><a href="/drawings" title="See what I draw">Drawings</a></li>
         <li><a href="#about" title="Learn more about me">About me</a></li>
       </ul>
     </div>
