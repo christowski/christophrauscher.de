@@ -63,7 +63,12 @@ body.body--post main {
   margin-right: 1rem;
 }
 body.body--post nav.nav--primary {
-  border-bottom: 1px solid rgba(203, 200, 198, 0.5);
+  border-bottom: none;
+}
+@media (min-width: 769px) {
+  body.body--post nav.nav--primary {
+    border-bottom: 1px solid rgba(203, 200, 198, 0.5);
+  }
 }
 body.body--post .wrapper {
   background-color: #F7F4F3;
