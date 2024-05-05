@@ -9,7 +9,10 @@ body.body--post {
     margin-right: 1rem;
   }
   nav.nav--primary {
-    border-bottom: 1px solid rgba($midgrey, 0.5);
+    border-bottom: none;
+    @media (min-width: $breakpoint-m-769) {
+      border-bottom: 1px solid rgba($midgrey, 0.5);
+    }
   }
   .wrapper {
     background-color: $lightgrey;

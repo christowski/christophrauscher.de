@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: "Why I write"
 date: "2024-02-03"
 abstract: "Getting a glimpse of the world by putting it into words"

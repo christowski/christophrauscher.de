@@ -12,11 +12,17 @@ socialImage: "media/socialimage.png"
     <img src="media/keyvisual.jpg" alt="Keyvisual"/>
   </figure>
   <div class="introduction">
-    <div><p>Hello, I’m Christoph Rauscher: a <em>designer</em>, <em>illustrator</em>, <em>writer</em> and <em>visual thinker</em> based in Berlin, Germany.</p>
+    <div>
+      <p>Hello, I’m Christoph Rauscher: a <em>designer</em>, <em>illustrator</em>, <em>writer</em> and <em>visual thinker</em> based in Berlin, Germany.</p>
+      <ul class="nav--stage">
+        <li><a href="/projects" title="Check out my recent projects">Design</a></li>
+        <li><a href="/writing" title="Read what I write">Writing</a></li>
+        <li><a href="#about" title="Learn more about me">About me</a></li>
+      </ul>
     </div>
     <div class="social">
-      <a rel="me" href="https://mastodon.social/@christowski" target="_blank"><img src="media/mastodon.svg" title="@christowski" alt="Mastodon Toots"></a>
-      <a href="https://instagram.com/christowski" target="_blank"><img src="media/instagram.svg" title="Instagram: christowski" alt="Instagram Photos"></a>
+      <a rel="me" href="https://mastodon.social/@christowski" target="_blank"><img src="media/mastodon.svg" title="Mastodon: @christowski@mastodon.social" alt="Mastodon"></a>
+      <a href="https://instagram.com/christowski" target="_blank"><img src="media/instagram.svg" title="Instagram: @christowski" alt="Instagram Photos"></a>
       <a href="https://de.linkedin.com/in/rauscherchristoph" target="_blank"><img src="media/linkedin.svg" title="LinkedIn" alt="LinkedIn Profile"></a>
     </div>
 </section>
@@ -55,6 +61,6 @@ socialImage: "media/socialimage.png"
   </div>
 </section>
 
-<section class="section--large white about container--wide">
+<section id="about" class="section--large white about container--wide">
   {% include "partials/about.njk" %}
 </section>
