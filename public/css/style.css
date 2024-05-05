@@ -78,37 +78,37 @@ table {
   font-style: italic, oblique;
 }
 @font-face {
-  font-family: "GTAplina-Light";
+  font-family: "GTAplina";
   src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "GTAplina-Light";
+  font-family: "GTAplina";
   src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: light;
   font-style: italic;
 }
 @font-face {
-  font-family: "Signifier Light";
+  font-family: "Signifier";
   src: url("/media/fonts/test-signifier-light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "Signifier Light";
+  font-family: "Signifier";
   src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
   font-weight: 200;
   font-style: oblique;
 }
 @font-face {
-  font-family: "Epicene Light";
+  font-family: "Epicene";
   src: url("/media/fonts/test-epicene-text-light.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "Epicene Light";
+  font-family: "Epicene";
   src: url("/media/fonts/test-epicene-text-light-italic.woff2") format("woff");
   font-weight: 200;
   font-style: oblique;
@@ -138,37 +138,37 @@ table {
   font-style: italic, oblique;
 }
 @font-face {
-  font-family: "GTAplina-Light";
+  font-family: "GTAplina";
   src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "GTAplina-Light";
+  font-family: "GTAplina";
   src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: light;
   font-style: italic;
 }
 @font-face {
-  font-family: "Signifier Light";
+  font-family: "Signifier";
   src: url("/media/fonts/test-signifier-light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "Signifier Light";
+  font-family: "Signifier";
   src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
   font-weight: 200;
   font-style: oblique;
 }
 @font-face {
-  font-family: "Epicene Light";
+  font-family: "Epicene";
   src: url("/media/fonts/test-epicene-text-light.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "Epicene Light";
+  font-family: "Epicene";
   src: url("/media/fonts/test-epicene-text-light-italic.woff2") format("woff");
   font-weight: 200;
   font-style: oblique;
@@ -216,37 +216,37 @@ body.body--project .project-imagery img {
   font-style: italic, oblique;
 }
 @font-face {
-  font-family: "GTAplina-Light";
+  font-family: "GTAplina";
   src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "GTAplina-Light";
+  font-family: "GTAplina";
   src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: light;
   font-style: italic;
 }
 @font-face {
-  font-family: "Signifier Light";
+  font-family: "Signifier";
   src: url("/media/fonts/test-signifier-light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "Signifier Light";
+  font-family: "Signifier";
   src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
   font-weight: 200;
   font-style: oblique;
 }
 @font-face {
-  font-family: "Epicene Light";
+  font-family: "Epicene";
   src: url("/media/fonts/test-epicene-text-light.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "Epicene Light";
+  font-family: "Epicene";
   src: url("/media/fonts/test-epicene-text-light-italic.woff2") format("woff");
   font-weight: 200;
   font-style: oblique;
@@ -298,7 +298,7 @@ body.body--post .post-container .content {
 body.body--post .post-container .content .content-head h1, body.body--post .post-container .content .content-head p {
   font-size: 2rem;
   line-height: 1.2;
-  font-family: "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
+  font-family: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
 }
 @media (min-width: 769px) {
   body.body--post .post-container .content .content-head h1, body.body--post .post-container .content .content-head p {
@@ -306,7 +306,7 @@ body.body--post .post-container .content .content-head h1, body.body--post .post
   }
 }
 body.body--post .post-container .content p, body.body--post .post-container .content li {
-  font-family: "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
+  font-family: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
 }
 body.body--post .post-container .content h1 {
   margin-bottom: 0;
@@ -395,12 +395,14 @@ body.body--post .post-container .content img {
 }
 .post-teaser .post-teaser--data .post-teaser--title h2, .post-teaser .post-teaser--data .post-teaser--title h3 {
   font-family: "Faktum", Helvetica, Arial, sansserif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0.25rem;
 }
 .post-teaser .post-teaser--data .post-teaser--title p {
-  font-family: "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
+  font-family: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
   color: #948F89;
 }
 .post-teaser .post-teaser--data .post-teaser--title h2 {
@@ -484,37 +486,37 @@ section.dark .post-teaser .post-teaser--date {
   font-style: italic, oblique;
 }
 @font-face {
-  font-family: "GTAplina-Light";
+  font-family: "GTAplina";
   src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "GTAplina-Light";
+  font-family: "GTAplina";
   src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: light;
   font-style: italic;
 }
 @font-face {
-  font-family: "Signifier Light";
+  font-family: "Signifier";
   src: url("/media/fonts/test-signifier-light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "Signifier Light";
+  font-family: "Signifier";
   src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
   font-weight: 200;
   font-style: oblique;
 }
 @font-face {
-  font-family: "Epicene Light";
+  font-family: "Epicene";
   src: url("/media/fonts/test-epicene-text-light.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "Epicene Light";
+  font-family: "Epicene";
   src: url("/media/fonts/test-epicene-text-light-italic.woff2") format("woff");
   font-weight: 200;
   font-style: oblique;
@@ -574,37 +576,37 @@ body.body--drawings figure img {
   font-style: italic, oblique;
 }
 @font-face {
-  font-family: "GTAplina-Light";
+  font-family: "GTAplina";
   src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "GTAplina-Light";
+  font-family: "GTAplina";
   src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: light;
   font-style: italic;
 }
 @font-face {
-  font-family: "Signifier Light";
+  font-family: "Signifier";
   src: url("/media/fonts/test-signifier-light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "Signifier Light";
+  font-family: "Signifier";
   src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
   font-weight: 200;
   font-style: oblique;
 }
 @font-face {
-  font-family: "Epicene Light";
+  font-family: "Epicene";
   src: url("/media/fonts/test-epicene-text-light.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "Epicene Light";
+  font-family: "Epicene";
   src: url("/media/fonts/test-epicene-text-light-italic.woff2") format("woff");
   font-weight: 200;
   font-style: oblique;
@@ -772,37 +774,37 @@ section {
   font-style: italic, oblique;
 }
 @font-face {
-  font-family: "GTAplina-Light";
+  font-family: "GTAplina";
   src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "GTAplina-Light";
+  font-family: "GTAplina";
   src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: light;
   font-style: italic;
 }
 @font-face {
-  font-family: "Signifier Light";
+  font-family: "Signifier";
   src: url("/media/fonts/test-signifier-light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "Signifier Light";
+  font-family: "Signifier";
   src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
   font-weight: 200;
   font-style: oblique;
 }
 @font-face {
-  font-family: "Epicene Light";
+  font-family: "Epicene";
   src: url("/media/fonts/test-epicene-text-light.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "Epicene Light";
+  font-family: "Epicene";
   src: url("/media/fonts/test-epicene-text-light-italic.woff2") format("woff");
   font-weight: 200;
   font-style: oblique;
@@ -810,7 +812,7 @@ section {
 h1 {
   line-height: 1.2;
   font-size: 2rem;
-  font-family: "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
+  font-family: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
 }
 @media (min-width: 769px) {
   h1 {
@@ -820,7 +822,7 @@ h1 {
 
 h2 {
   font-size: 1.75rem;
-  font-family: "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
+  font-family: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
 }
 @media (min-width: 769px) {
   h2 {
@@ -832,6 +834,8 @@ h3 {
   font-size: 1.125rem;
   line-height: 1.2;
   font-family: "Faktum", Helvetica, Arial, sansserif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
@@ -858,6 +862,8 @@ p {
 
 strong, b {
   font-family: "Faktum", Helvetica, Arial, sansserif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-weight: bold;
 }
 
@@ -871,6 +877,8 @@ em {
 .content p, .content ul, .content ol, .content li {
   font-size: 1.125rem;
   font-family: "Faktum", Helvetica, Arial, sansserif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   margin-bottom: 0.75rem;
 }
 @media (min-width: 769px) {
@@ -944,8 +952,6 @@ body {
   color: #140D05;
   font-family: "Faktum", Helvetica, Arial, sansserif, "Inter", sans-serif;
   font-size: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   animation: fadein 1s;
 }
 
@@ -1109,7 +1115,7 @@ main {
 .pageheader h1, .pageheader p {
   font-size: 2.25rem;
   line-height: 1.2;
-  font-family: "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
+  font-family: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
 }
 .pageheader p {
   color: #948F89;
@@ -1160,6 +1166,8 @@ main {
 }
 .pageheader--accent .text .description p {
   font-family: "Faktum", Helvetica, Arial, sansserif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 1.125rem;
   line-height: 1.5;
 }
@@ -1252,6 +1260,8 @@ input, button {
 a.button, a.button-arrow, button {
   border: none;
   font-family: "Faktum", Helvetica, Arial, sansserif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -1501,7 +1511,7 @@ footer a:hover, footer a:visited:hover {
 .stage .introduction p {
   color: #EEE9E6;
   font-size: clamp(1.75rem, 3.5vw, 3.5rem);
-  font-family: "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
+  font-family: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
   line-height: 1.2;
   margin-bottom: 2rem;
 }
@@ -1521,6 +1531,9 @@ footer a:hover, footer a:visited:hover {
   }
 }
 .stage ul.nav--stage li a {
+  font-family: "Faktum", Helvetica, Arial, sansserif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: clamp(1rem, 1.5vw, 1.2rem);
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1666,7 +1679,7 @@ section.writing .section-header {
   font-size: clamp(1.5rem, 2vw, 2.75rem);
   line-height: 1.4;
   margin-bottom: 1.5rem;
-  font-family: "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
+  font-family: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
 }
 @media (min-width: 769px) {
   .writing-card--summary p {
@@ -1750,6 +1763,8 @@ section.writing .section-header {
   color: #EEE9E6;
   display: inline-block;
   font-family: "Faktum", Helvetica, Arial, sansserif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 1.25rem;
   margin-right: 0.5rem;
   margin-bottom: 1rem;
@@ -1829,7 +1844,7 @@ section.writing .section-header {
   gap: 0.5rem;
 }
 .newsletter-teaser .newsletter-teaser--data .newsletter-teaser--title h2, .newsletter-teaser .newsletter-teaser--data .newsletter-teaser--title h3 {
-  font-family: "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
+  font-family: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
   font-size: 1.5rem;
   font-weight: normal;
   line-height: 1.2;

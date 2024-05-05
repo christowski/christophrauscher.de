@@ -16,8 +16,6 @@ body {
   color: $charcoal;
   font-family: $sansstack, "Inter", sans-serif;
   font-size: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   animation: fadein 1s;
 }
 
@@ -191,7 +189,7 @@ main {
       }
     }
     .description p {
-      font-family: $sansstack;
+      @include sansstack;
       @include body-l;
       @include lh-body;
     }
@@ -257,7 +255,7 @@ input, button {
 
 a.button, button {
   border: none;
-  font-family: $sansstack;
+  @include sansstack;
   font-size: 1rem;
   @include uppercase-text;
   background-color: $charcoal;
@@ -501,6 +499,7 @@ footer {
 
   ul.nav--stage {
     li a {
+      @include sansstack;
       font-size: clamp(1rem, 1.5vw, 1.2rem);
       text-transform: uppercase;
       letter-spacing: 2px;
@@ -713,7 +712,7 @@ section.writing {
       border-radius: 0;
       color: $warmgrey;
       display: inline-block;
-      font-family: $sansstack;
+      @include sansstack;
       font-size: 1.25rem;
       margin-right: 0.5rem;
       margin-bottom: 1rem;
@@ -830,6 +829,8 @@ section.writing {
   }
 
 }
+
+// ------------ Drawing stuff ------------ 
 
 
 // ------------ About module ------------ 

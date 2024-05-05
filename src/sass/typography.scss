@@ -21,7 +21,7 @@ h2 {
 h3 {
   font-size: 1.125rem;
   @include lh-head;
-  font-family: $sansstack;
+  @include sansstack;
   font-weight: bold;
   margin-bottom: 0.5rem;
   @media (min-width: $breakpoint-m-769) {
@@ -40,7 +40,7 @@ p {
   margin-bottom: 0.75rem;
 }
 strong, b {
-  font-family: $sansstack;
+  @include sansstack;
   font-weight: bold;
 }
 em {
@@ -53,7 +53,7 @@ em {
 
   p, ul, ol, li {
     font-size: 1.125rem;
-    font-family: $sansstack;
+    @include sansstack;
     margin-bottom: 0.75rem;
     @media (min-width: $breakpoint-m-769) {
       font-size: 1.25rem;

@@ -130,7 +130,7 @@ section.recent-posts {
       flex-grow: 1;
       gap: 0.5rem;
       h2, h3 {
-        font-family: $sansstack;
+        @include sansstack;
         font-weight: bold;
         @include lh-head;
         margin-bottom: 0.25rem;

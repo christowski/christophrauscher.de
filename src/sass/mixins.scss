@@ -83,3 +83,8 @@
   letter-spacing: 1.5px;
   font-size: 0.875rem;
 }
+@mixin sansstack {
+  font-family: $sansstack;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
