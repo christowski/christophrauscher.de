@@ -1,6 +1,6 @@
 ---
 title: "Warum heißt es Traum und nicht Memoryschaum?"
-description: "Why are things called they way they’re called? I illustrated Gabriel Yoran’s fun word twists and we published it as a small, neat book (‛Top 50 Gift Books for Singles’ on Amazon!). Frohmann Verlag 2021"
+description: "Gabriel Yoran’s fun word twists, illusrated by me, reached ‛Top 50 Gift Books for Singles’ on Amazon!"
 intro: "Why are things called they way they’re called? I illustrated Gabriel Yoran’s fun word twists and we published it as a small, neat book (‛Top 50 Gift Books for Singles’ on Amazon!). Published with Frohmann Verlag Berlin."
 timestamp: "2021"
 displayOrder: 3

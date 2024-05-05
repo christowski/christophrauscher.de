@@ -1498,9 +1498,9 @@ footer a:hover, footer a:visited:hover {
   }
 }
 .stage ul.nav--stage li a {
-  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: #CBC8C6;
   text-decoration: none;
   margin-bottom: 0.25rem;
@@ -1554,7 +1554,7 @@ footer a:hover, footer a:visited:hover {
 .section-header .header--meta {
   background-color: none;
 }
-@media (max-width: 420px) {
+@media (max-width: 769px) {
   .section-header span {
     display: none;
   }
@@ -1631,7 +1631,7 @@ section.writing .section-header {
 }
 
 .writing-card--summary {
-  background-color: rgba(148, 143, 137, 0.2);
+  background-color: rgba(202, 202, 208, 0.1);
   color: rgba(238, 233, 230, 0.8);
   align-content: space-between;
   border-radius: 8px;

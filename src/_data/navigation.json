@@ -9,12 +9,12 @@
       "url": "/writing"
     },
     {
-      "text": "Newsletter",
-      "url": "/newsletter"
-    },
-    {
       "text": "Drawings",
       "url": "/drawings"
+    },
+    {
+      "text": "Newsletter",
+      "url": "/newsletter"
     }
   ]
 }

@@ -29,7 +29,7 @@ socialImage: "media/socialimage.png"
 
 <section class="section--large white">
   <div class="section-header">
-    <h2 class="header--title">Recent projects</h2>
+    <h2 class="header--title">Recent design work</h2>
     <div class="header--meta">
       <a class="link--more link--pill" href="/projects">See all <span>projects</span></a>
     </div>
@@ -48,6 +48,21 @@ socialImage: "media/socialimage.png"
 
 <section class="section--large writing dark">
   {% include "partials/section-writing.njk" %}
+</section>
+
+<section class="section--large white">
+  <div class="section-header">
+    <h2 class="header--title">From the sketchbook</h2>
+    <div class="header--meta">
+      <a class="link--more link--pill" href="/drawings">See more <span>drawings</span></a>
+    </div>
+  </div>
+
+  <div class="layout-grid--trio"> 
+    <img src="../media/drawings/akropolis-800.jpg" alt="Drawing: Akropolis and a foot">
+    <img src="../media/drawings/andrea-humboldthain-800.jpg" alt="Drawing: Andrea in the park">
+    <img src="../media/drawings/im-teppich-800.jpg" alt="Drawing: Me in the carpet">
+  </div>
 </section>
 
 <section class="section--large accent">

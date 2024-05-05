@@ -484,9 +484,9 @@ footer {
 
   ul.nav--stage {
     li a {
-      font-size: clamp(1rem, 2vw, 1.25rem);
+      font-size: clamp(1rem, 1.5vw, 1.2rem);
       text-transform: uppercase;
-      letter-spacing: 3px;
+      letter-spacing: 2px;
       color: $midgrey;
       text-decoration: none;
       margin-bottom: 0.25rem;
@@ -540,7 +540,7 @@ footer {
   .header--meta {
     background-color: none;
   }
-  @media (max-width: $breakpoint-s-420) {
+  @media (max-width: $breakpoint-m-769) {
     span { display: none; }
   }
 }
@@ -610,12 +610,11 @@ section.writing {
   .section-header {
     margin-bottom: 3rem;
   }
-  
 }
 
 // writing-card--summary is the big writing card on the home page
 .writing-card--summary {
-  background-color: rgba($concrete, 0.2);
+  background-color: rgba($secondary, 0.1);
   color: rgba($warmgrey, 0.8);
   align-content: space-between;
   @include round-corners-m;
