@@ -944,6 +944,9 @@ body {
   color: #140D05;
   font-family: "Faktum", Helvetica, Arial, sansserif, "Inter", sans-serif;
   font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  animation: fadein 1s;
 }
 
 body.body--home nav.nav--primary {
@@ -954,6 +957,22 @@ p:empty {
   display: none;
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes movein {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 .spacer-b--s {
   margin-bottom: 1rem;
 }
@@ -1006,6 +1025,10 @@ hr {
   hr {
     margin: 4rem 0 3.5rem 0;
   }
+}
+
+main {
+  animation: movein 800ms;
 }
 
 .wrapper {
