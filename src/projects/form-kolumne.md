@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: "form column in digital nostalgia"
 description: "For form design magazine, I wrote a quarterly column on digital nostalgia; exploring our digital culture and phenomenons of past and present."
 intro: "For form design magazine, I wrote a quarterly column on digital nostalgia; exploring our digital culture and phenomenons of past and present."

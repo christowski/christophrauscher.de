@@ -3,7 +3,7 @@ title: "WDR future report: Synthetic Media"
 description: "I designed the future report on Synthetic Media for the WDR innovation hub."
 intro: "I designed the future report on Synthetic Media for the WDR innovation hub."
 timestamp: "2021"
-displayOrder: 3
+displayOrder: 7
 featured: false
 tags:
   - art direction

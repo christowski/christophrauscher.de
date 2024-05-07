@@ -3,7 +3,7 @@ title: "Disentchanting Invisible Machines"
 description: "My master thesis explores the invisible computer from a design-theoretical perspective."
 intro: "My master thesis explores the invisible computer from a design-theoretical perspective."
 timestamp: "2018"
-displayOrder: 5
+displayOrder: 11
 featured: false
 tags:
   - research

@@ -66,7 +66,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection('featuredProjects', collection => {
     return collection
       .getFilteredByGlob('./src/projects/*.md').filter(
-        x => x.data.featured);
+        x => x.data.featured)
+      .sort((a, b) => (Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1));
   });
 
   // writing collection, sorted by display order

@@ -1527,7 +1527,7 @@ footer a:hover, footer a:visited:hover {
 }
 .stage .introduction p {
   color: #EEE9E6;
-  font-size: clamp(1.75rem, 3.5vw, 3.5rem);
+  font-size: clamp(1.75rem, 3vw, 2.9rem);
   font-family: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
   line-height: 1.2;
   margin-bottom: 2rem;

@@ -3,7 +3,7 @@ title: "66 Gebote"
 description: "66 illustrations for Torsten Groth’s book on system theory in management (Carl Auer Verlag)."
 intro: "66 illustrations for Torsten Groth’s book on system theory in management (Carl Auer Verlag)."
 timestamp: "2019"
-displayOrder: 2
+displayOrder: 6
 featured: false
 tags:
   - art direction

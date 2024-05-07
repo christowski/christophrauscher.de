@@ -35,14 +35,23 @@ socialImage: "media/socialimage.png"
       <a class="link--more link--pill" href="/projects"><span>See </span>all <span>projects</span></a>
     </div>
   </div>
+
   <ul class="layout-grid--duo project-grid"> 
-    {% for item in collections.featuredProjects | limit(4) %}
-    <li class="project-grid--tile">
-      <img src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" />
-      <h3>{{ item.data.title }}</h3>
-      <p>{{ item.data.description }}</p>
-    </li>
-  {% endfor %}
+    {%- for item in collections.featuredProjects | limit(4) -%}
+      <li class="project-grid--tile">
+        {%- if (item.data.projectPage) -%}
+          <a href="{{ item.data.permalink }}{{ item.url }}">
+            <img src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" />
+            <h3>{{ item.data.title }}</h3>
+            <p>{{ item.data.description }}</p>
+          </a>
+        {%- else -%}
+          <img src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" />
+          <h3>{{ item.data.title }}</h3>
+          <p>{{ item.data.description }}</p>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
   </ul>
   <a class="button-arrow" href="/projects">See all projects</a>
 </section>

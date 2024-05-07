@@ -3,7 +3,7 @@ title: "Zeit Online – Wochenmarkt"
 description: "The weekly column with recipies from the printed ZEITmagazin is known and loved. We built its digital companion."
 intro: "The weekly column with recipies from the printed ZEITmagazin is known and loved. We built its digital companion."
 timestamp: "2019"
-displayOrder: 4
+displayOrder: 10
 featured: false
 tags:
   - art direction

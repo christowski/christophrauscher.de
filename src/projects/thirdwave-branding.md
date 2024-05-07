@@ -3,7 +3,7 @@ title: "Third Wave Berlin – Agency Branding"
 description: "The Berlin based studio for future research and technology contacted me for a brand refresh and website design. Branding, Web Design"
 intro: "The Berlin based studio for future research and technology contacted me for a brand refresh and website design. Branding, Web Design"
 timestamp: "2020"
-displayOrder: 5
+displayOrder: 9
 featured: false
 tags:
   - project

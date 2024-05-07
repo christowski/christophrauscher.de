@@ -3,7 +3,7 @@ title: "Why How What – Company Report"
 description: "For a company’s internal management meetup, I teamed up with STATE to create a small book about the event."
 intro: "For a company’s internal management meetup, I teamed up with STATE to create a small book about the event."
 timestamp: "2021"
-displayOrder: 5
+displayOrder: 8
 featured: false
 tags:
   - writing
