@@ -470,11 +470,29 @@ footer {
     grid-template-rows: minmax(32rem, 50rem);
     grid-gap: 0;
   }
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+  figure {
+    order: 1;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: $accent;
+    img {
+      max-width: 50%;
+    }
+    @media (min-width: $breakpoint-m-769) {
+      order: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $accent;
+      img {
+        max-height: 80%;
+        max-width: 80%;
+      }
+    }
   }
+
   .introduction {
     display: flex;
     flex-flow: column;

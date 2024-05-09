@@ -9,7 +9,7 @@ socialImage: "media/socialimage.png"
 
 <section class="stage">
   <figure>
-    <img src="media/keyvisual.jpg" alt="Keyvisual"/>
+    <img src="media/christoph-rauscher-design.jpg" alt="Christoph Rauscher"/>
   </figure>
   <div class="introduction">
     <div>
