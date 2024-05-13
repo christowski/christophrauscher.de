@@ -12,27 +12,27 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "GTAplina";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Trial.woff2") format("woff2");
-  font-weight: normal;
+  font-family: "GTAlpina-Light";
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
+  font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "GTAplina-Italic";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
-  font-weight: normal;
-  font-style: italic, oblique;
+  font-family: "GTAlpina-Light";
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
+  font-weight: 200;
+  font-style: italic;
 }
 @font-face {
-  font-family: "GTAplina";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
+  font-family: "GTAlpina-Regular";
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Trial.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "GTAplina";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
-  font-weight: light;
+  font-family: "GTAlpina-Regular";
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
+  font-weight: 200;
   font-style: italic;
 }
 @font-face {
@@ -47,22 +47,10 @@
   font-weight: 200;
   font-style: oblique;
 }
-@font-face {
-  font-family: "Epicene";
-  src: url("/media/fonts/test-epicene-text-light.woff2") format("woff2");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Epicene";
-  src: url("/media/fonts/test-epicene-text-light-italic.woff2") format("woff");
-  font-weight: 200;
-  font-style: oblique;
-}
 h1 {
   line-height: 1.2;
   font-size: 2rem;
-  font-family: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
+  font-family: "GTAlpina-Light", Georgia, "Times New Roman", serif;
 }
 @media (min-width: 769px) {
   h1 {
@@ -72,7 +60,7 @@ h1 {
 
 h2 {
   font-size: 1.75rem;
-  font-family: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
+  font-family: "GTAlpina-Light", Georgia, "Times New Roman", serif;
 }
 @media (min-width: 769px) {
   h2 {

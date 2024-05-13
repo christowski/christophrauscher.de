@@ -51,7 +51,7 @@ body.body--post {
         h1, p {
           @include head-xxl;
           @include lh-head;
-          font-family: $serifstack;
+          font-family: $serifstack-head;
         }
       }
 

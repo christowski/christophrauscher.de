@@ -1,9 +1,11 @@
 ---
 title: "All my links"
 layout: "layouts/textpage.njk"
-aside: "Links"
 ---
 
+<style>
+  p, a {font-family: Arial !important;}
+</style>
 <ul>
   <li><a href="https://christophrauscher.de/faktenundmirakel">Fakten und Mirakel</a></li>
   <li><a href="../index.php">Portfolio</a></li>

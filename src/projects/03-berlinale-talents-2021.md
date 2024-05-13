@@ -3,7 +3,7 @@ title: "Berlinale Talents 2021"
 description: "For the film festival Berlinale Talents, I created the 2021 edition’s key visuals, running under the topic of DREAMS."
 intro: "For the film festival Berlinale Talents, I created the 2021 edition’s key visuals, running under the topic of DREAMS. My role spanned from ideation to art direction to production design."
 timestamp: "2021"
-displayOrder: 2
+displayOrder: 3
 featured: true
 tags:
   - art direction

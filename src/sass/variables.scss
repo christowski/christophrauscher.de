@@ -17,7 +17,8 @@ $basic-fade: all ease 100ms;
 
 // font stacks
 $sansstack: "Faktum", Helvetica, Arial, sansserif;
-$serifstack: "GTAplina", "Signifier Light", "GTAplina-Light", Georgia, "Times New Roman", serif;
+$serifstack-head: "GTAlpina-Light", Georgia, "Times New Roman", serif;
+$serifstack: "GTAlpina-Regular", Georgia, "Times New Roman", serif;
 
 // animation
 $fade-slow: all ease 1200ms;

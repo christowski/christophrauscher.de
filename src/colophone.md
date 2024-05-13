@@ -19,7 +19,7 @@ This website is built with <a href="https://www.11ty.dev/" target="_blank">eleve
 
 The site currently lacks a dark mode, which I didn’t get around implementing by now. The biggest problem at the moment are responsive images, which are _non-existant_—I’m sorry for that.
 
-Typefaces: <a href="https://www.renebieder.com/fonts/neue-faktum" target="_blank">Faktum</a> by René Bieder and <a href="https://klim.co.nz/retail-fonts/signifier/" target="_blank">Signifier</a> by Klim Type. Portrait picture: <a href="https://normanposselt.com/" target="_blank">Norman Posselt</a>
+Typefaces: <a href="https://www.renebieder.com/fonts/neue-faktum" target="_blank">Faktum</a> by René Bieder and <a href="https://www.grillitype.com/typeface/gt-alpina" target="_blank">Alpina</a> by Grilli Type. Portrait picture: <a href="https://normanposselt.com/" target="_blank">Norman Posselt</a>.
 
 --- 
 
