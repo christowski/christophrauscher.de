@@ -10,6 +10,7 @@ hero:
 teaserImg:
   image: "/media/stamp-formmagazine-teaser.gif"
   imageAlt: "A miniature duotone picture of the form magazine"
+socialImage: "/media/socialimage-formcolumn.jpg"
 ---
 
 <div class="content container--full">

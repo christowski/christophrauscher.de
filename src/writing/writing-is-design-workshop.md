@@ -10,6 +10,7 @@ hero:
 teaserImg:
   image: "/media/stamp-writingisdesign-teaser.gif"
   imageAlt: "A miniature duotone picture of a paper notebook"
+socialImage: "/media/socialimage-writingisdesign-workshop.jpg"
 ---
 
 <div class="content-container">

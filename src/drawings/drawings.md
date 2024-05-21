@@ -2,6 +2,7 @@
 title: "Drawings"
 description: "Goings on in the sketchbook"
 layout: "layouts/drawings.njk"
+socialImage: "/media/socialimage-sketchbook.jpg"
 
 ---
 
