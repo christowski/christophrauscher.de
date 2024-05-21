@@ -3,7 +3,7 @@ title: "About this website"
 layout: "layouts/textpage.njk"
 ---
 
-<img style="max-height: 130px; margin-bottom: 1.5rem" src="/media/about-this-website-2.gif" alt="About this website" title="About this website">
+<img style="max-height: 130px; margin-bottom: 1.5rem" src="/media/about-this-website.gif" alt="About this website" title="About this website">
 
 Welcome to my personal _and_ professional website! I use this site for three things: First off, it’s a place to communicate what I do and what I work on. This is a somewhat professional environment, not my diary. However, I try to keep it personal. This website is meant to be read and viewed by humans, not machines.
 

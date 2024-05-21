@@ -7,6 +7,9 @@ displayOrder: 2
 hero:
   image: "/media/stamp-formmagazine.gif"
   imageAlt: "A miniature duotone picture of the form magazine"
+teaserImg:
+  image: "/media/stamp-formmagazine-teaser.gif"
+  imageAlt: "A miniature duotone picture of the form magazine"
 ---
 
 <div class="content container--full">

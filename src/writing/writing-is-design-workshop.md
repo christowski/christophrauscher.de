@@ -7,6 +7,9 @@ displayOrder: 1
 hero:
   image: "/media/stamp-writingisdesign.gif"
   imageAlt: "A miniature duotone picture of a paper notebook"
+teaserImg:
+  image: "/media/stamp-writingisdesign-teaser.gif"
+  imageAlt: "A miniature duotone picture of a paper notebook"
 ---
 
 <div class="content-container">

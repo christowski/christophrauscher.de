@@ -1668,29 +1668,78 @@ section.writing .section-header {
 }
 
 .writing-card {
+  display: flex;
+  justify-content: space-between;
   background-color: #AF5F00;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 16px;
+  transition-duration: 200ms;
+}
+.writing-card:hover {
+  transform: scale(1.01) rotate(0.5deg);
+  box-shadow: 0px 1rem 3rem 0px rgba(20, 13, 5, 0.1);
 }
 .writing-card a, .writing-card a:active, .writing-card a:hover, .writing-card a:focus {
   text-decoration: none;
   color: white;
 }
+@media (min-width: 769px) {
+  .writing-card {
+    padding: 2rem;
+  }
+}
+.writing-card .kicker {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+}
+.writing-card .kicker p {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 0.875rem;
+  font-size: 1rem;
+}
+@media (min-width: 769px) {
+  .writing-card .kicker {
+    margin-bottom: 0;
+  }
+}
 .writing-card figure {
-  max-width: 200px;
-  height: 200px;
+  max-width: 80px;
+  height: 80px;
+}
+@media (min-width: 1024px) {
+  .writing-card figure {
+    max-width: 100px;
+    height: 100px;
+  }
 }
 .writing-card img {
   max-width: 100%;
-  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+.writing-card h2, .writing-card h3 {
+  margin-bottom: 0.75rem;
+}
+.writing-card p {
+  font-family: "Faktum", Helvetica, Arial, sansserif;
+  color: white;
+  opacity: 0.8;
+}
+@media (min-width: 769px) {
+  .writing-card p {
+    max-width: 80%;
+  }
 }
 
 .writing-card:nth-child(even) {
   background-color: #140D05;
 }
-.writing-card:nth-child(even) img {
-  filter: invert(1);
-  mix-blend-mode: screen;
+.writing-card:nth-child(even):hover {
+  transform: scale(1.01) rotate(-0.5deg);
+  box-shadow: 0px 1rem 3rem 0px rgba(20, 13, 5, 0.1);
 }
 
 .newsletter-signup {

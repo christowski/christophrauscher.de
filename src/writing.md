@@ -9,24 +9,26 @@ layout: "layouts/collection.njk"
     {% for item in collections.writing %}
       <li class="writing-card">
         <a href="{{ item.url }}">
-          <figure>
-            <img src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" />
-          </figure>
-          <p>{{ item.data.label }}</p>
-          <h3>{{ item.data.title }}</h3>
-          <p>{{ item.data.description }}</p>
+          <div class="kicker">
+            <p>{{ item.data.label }}</p>
+            <figure>
+              <img src="{{ item.data.teaserImg.image }}" alt="{{ item.data.teaserImg.imageAlt }}" />
+            </figure>
+          </div>
+          <div>
+            <h2>{{ item.data.title }}</h2>
+            <p>{{ item.data.description }}</p>
+          </div>
         </a>
       </li>
     {% endfor %}
   </ul>
-
   <div class="section-header">
     <h2 class="header--title">Recent ramblings</h2>
     <div class="header--meta">
       <a class="link--pill link--rss" href="{{ site.url }}/feed.xml">RSS</a>
     </div>
   </div>
-
   <ul class="post-list spacer-b--m">
     {% for post in collections.Note | reverse %}
       <li class="post-teaser">
@@ -38,22 +40,18 @@ layout: "layouts/collection.njk"
               <h2>{{ post.data.title }}</h2>
               <p>{{ post.data.abstract }}</p>
             </div>
-            {# <date class="post-teaser--date">{{ post.data.date | dateFilter }}</date> #}
+            <date class="post-teaser--date">{{ post.data.date | dateFilter }}</date>
           </div>
         </a>
       </li>
     {% endfor %}
   </ul>
-
 </section>
-
 <section class="section--large accent">
   <div class="container--normal">
-
     <div class="section-header">
       <h2 class="header--title">Sign up to my newsletter</h2>
     </div>
-
     {% include "partials/newsletter-signup.njk" %}
   </div>
 </section>
