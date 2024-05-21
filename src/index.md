@@ -30,7 +30,7 @@ socialImage: "media/socialimage.png"
 
 <section class="section--large white">
   <div class="section-header">
-    <h2 class="header--title">Recent design work</h2>
+    <h2 class="header--title">Selected design work</h2>
     <div class="header--meta">
       <a class="link--more link--pill" href="/projects"><span>See </span>all <span>projects</span></a>
     </div>
