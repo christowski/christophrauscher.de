@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Christoph Rauscher — Notes</title>
-	<subtitle>A feed of my latest notes, newsletters and writing.</subtitle>
+	<subtitle></subtitle>
 	<link href="https://christophrauscher.de/11ty/feed.xml" rel="self"/>
 	<link href="https://christophrauscher.de/11ty/"/>
 	<updated>2024-04-10T00:00:00Z</updated>
@@ -14,6 +14,7 @@
     
     <entry>
       <title>The Long Hard Stupid Way</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/44-the-long-hard-stupid-way/"/>
       <updated>2024-04-10T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/44-the-long-hard-stupid-way/</id>
@@ -43,6 +44,7 @@
     
     <entry>
       <title>The Muse visits during the act of creation</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/posts/the-muse-visits-during-the-act-of-creation/"/>
       <updated>2024-03-21T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/posts/the-muse-visits-during-the-act-of-creation/</id>
@@ -70,6 +72,7 @@
     
     <entry>
       <title>My first Mac</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/posts/my-first-mac/"/>
       <updated>2024-01-25T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/posts/my-first-mac/</id>
@@ -96,6 +99,7 @@
     
     <entry>
       <title>You Are Here</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/43-you-are-here/"/>
       <updated>2023-12-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/43-you-are-here/</id>
@@ -120,6 +124,7 @@
     
     <entry>
       <title>Manifestations of Romance</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/42-manifestations-of-romance/"/>
       <updated>2023-11-25T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/42-manifestations-of-romance/</id>
@@ -141,6 +146,7 @@
     
     <entry>
       <title>Dogs, Beans, and Red Badges</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/41-dogs-beans-and-red-badges/"/>
       <updated>2023-05-11T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/41-dogs-beans-and-red-badges/</id>
@@ -162,6 +168,7 @@
     
     <entry>
       <title>Books from Boxes</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/40-books-from-boxes/"/>
       <updated>2022-12-26T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/40-books-from-boxes/</id>
@@ -186,6 +193,7 @@
     
     <entry>
       <title>It Takes A Village</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/39-it-takes-a-village/"/>
       <updated>2022-07-03T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/39-it-takes-a-village/</id>
@@ -216,6 +224,7 @@
     
     <entry>
       <title>I Need a Camera to My Eye</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/38-i-need-a-camera-to-my-eye/"/>
       <updated>2021-12-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/38-i-need-a-camera-to-my-eye/</id>
@@ -233,6 +242,7 @@
     
     <entry>
       <title>I Am at War with My Time</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/37-i-am-at-war-with-my-time/"/>
       <updated>2021-10-30T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/37-i-am-at-war-with-my-time/</id>
@@ -255,6 +265,7 @@
     
     <entry>
       <title>At the Bottom of Everything</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/36-at-the-bottom-of-everything/"/>
       <updated>2021-07-30T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/36-at-the-bottom-of-everything/</id>
@@ -276,6 +287,7 @@
     
     <entry>
       <title>The Sound of 7 o’Clock</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/35-the-sound-of-7-oclock/"/>
       <updated>2021-04-03T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/35-the-sound-of-7-oclock/</id>
@@ -295,6 +307,7 @@
     
     <entry>
       <title>Where You Find Me</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/34-where-you-find-me/"/>
       <updated>2021-01-30T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/34-where-you-find-me/</id>
@@ -318,6 +331,7 @@
     
     <entry>
       <title>We’ll be Alright When I Rub My Eyes</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/33-well-be-alright-when-i-rub-my-eyes/"/>
       <updated>2020-12-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/33-well-be-alright-when-i-rub-my-eyes/</id>
@@ -338,6 +352,7 @@
     
     <entry>
       <title>I Don’t Know Anything, I’m Just a Rock in the Sky</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/32-i-dont-know-anything-im-just-a-rock-in-the-sky/"/>
       <updated>2020-11-07T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/32-i-dont-know-anything-im-just-a-rock-in-the-sky/</id>
@@ -360,6 +375,7 @@
     
     <entry>
       <title>H is for Hawk</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/31-h-is-for-hawk/"/>
       <updated>2020-09-29T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/31-h-is-for-hawk/</id>
@@ -381,6 +397,7 @@
     
     <entry>
       <title>The Last Screensaver</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/posts/the-last-screensaver/"/>
       <updated>2020-08-26T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/posts/the-last-screensaver/</id>
@@ -397,6 +414,7 @@
     
     <entry>
       <title>A Summer Wasting</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/30-a-summer-wasting/"/>
       <updated>2020-08-16T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/30-a-summer-wasting/</id>
@@ -420,6 +438,7 @@
     
     <entry>
       <title>Learning to Love You More</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/29-learning-to-love-you-more/"/>
       <updated>2020-06-30T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/29-learning-to-love-you-more/</id>
@@ -442,6 +461,7 @@
     
     <entry>
       <title>Cat Person</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/28-cat-person/"/>
       <updated>2020-05-28T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/28-cat-person/</id>
@@ -464,6 +484,7 @@
     
     <entry>
       <title>Unfurl Like Smoke, We Twist And We Curl</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/27-unfurl-like-smoke-we-twist-and-we-curl/"/>
       <updated>2020-03-26T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/27-unfurl-like-smoke-we-twist-and-we-curl/</id>
@@ -490,6 +511,7 @@
     
     <entry>
       <title>Palindrome Days</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/26-palindrome-days/"/>
       <updated>2020-01-30T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/26-palindrome-days/</id>
@@ -512,6 +534,7 @@
     
     <entry>
       <title>All I Need is One Night to See if it’s Right</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/25-all-i-need-is-one-night-to-see-if-its-right/"/>
       <updated>2019-12-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/25-all-i-need-is-one-night-to-see-if-its-right/</id>
@@ -539,6 +562,7 @@
     
     <entry>
       <title>If You’re Going Through Hell, Keep Going</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/24-if-youre-going-through-hell-keep-going/"/>
       <updated>2019-11-03T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/24-if-youre-going-through-hell-keep-going/</id>
@@ -560,6 +584,7 @@
     
     <entry>
       <title>Flying Low &amp; Passing Through</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/23-flying-low-and-passing-through/"/>
       <updated>2019-08-30T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/23-flying-low-and-passing-through/</id>
@@ -582,6 +607,7 @@
     
     <entry>
       <title>Isn’t It Ironic?!</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/22-isnt-it-ironic/"/>
       <updated>2019-07-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/22-isnt-it-ironic/</id>
@@ -599,6 +625,7 @@
     
     <entry>
       <title>Take Yourself With You</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/21-take-yourself-with-you/"/>
       <updated>2019-06-26T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/21-take-yourself-with-you/</id>
@@ -617,6 +644,7 @@
     
     <entry>
       <title>Using an iBook G3 as a typewriter</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/posts/ibook-g3-as-a-typewriter/"/>
       <updated>2019-01-02T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/posts/ibook-g3-as-a-typewriter/</id>
@@ -636,6 +664,7 @@
     
     <entry>
       <title>Think Lightly of Yourself, And Deeply of the World</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/20-think-lightly-of-yourself-and-deeply-of-the-world/"/>
       <updated>2018-12-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/20-think-lightly-of-yourself-and-deeply-of-the-world/</id>
@@ -656,6 +685,7 @@
     
     <entry>
       <title>“Forget Being a Genius and Develop Some Skills”</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/posts/forget-being-a-genius/"/>
       <updated>2018-12-20T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/posts/forget-being-a-genius/</id>
@@ -707,6 +737,7 @@
     
     <entry>
       <title>We Are Our Own Devils</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/19-we-are-our-own-devils/"/>
       <updated>2018-10-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/19-we-are-our-own-devils/</id>
@@ -735,6 +766,7 @@
     
     <entry>
       <title>I’ve Never Liked Anything In My Entire Life</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/18-ive-never-liked-anything-in-my-entire-life/"/>
       <updated>2018-05-04T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/18-ive-never-liked-anything-in-my-entire-life/</id>
@@ -762,6 +794,7 @@
     
     <entry>
       <title>Design Won’t Save the World</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/17-design-wont-save-the-world/"/>
       <updated>2018-03-12T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/17-design-wont-save-the-world/</id>
@@ -783,6 +816,7 @@
     
     <entry>
       <title>You Think You Might Not Get Through It But You Do</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/16-you-think-you-might-not-get-through-it-but-you-do/"/>
       <updated>2017-12-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/16-you-think-you-might-not-get-through-it-but-you-do/</id>
@@ -802,6 +836,7 @@
     
     <entry>
       <title>Shape-Changing Computers</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/posts/shape-changing-computers/"/>
       <updated>2017-11-17T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/posts/shape-changing-computers/</id>
@@ -818,6 +853,7 @@
     
     <entry>
       <title>Stay Golden</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/15-stay-golden/"/>
       <updated>2017-10-02T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/15-stay-golden/</id>
@@ -836,6 +872,7 @@
     
     <entry>
       <title>One With The Freaks</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/14-one-with-the-freaks/"/>
       <updated>2017-05-06T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/14-one-with-the-freaks/</id>
@@ -857,6 +894,7 @@
     
     <entry>
       <title>If We Can Land On The Moon, Surely I Can Win Your Heart</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/13-if-we-can-land-on-the-moon-surely-i-can-win-your-heart/"/>
       <updated>2017-02-05T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/13-if-we-can-land-on-the-moon-surely-i-can-win-your-heart/</id>
@@ -874,6 +912,7 @@
     
     <entry>
       <title>Easiness, Celebrities, and Another Round</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/12-easiness-celebrities-and-another-round/"/>
       <updated>2016-12-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/12-easiness-celebrities-and-another-round/</id>
@@ -891,6 +930,7 @@
     
     <entry>
       <title>The Library, Digression, and Items from the Future</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/11-the-library-digression-and-items-from-the-future/"/>
       <updated>2016-11-30T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/11-the-library-digression-and-items-from-the-future/</id>
@@ -910,6 +950,7 @@
     
     <entry>
       <title>Golden Clouds, Learning, and Minority Report</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/10-golden-clouds-learning-and-minority-report/"/>
       <updated>2016-10-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/10-golden-clouds-learning-and-minority-report/</id>
@@ -930,6 +971,7 @@
     
     <entry>
       <title>Sketchbooks, Cobble Stones, and Solitude</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/09-sketchbooks-cobble-stones-and-solitude/"/>
       <updated>2016-09-30T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/09-sketchbooks-cobble-stones-and-solitude/</id>
@@ -950,6 +992,7 @@
     
     <entry>
       <title>Lists, Memorials, and Relationship Luxury</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/08-lists-emorials-and-relationship-luxury/"/>
       <updated>2016-08-30T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/08-lists-emorials-and-relationship-luxury/</id>
@@ -979,6 +1022,7 @@
     
     <entry>
       <title>Pocket Monsters, mundane practices, and Microsoft Excel</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/07-pocket-monsters-mundane-practices-and-microsoft-xcel/"/>
       <updated>2016-07-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/07-pocket-monsters-mundane-practices-and-microsoft-xcel/</id>
@@ -997,6 +1041,7 @@
     
     <entry>
       <title>Wrong Turns, Echo Chambers, and Appearances</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/06-wrong-turns-echo-chambers-and-appearances/"/>
       <updated>2016-06-30T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/06-wrong-turns-echo-chambers-and-appearances/</id>
@@ -1014,6 +1059,7 @@
     
     <entry>
       <title>Designers, Friends, and Amateurs</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/05-designers-friends-and-amateurs/"/>
       <updated>2016-05-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/05-designers-friends-and-amateurs/</id>
@@ -1030,6 +1076,7 @@
     
     <entry>
       <title>Palaces, a trip to Milan, and one decade</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/04-palaces a trip to milan-and one decade/"/>
       <updated>2016-04-30T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/04-palaces a trip to milan-and one decade/</id>
@@ -1053,6 +1100,7 @@
     
     <entry>
       <title>Technological relations, the world’s oldest social housing complex, and faux marble</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/03-technological-relations-social-housing-and-faux-marble/"/>
       <updated>2016-03-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/03-technological-relations-social-housing-and-faux-marble/</id>
@@ -1070,6 +1118,7 @@
     
     <entry>
       <title>Muscle Memory, Snapchat, and Roger</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/02-muscle-memory-snapchat-and-roger/"/>
       <updated>2016-02-29T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/02-muscle-memory-snapchat-and-roger/</id>
@@ -1088,6 +1137,7 @@
     
     <entry>
       <title>Thermal underwear, 100 essays and Berlin drawings</title>
+      <subtitle></subtitle>
       <link href="https://christophrauscher.de/11ty/writing/newsletters/01-thermal-underwear-100-essays-and-berlin-drawings/"/>
       <updated>2016-01-31T00:00:00Z</updated>
       <id>https://christophrauscher.de/11ty/writing/newsletters/01-thermal-underwear-100-essays-and-berlin-drawings/</id>
