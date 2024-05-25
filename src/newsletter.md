@@ -1,4 +1,5 @@
 ---
+pageTitle: "Newsletter"
 title: "Subscribe to my newsletter!"
 layout: "layouts/base.njk"
 socialImage: "media/socialimage.png"

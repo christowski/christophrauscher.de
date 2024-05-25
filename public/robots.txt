@@ -1,3 +1,17 @@
-User-agent: *
 User-agent: AdsBot-Google
-Disallow: /
+User-agent: GPTBot
+User-agent: Google-Extended
+User-agent: CCBot
+User-agent: ClaudeBot
+Disallow: /projects/
+Disallow: /writing/
+Disallow: /drawings/
+Disallow: /newsletter/
+Disallow: /media/drawings/
+
+User-agent: *
+Allow: /
+Disallow: /imprint/
+Disallow: /colophone/
+
+Sitemap: https://www.christophrauscher.de/sitemap.xml

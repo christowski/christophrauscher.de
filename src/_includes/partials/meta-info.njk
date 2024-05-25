@@ -1,4 +1,4 @@
-{% set pageTitle = title + ' — ' + site.name %}
+{% set pageTitle = site.name + ' — ' + pageTitle %}
 
 {# We don't want any duplication. This is likely for the home page. #}
 {% if site.name === title %} 
@@ -17,7 +17,6 @@
 {% if not metaDesc %}
   {% set metaDesc = summary %}
 {% endif %}
-
 
 <title>{{ pageTitle }}</title>
 <link rel="canonical" href="{{ currentUrl }}" />
@@ -41,6 +40,8 @@
 <meta property="og:title" content="{{ pageTitle }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ currentUrl }}" />
+
+<meta name="keywords" content="christoph, rauscher, christoph rauscher, christowski, illustration, design, interface, grafik, webdesign, interaction, screen design, editorial design, digital editorial, ixd, berlin, freelance designer" />
 
 {% if socialImage %}
   <meta name="twitter:card" content="summary_large_image" />

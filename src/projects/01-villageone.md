@@ -6,7 +6,6 @@ timestamp: "2022"
 displayOrder: 1
 featured: true
 projectPage: false
-permalink: "/villageone"
 tags:
   - branding
   - art direction

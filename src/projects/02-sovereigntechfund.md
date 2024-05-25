@@ -6,7 +6,6 @@ timestamp: "2023"
 displayOrder: 2
 featured: true
 projectPage: false
-permalink: ""
 tags:
   - branding
   - web design

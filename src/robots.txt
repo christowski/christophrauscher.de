@@ -7,5 +7,11 @@ Disallow: /projects/
 Disallow: /writing/
 Disallow: /drawings/
 Disallow: /newsletter/
+Disallow: /media/drawings/
 
-https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt?hl=de
+User-agent: *
+Allow: /
+Disallow: /imprint/
+Disallow: /colophone/
+
+Sitemap: https://www.christophrauscher.de/sitemap.xml

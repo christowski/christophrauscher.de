@@ -1,9 +1,9 @@
 ---
-title: "Hello world!"
+title: "Design"
 layout: "layouts/base.njk"
 class: "body--home"
 templateEngineOverride: njk,md
-metaDesc: "The personal website of designer, writer and illustrator Christoph Rauscher"
+metaDesc: "Christoph Rauscher is a freelance designer, illustrator, writer and visual thinker from Berlin, Germany."
 socialImage: "media/socialimage.png"
 ---
 

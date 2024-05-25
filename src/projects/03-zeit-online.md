@@ -5,7 +5,6 @@ intro: "For the past years, I’ve been responsible for the design of Zeit Onlin
 timestamp: "2015 – 2020"
 displayOrder: 3
 featured: true
-permalink: ""
 tags:
   - art direction
   - web design
