@@ -35,11 +35,6 @@
 <link rel="mask-icon" href="/media/safari-pinned-tab-icon.png" color="#AF5F00">
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="og:image" content="/media/socialimage.jpg" />
-<meta name="twitter:image" content="/media/socialimage.jpg" />
-<meta property="og:image:alt" content="Image for {{ site.name }}" />
-<meta name="twitter:image:alt" content="Image for {{ site.name }}" />
-
 <meta property="og:site_name" content="{{ siteTitle }}" />
 <meta property="og:title" content="{{ pageTitle }}" />
 <meta property="og:type" content="website" />
@@ -51,6 +46,11 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:image" content="{{ socialImage }}" />
   <meta name="twitter:image" content="{{ socialImage }}" />
+  <meta property="og:image:alt" content="Image for {{ site.name }}" />
+  <meta name="twitter:image:alt" content="Image for {{ site.name }}" />
+  {% else %}
+  <meta property="og:image" content="/media/socialimage.png" />
+  <meta name="twitter:image" content="/media/socialimage.png" />
   <meta property="og:image:alt" content="Image for {{ site.name }}" />
   <meta name="twitter:image:alt" content="Image for {{ site.name }}" />
 {% endif %}
