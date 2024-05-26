@@ -1,6 +1,6 @@
 # christophrauscher.de
 
-_My personal website_
+✨ My personal website ✨ 
 
 To install, run:
 
