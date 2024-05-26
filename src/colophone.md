@@ -7,9 +7,9 @@ layout: "layouts/textpage.njk"
 
 Welcome to my personal _and_ professional website! I use this site for three things: First off, it’s a place to communicate what I do and what I work on. This is a somewhat professional environment, not my diary. However, I try to keep it personal. This website is meant to be read and viewed by humans, not machines.
 
-Another goal with this website is to try and learn things. I am a designer, not a developer, but I like to try stuff and build it myself, rather than use an out-of-the-box solution (which would have been perfectly fine and sufficient, too).
+Another goal with this website is to experiment and learn things. I am a designer, not a developer, but I like to try stuff and build it myself, rather than use an out-of-the-box solution (which would have been perfectly fine and sufficient, too).
 
-And finally, this page exists as I like to keep an independent archive of things—like my drawings, my writing and projects. This place is a start.
+And finally, this page exists as I like to keep an independent archive of things—like my drawings, my writing and design projects. This place is a start.
 
 ---
 
@@ -19,7 +19,7 @@ This website is built with <a href="https://www.11ty.dev/" target="_blank">eleve
 
 The site currently lacks a dark mode, which I didn’t get around implementing by now. The biggest problem at the moment are responsive images, which are _non-existant_—I’m sorry for that.
 
-Typefaces: <a href="https://www.renebieder.com/fonts/neue-faktum" target="_blank">Faktum</a> by René Bieder and <a href="https://www.grillitype.com/typeface/gt-alpina" target="_blank">Alpina</a> by Grilli Type. Portrait picture: <a href="https://normanposselt.com/" target="_blank">Norman Posselt</a>.
+Typefaces: <a href="https://www.renebieder.com/fonts/neue-faktum" target="_blank">Faktum</a> by René Bieder and <a href="https://www.grillitype.com/typeface/gt-alpina" target="_blank">GT Alpina</a> by Grilli Type. Portrait picture: <a href="https://normanposselt.com/" target="_blank">Norman Posselt</a>. The headline on the <a href="/writing">writing page</a> is from Sam Phillip’s song <em>If I Could Write</em>. 
 
 --- 
 

@@ -1,7 +1,7 @@
 ---
 title: "Shape-Changing Computers"
 date: "2017-11-17"
-abstract: "An essay on the history of invisible computerd"
+abstract: "An essay on the history of invisible computers"
 image: "/media/postimg/invisible-machines.jpg"
 imageAlt: "Invisible Machines"
 caption: ""
