@@ -32,6 +32,7 @@ socialImage: "/media/socialimage-writingisdesign-workshop.jpg"
 
 <div class="content-container">
   <div class="content container--narrow">
+    <p>Since 2020, my friend and partner-in-crime <a href="https://txet.de/" target="_blank">Sonja Knecht</a> and I have been teaching a 1-week summer course at University of the Arts Berlin.</p>
     <p>In our workshop, we bridge the borders between creative and applied writing—and combine them. We share methods, tools and techniques. We practice freewriting and professional writing. Participants learn how to condense and transmit their thoughts via words.</p>
     <p>Learn about writing as a tool. Make words work for you! Creative use of language provides you with manifold possibilities in your private and professional communication.</p>
     <p>Writing is design if you know the how-to. Get to know your potential in dealing with words (this seems to be a field of insecurity for many visual designers). We’ll share techniques that will make it easy for you to get started. Fun little exercises, both orally and in writing, are our preferred method. Learn how to condense your thoughts via words. Learn to grasp your ideas and observations by describing them to an audience. Learn how to speak about yourself and the offer you make for professional markets.</p>

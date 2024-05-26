@@ -28,6 +28,5 @@ Typefaces: <a href="https://www.renebieder.com/fonts/neue-faktum" target="_blank
 Currently, the site offers only one RSS feed for posts (blog posts aswell as the english newsletter). You can get it here:
 
 - [RSS Feed]({{ site.url }}/feed.xml) (Posts and newsletters)
-- [Newsletter feed]({{ site.url }}/feed.xml) (via ButtonDown)
 
 I also write a German blog ([Christowski Blog](https://christowski.de)) which is more personal and usually disconneced from my work stuff. You can visit it here, and subscribe to the [RSS feed](https://christowski.de/blog/feed/) (it’s a separate one!).
