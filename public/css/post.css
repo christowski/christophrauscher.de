@@ -12,25 +12,25 @@
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
@@ -82,6 +82,7 @@ body.body--post .post-container .content .content-head h1, body.body--post .post
   font-size: 2rem;
   line-height: 1.2;
   font-family: "GTAlpina-Light", Georgia, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
 }
 @media (min-width: 769px) {
   body.body--post .post-container .content .content-head h1, body.body--post .post-container .content .content-head p {
@@ -90,6 +91,7 @@ body.body--post .post-container .content .content-head h1, body.body--post .post
 }
 body.body--post .post-container .content p, body.body--post .post-container .content li {
   font-family: "GTAlpina-Regular", Georgia, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
 }
 body.body--post .post-container .content h1 {
   margin-bottom: 0;
@@ -186,6 +188,7 @@ body.body--post .post-container .content img {
 }
 .post-teaser .post-teaser--data .post-teaser--title p {
   font-family: "GTAlpina-Regular", Georgia, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
   color: #948F89;
 }
 .post-teaser .post-teaser--data .post-teaser--title h2 {

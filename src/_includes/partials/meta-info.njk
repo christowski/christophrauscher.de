@@ -15,8 +15,12 @@
 {% endif %}
 
 {% if not metaDesc %}
-  {% set metaDesc = summary %}
+  {% set metaDesc = description %}
 {% endif %}
+
+{% if not description %}
+  {% set description = summary %}
+{% endif %} 
 
 <title>{{ pageTitle }}</title>
 <link rel="canonical" href="{{ currentUrl }}" />

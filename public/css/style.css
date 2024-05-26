@@ -67,25 +67,25 @@ table {
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
@@ -103,25 +103,25 @@ table {
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
@@ -157,25 +157,25 @@ body.body--project .project-imagery img {
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
@@ -227,6 +227,7 @@ body.body--post .post-container .content .content-head h1, body.body--post .post
   font-size: 2rem;
   line-height: 1.2;
   font-family: "GTAlpina-Light", Georgia, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
 }
 @media (min-width: 769px) {
   body.body--post .post-container .content .content-head h1, body.body--post .post-container .content .content-head p {
@@ -235,6 +236,7 @@ body.body--post .post-container .content .content-head h1, body.body--post .post
 }
 body.body--post .post-container .content p, body.body--post .post-container .content li {
   font-family: "GTAlpina-Regular", Georgia, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
 }
 body.body--post .post-container .content h1 {
   margin-bottom: 0;
@@ -331,6 +333,7 @@ body.body--post .post-container .content img {
 }
 .post-teaser .post-teaser--data .post-teaser--title p {
   font-family: "GTAlpina-Regular", Georgia, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
   color: #948F89;
 }
 .post-teaser .post-teaser--data .post-teaser--title h2 {
@@ -403,25 +406,25 @@ section.dark .post-teaser .post-teaser--date {
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
@@ -476,25 +479,25 @@ figure img {
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
@@ -660,25 +663,25 @@ section {
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Light";
-  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "GTAlpina-Regular";
-  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
@@ -686,6 +689,7 @@ h1 {
   line-height: 1.2;
   font-size: 2rem;
   font-family: "GTAlpina-Light", Georgia, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
 }
 @media (min-width: 769px) {
   h1 {
@@ -696,6 +700,7 @@ h1 {
 h2 {
   font-size: 1.75rem;
   font-family: "GTAlpina-Light", Georgia, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
 }
 @media (min-width: 769px) {
   h2 {
@@ -989,6 +994,7 @@ main {
   font-size: 2.25rem;
   line-height: 1.2;
   font-family: "GTAlpina-Light", Georgia, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
 }
 .pageheader p {
   color: #948F89;
@@ -1403,6 +1409,7 @@ footer a:hover, footer a:visited:hover {
   color: #EEE9E6;
   font-size: clamp(1.75rem, 3vw, 2.9rem);
   font-family: "GTAlpina-Light", Georgia, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
   line-height: 1.2;
   margin-bottom: 2rem;
 }
@@ -1571,6 +1578,7 @@ section.writing .section-header {
   line-height: 1.4;
   margin-bottom: 1.5rem;
   font-family: "GTAlpina-Light", Georgia, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
 }
 @media (min-width: 769px) {
   .writing-card--summary p {
@@ -1785,6 +1793,7 @@ section.writing .section-header {
 }
 .newsletter-teaser .newsletter-teaser--data .newsletter-teaser--title h2, .newsletter-teaser .newsletter-teaser--data .newsletter-teaser--title h3 {
   font-family: "GTAlpina-Regular", Georgia, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
   font-size: 1.5rem;
   font-weight: normal;
   line-height: 1.2;

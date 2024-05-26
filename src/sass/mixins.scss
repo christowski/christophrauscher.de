@@ -73,6 +73,15 @@
   }
 }
 
+@mixin font-serif {
+  font-family: $serifstack;
+  font-variant-numeric: oldstyle-nums;
+}
+@mixin font-serif--head {
+  font-family: $serifstack-head;
+  font-variant-numeric: oldstyle-nums;
+}
+
 // round corners
 @mixin round-corners-s { border-radius: 4px; }
 @mixin round-corners-m { border-radius: 8px; }

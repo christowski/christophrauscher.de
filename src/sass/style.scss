@@ -149,7 +149,7 @@ main {
   h1, p {
     font-size: 2.25rem;
     @include lh-head;
-    font-family: $serifstack-head;
+    @include font-serif--head;
   }
   p { color: $concrete; }
 
@@ -502,7 +502,7 @@ footer {
     p {
       color: $warmgrey;
       font-size: clamp(1.75rem, 3vw, 2.9rem);
-      font-family: $serifstack-head;
+      @include font-serif--head;
       @include lh-head;
       margin-bottom: 2rem;
     }
@@ -661,7 +661,7 @@ section.writing {
     font-size: clamp(1.5rem, 2vw, 2.75rem);
     line-height: 1.4;
     margin-bottom: 1.5rem;
-    font-family: $serifstack-head;
+    @include font-serif--head;
     @media (min-width: $breakpoint-m-769) {
       font-size: 2rem;
     }
@@ -838,7 +838,7 @@ section.writing {
       flex-grow: 1;
       gap: 0.5rem;
       h2, h3 {
-        font-family: $serifstack;
+        @include font-serif;
         font-size: 1.5rem;
         font-weight: normal;
         @include lh-head;

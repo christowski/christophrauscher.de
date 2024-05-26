@@ -51,11 +51,11 @@ body.body--post {
         h1, p {
           @include head-xxl;
           @include lh-head;
-          font-family: $serifstack-head;
+          @include font-serif--head;
         }
       }
 
-      p, li { font-family: $serifstack; }
+      p, li { @include font-serif; }
       h1 { margin-bottom: 0; }
       img { width: 100%; }
     }
@@ -136,7 +136,7 @@ section.recent-posts {
         margin-bottom: 0.25rem;
       }
       p {
-        font-family: $serifstack;
+        @include font-serif;
         color: $concrete;
         // font-size: 1rem;
       }
