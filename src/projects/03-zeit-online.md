@@ -9,17 +9,9 @@ tags:
   - art direction
   - web design
   - editorial design
-featureImg:
-  image: "/media/projectimg/zeitonline-teaser-1x1.jpg"
-  # image: "/media/projectimg/zeitonline-teaser-3x4-featured.jpg"
-  imageAlt: "Zeit Online – Website design"
 hero:
   image: "/media/projectimg/zeitonline-teaser-1x1.jpg"
+  image2x: "/media/projectimg/zeitonline-teaser-1x1@2x.jpg"
   imageAlt: "Zeit Online – Website design"
-images:
-  image1: "/media/image-4x3.png"
-  image1Alt: "AltText"
-  image2: "/media/image-4x3.png"
-  image2Alt: "AltText"
 ---
 

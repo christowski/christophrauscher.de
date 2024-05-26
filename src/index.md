@@ -41,12 +41,16 @@ socialImage: "media/socialimage.png"
       <li class="project-grid--tile">
         {%- if (item.data.projectPage) -%}
           <a href="{{ item.data.permalink }}{{ item.url }}">
-            <img src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" />
+            <img src="{{ item.data.hero.image }}" 
+              srcset="{{ item.data.hero.image }} 1x, {{ item.data.hero.image2x }} 2x"
+              alt="{{ item.data.hero.imageAlt }}" />
             <h3>{{ item.data.title }}</h3>
             <p>{{ item.data.description }}</p>
           </a>
         {%- else -%}
-          <img src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" />
+          <img src="{{ item.data.hero.image }}" 
+            srcset="{{ item.data.hero.image }} 1x, {{ item.data.hero.image2x }} 2x"
+            alt="{{ item.data.hero.imageAlt }}" />
           <h3>{{ item.data.title }}</h3>
           <p>{{ item.data.description }}</p>
         {%- endif -%}
