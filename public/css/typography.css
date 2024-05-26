@@ -35,18 +35,6 @@
   font-weight: 200;
   font-style: italic;
 }
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
-  font-weight: 200;
-  font-style: oblique;
-}
 h1 {
   line-height: 1.2;
   font-size: 2rem;

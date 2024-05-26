@@ -90,18 +90,6 @@ table {
   font-style: italic;
 }
 @font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
-  font-weight: 200;
-  font-style: oblique;
-}
-@font-face {
   font-family: "Faktum";
   src: url("/media/fonts/Faktum-ConRegular/font.woff2") format("woff2"), url("../media/fonts/Faktum-ConRegular/font.woff") format("woff");
   font-weight: normal;
@@ -136,18 +124,6 @@ table {
   src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
   font-weight: 200;
   font-style: italic;
-}
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
-  font-weight: 200;
-  font-style: oblique;
 }
 body.body--project figure.hero {
   width: 100%;
@@ -202,18 +178,6 @@ body.body--project .project-imagery img {
   src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
   font-weight: 200;
   font-style: italic;
-}
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
-  font-weight: 200;
-  font-style: oblique;
 }
 body.body--post main {
   margin-left: 1rem;
@@ -461,18 +425,6 @@ section.dark .post-teaser .post-teaser--date {
   font-weight: 200;
   font-style: italic;
 }
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
-  font-weight: 200;
-  font-style: oblique;
-}
 @media (min-width: 769px) and (max-width: 1024px) {
   body.body--home .drawings-grid figure:last-of-type {
     display: none;
@@ -545,18 +497,6 @@ figure img {
   src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
   font-weight: 200;
   font-style: italic;
-}
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
-  font-weight: 200;
-  font-style: oblique;
 }
 section.white {
   background-color: white;
@@ -741,18 +681,6 @@ section {
   src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic-Trial.woff2") format("woff2");
   font-weight: 200;
   font-style: italic;
-}
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Signifier";
-  src: url("/media/fonts/test-signifier-light-italic.woff") format("woff");
-  font-weight: 200;
-  font-style: oblique;
 }
 h1 {
   line-height: 1.2;
