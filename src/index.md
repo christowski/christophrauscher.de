@@ -1,4 +1,5 @@
 ---
+pageTitle: "Design"
 title: "Design"
 layout: "layouts/base.njk"
 class: "body--home"
