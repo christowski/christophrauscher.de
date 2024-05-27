@@ -1,5 +1,4 @@
 ---
-pageTitle: "Drawings"
 title: "Drawings"
 description: "Goings on in the sketchbook"
 layout: "layouts/drawings.njk"

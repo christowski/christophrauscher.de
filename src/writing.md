@@ -1,5 +1,4 @@
 ---
-pageTitle: "Writing"
 title: "If I could write"
 description: "I’d set all the words free"
 layout: "layouts/collection.njk"

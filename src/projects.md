@@ -1,5 +1,4 @@
 ---
-pageTitle: "Projects"
 title: "My design work"
 description: "From making books to building websites"
 layout: "layouts/collection.njk"
