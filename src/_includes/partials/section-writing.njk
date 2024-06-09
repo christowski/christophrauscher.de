@@ -17,7 +17,7 @@
         </div>
       </div>
       <ul class="post-list">
-        {% for post in collections.posts | limit(3) | reverse %}
+        {% for post in collections.posts | limit(3) %}
           <li class="post-teaser">
             <a class="post-teaser--link" href="{{ post.url }}">
               <img class="post-teaser--thumb" src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
