@@ -1,41 +1,41 @@
 User-agent: AdsBot-Google
-Disallow: /projects/
-Disallow: /writing/
-Disallow: /drawings/
-Disallow: /newsletter/
-Disallow: /media/drawings/
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media/drawings
 
 User-agent: GPTBot
-Disallow: /projects/
-Disallow: /writing/
-Disallow: /drawings/
-Disallow: /newsletter/
-Disallow: /media/drawings/
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media/drawings
 
 User-agent: Google-Extended
-Disallow: /projects/
-Disallow: /writing/
-Disallow: /drawings/
-Disallow: /newsletter/
-Disallow: /media/drawings/
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media/drawings
 
 User-agent: CCBot
-Disallow: /projects/
-Disallow: /writing/
-Disallow: /drawings/
-Disallow: /newsletter/
-Disallow: /media/drawings/
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media/drawings
 
 User-agent: ClaudeBot
-Disallow: /projects/
-Disallow: /writing/
-Disallow: /drawings/
-Disallow: /newsletter/
-Disallow: /media/drawings/
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media/drawings
 
 User-agent: *
 Allow: /
-Disallow: /imprint/
-Disallow: /colophone/
+Disallow: /imprint
+Disallow: /colophone
 
 Sitemap: https://www.christophrauscher.de/sitemap.xml
