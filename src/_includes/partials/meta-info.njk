@@ -42,6 +42,10 @@
 
 <meta name="keywords" content="christoph, rauscher, christoph rauscher, christowski, illustration, design, interface, grafik, webdesign, interaction, screen design, editorial design, digital editorial, ixd, berlin, freelance designer" />
 
+{% if image %}
+  {% set image = socialImage %}
+{% endif %}
+
 {% if socialImage %}
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:image" content="{{ socialImage }}" />
