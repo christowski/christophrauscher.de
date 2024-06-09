@@ -33,6 +33,55 @@ Disallow: /drawings
 Disallow: /newsletter
 Disallow: /media/drawings
 
+User-agent: Omgilibot
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media/drawings
+
+User-agent: Omgili
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media/drawings
+
+User-agent: ChatGPT-User
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media/drawings
+
+User-agent: Diffbot
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media/drawings
+
+User-agent: Bytespider
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media/drawings
+
+User-agent: ImagesiftBot 
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media/drawings
+
+User-agent: cohere-ai
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media/drawings
+
 User-agent: *
 Allow: /
 Disallow: /imprint
