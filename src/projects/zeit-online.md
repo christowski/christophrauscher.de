@@ -3,7 +3,7 @@ title: "Zeit Online Design"
 description: "For the past years, I’ve been responsible for the design of Zeit Online, Germany’s renowned news site."
 intro: "For the past years, I’ve been responsible for the design of Zeit Online, Germany’s renowned news site."
 timestamp: "2015 – 2020"
-displayOrder: 3
+displayOrder: 1
 featured: true
 tags:
   - art direction
