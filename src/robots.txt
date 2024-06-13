@@ -82,6 +82,13 @@ Disallow: /drawings
 Disallow: /newsletter
 Disallow: /media
 
+User-agent: Applebot
+Disallow: /projects
+Disallow: /writing
+Disallow: /drawings
+Disallow: /newsletter
+Disallow: /media
+
 User-agent: *
 Allow: /
 Disallow: /imprint
