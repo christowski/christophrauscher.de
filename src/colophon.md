@@ -13,7 +13,7 @@ And finally, this page exists as I like to keep an independent archive of things
 
 ---
 
-## Colophone
+## Colophon
 
 This website is built with <a href="https://www.11ty.dev/" target="_blank">eleventy</a>, a static site generator. Thanks to <a href="https://robinrendle.com/" target="_blank">Robin Rendle</a> and others for publishing their websites on GitHub so I can peek into their code base. Accessbility-wise, I try to maintain AA color contrast levels for text, use image descriptions and keep a semantic site structure. This website is far from perfect, but aren’t we all, and I’m working on it.
 

@@ -92,6 +92,6 @@ Disallow: /media
 User-agent: *
 Allow: /
 Disallow: /imprint
-Disallow: /colophone
+Disallow: /colophon
 
 Sitemap: https://www.christophrauscher.de/sitemap.xml
