@@ -15,9 +15,10 @@ socialImage: "/media/socialimage-writingisdesign-workshop.jpg"
 
 <div class="content-container">
   <div class="content container--narrow">
-    <h2>Upcoming workshop<h2>
-    <p>The next workshop will take place from July 22—26, 2024. I‘d love to see you there—join us for a week of exploring writing as a design tool!</p>
-    <a class="button" href="https://summer-university.udk-berlin.de/?id=565">Sign up here</a>
+    <h2>Workshop 2025<h2>
+    <p>The 2024 workshop just passed—thanks for another great year! The next workshop week will most likely be in July or August 2025. Sign up to my newsletter to stay in the loop and get notified.</p>
+    <!-- <p>The next workshop will take place from XYZ, 2025. I‘d love to see you there—join us for a week of exploring writing as a design tool!</p> -->
+    <a class="button" href="/newsletter">Newsletter Sign-up</a>
   </div>
 </div>
 
@@ -63,6 +64,6 @@ socialImage: "/media/socialimage-writingisdesign-workshop.jpg"
     <p>Yes yes yes!</p>
     <blockquote><p>“Thank you for letting us discover the power of words!”</p></blockquote>
     <hr>
-    <a class="button" href="https://summer-university.udk-berlin.de/?id=565">Sign up for this year’s class</a>
+    <!-- <a class="button" href="https://summer-university.udk-berlin.de/?id=565">Sign up for this year’s class</a> -->
   </div>
 </div>
