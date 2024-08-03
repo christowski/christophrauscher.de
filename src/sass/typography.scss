@@ -53,6 +53,7 @@ em {
 
   p, ul, ol, li {
     font-size: 1.125rem;
+    hyphens: auto;
     @include sansstack;
     margin-bottom: 0.75rem;
     @media (min-width: $breakpoint-m-769) {

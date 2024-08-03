@@ -754,6 +754,7 @@ em {
 }
 .content p, .content ul, .content ol, .content li {
   font-size: 1.125rem;
+  hyphens: auto;
   font-family: "Faktum", Helvetica, Arial, sansserif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
