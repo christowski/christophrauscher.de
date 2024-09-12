@@ -7,6 +7,10 @@ socialImage: "/media/socialimage-sketchbook.jpg"
 ---
 
 <figure>
+  <img src="/media/drawings/Bastian-Peter-1200.jpg" alt="ink drawing of a young man reading the newspaper">
+</figure>
+
+<figure>
   <img src="../media/drawings/akropolis-800.jpg" alt="Drawing: Akropolis and a foot">
 </figure>
 
