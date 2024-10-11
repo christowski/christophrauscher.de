@@ -80,6 +80,16 @@ hr {
   }
 }
 
+a.backtotop {
+  color: white !important;
+  text-decoration: none;
+  position: fixed;
+  border-radius: 1rem;
+  right: 1rem; bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba($charcoal, 0.7);
+}
+
 // ------------ Layout ------------
 
 main {

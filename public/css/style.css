@@ -912,6 +912,17 @@ hr {
   }
 }
 
+a.backtotop {
+  color: white !important;
+  text-decoration: none;
+  position: fixed;
+  border-radius: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(20, 13, 5, 0.7);
+}
+
 main {
   animation: movein 800ms;
 }
@@ -1540,7 +1551,7 @@ footer a:hover, footer a:visited:hover {
   filter: brightness(0.9);
 }
 .project-grid--tile p {
-  color: #777370;
+  color: #635E5B;
   max-width: 90%;
 }
 @media (max-width: 420px) {
