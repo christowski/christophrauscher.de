@@ -24,7 +24,8 @@ body.body--home {
   padding: 0 1.5rem 3rem;
 
   @media (min-width: $breakpoint-s-420) {
-    grid-gap: 1rem;
+    grid-gap: 3rem;
+    padding: 0 2rem 2rem;
   }
   @media (min-width: $breakpoint-m-769) {
     grid-template-columns: repeat(3, 1fr);

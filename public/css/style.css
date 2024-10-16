@@ -125,12 +125,15 @@ table {
   font-weight: 200;
   font-style: italic;
 }
+body.body--project figure, body.body--project figure img, body.body--project .content img {
+  width: 100%;
+}
 body.body--project figure.hero {
   width: 100%;
 }
 body.body--project figure.hero img {
   width: 100%;
-  margin: 2.5rem 0 1.5rem;
+  margin: 0;
 }
 body.body--project figure.hero figcaption {
   color: #948F89;
@@ -195,6 +198,7 @@ body.body--post .wrapper {
   background-color: #EEE9E6;
 }
 body.body--post .post-container {
+  flex-direction: column-reverse;
   margin: 1rem auto 3rem;
   padding: 2rem 1rem 3rem 1rem;
   background-color: white;
@@ -443,7 +447,8 @@ section.dark .post-teaser .post-teaser--date {
 }
 @media (min-width: 420px) {
   .drawings-grid {
-    grid-gap: 1rem;
+    grid-gap: 3rem;
+    padding: 0 2rem 2rem;
   }
 }
 @media (min-width: 769px) {
@@ -900,6 +905,10 @@ p:empty {
   }
 }
 
+.spacer-b--none {
+  margin-bottom: 0;
+}
+
 hr {
   border: none;
   height: 10px;
@@ -953,7 +962,7 @@ main {
   margin: 2rem auto 4rem auto;
   padding: 0 1rem;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: stretch;
   gap: 2rem;
@@ -1233,7 +1242,7 @@ nav.nav--primary {
   font-size: 1.125rem;
   border-bottom: none;
 }
-@media (min-width: 420px) {
+@media (min-width: 769px) {
   nav.nav--primary {
     border-bottom: 1px solid #CBC8C6;
   }
@@ -1257,13 +1266,6 @@ nav.nav--primary .cr-logo a {
 nav.nav--primary .cr-logo a img {
   width: 1.5rem;
   height: 1.5rem;
-}
-@media (min-width: 420px) {
-  nav.nav--primary .cr-logo a {
-    flex-direction: row;
-    justify-content: start;
-    gap: 0.5rem;
-  }
 }
 @media (min-width: 769px) {
   nav.nav--primary .cr-logo {

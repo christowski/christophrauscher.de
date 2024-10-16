@@ -50,6 +50,7 @@ body.body--post .wrapper {
   background-color: #EEE9E6;
 }
 body.body--post .post-container {
+  flex-direction: column-reverse;
   margin: 1rem auto 3rem;
   padding: 2rem 1rem 3rem 1rem;
   background-color: white;

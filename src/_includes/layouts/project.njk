@@ -8,33 +8,8 @@
       <p>{{ description }}</p>
     </div>
 
-    <figure class="hero">
-      <img src="{{ hero.image }}" alt="{{ hero.imageAlt }}" />
-    </figure>
+    {{ content | safe }}
 
-    <div class="content-container container--normal">
-      <aside>
-        <time>{{ timestamp }}</time>
-      </aside>
-      
-      <div class="content">
-        <p>{{ intro }}</p>
-
-        {{ content | safe }}
-
-      </div>
-    </div>
-
-    <div class="project-imagery layout-grid--duo">
-      <figure>
-        <img src="{{ images.image1 }}" alt="{{ images.image1Alt }}" />
-        <figcaption>{{ images.image1caption }}</figcaption>
-      </figure>
-      <figure>
-        <img src="{{ images.image2 }}" alt="{{ images.image3Alt }}" />
-        <figcaption>{{ images.image2caption }}</figcaption>
-      </figure>
-    </div>
   </article>
   
 {% endblock %}

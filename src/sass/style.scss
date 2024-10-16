@@ -70,6 +70,10 @@ p:empty {
   }
 }
 
+.spacer-b--none {
+  margin-bottom: 0;
+}
+
 hr {
   border: none;
   height: 10px;
@@ -117,7 +121,7 @@ main {
   margin: 2rem auto 4rem auto;
   padding: 0 1rem;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;  // horizontal center alignment of elements within
   align-items: stretch; // vertical stretch of elements within
   gap: 2rem; // gap between flex elements
@@ -337,7 +341,7 @@ nav.nav--primary {
   vertical-align: middle;
   font-size: 1.125rem;
   border-bottom: none;
-  @media (min-width: $breakpoint-s-420) {
+  @media (min-width: $breakpoint-m-769) {
     border-bottom: 1px solid $midgrey;
   }
   @media (min-width: $breakpoint-m-769) {
@@ -356,13 +360,6 @@ nav.nav--primary {
       img {
         width: 1.5rem;
         height: 1.5rem;
-      }
-    }
-    @media (min-width: $breakpoint-s-420) {
-      a {
-        flex-direction: row;
-        justify-content: start;
-        gap: 0.5rem;
       }
     }
     @media (min-width: $breakpoint-m-769) {
@@ -570,7 +567,6 @@ footer {
     }
   }
 }
-
 
 .section-header {
   display: flex;

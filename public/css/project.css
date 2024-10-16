@@ -34,12 +34,15 @@
   font-weight: 200;
   font-style: italic;
 }
+body.body--project figure, body.body--project figure img, body.body--project .content img {
+  width: 100%;
+}
 body.body--project figure.hero {
   width: 100%;
 }
 body.body--project figure.hero img {
   width: 100%;
-  margin: 2.5rem 0 1.5rem;
+  margin: 0;
 }
 body.body--project figure.hero figcaption {
   color: #948F89;
