@@ -5,6 +5,7 @@ intro: "The weekly column with recipies from the printed ZEITmagazin is known an
 timestamp: "2019"
 displayOrder: 6
 featured: false
+url: "https://www.zeit.de/zeit-magazin/wochenmarkt/index"
 tags:
   - art direction
   - web design

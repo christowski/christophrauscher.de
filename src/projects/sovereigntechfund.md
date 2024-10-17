@@ -6,6 +6,7 @@ timestamp: "2023"
 displayOrder: 4
 featured: true
 projectPage: false
+url: "https://www.sovereigntechfund.de"
 tags:
   - branding
   - web design

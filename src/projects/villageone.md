@@ -6,6 +6,7 @@ timestamp: "2022"
 displayOrder: 3
 featured: true
 projectPage: false
+url: "https://village.one"
 tags:
   - branding
   - art direction

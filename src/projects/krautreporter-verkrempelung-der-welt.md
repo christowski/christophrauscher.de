@@ -6,6 +6,7 @@ timestamp: "2024"
 displayOrder: 2
 featured: false
 projectPage: false
+url: "https://krautreporter.de/serien/462-verkrempelung_welt"
 tags:
   - illustration
 hero:

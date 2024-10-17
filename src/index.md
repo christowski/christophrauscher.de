@@ -39,8 +39,8 @@ socialImage: "media/socialimage.png"
   <ul class="layout-grid--duo project-grid"> 
     {%- for item in collections.featuredProjects | limit(4) -%}
       <li class="project-grid--tile">
-        {%- if (item.data.projectPage) -%}
-          <a href="{{ item.data.permalink }}{{ item.url }}">
+        {%- if (item.data.url) -%}
+          <a href="{{ item.data.url }}" target="_blank">
             <img src="{{ item.data.hero.image }}" 
               srcset="{{ item.data.hero.image }} 1x, {{ item.data.hero.image2x }} 2x"
               alt="{{ item.data.hero.imageAlt }}" />

@@ -5,6 +5,7 @@ intro: "Why are things called they way they’re called? I illustrated Gabriel Y
 timestamp: "2021"
 displayOrder: 5
 featured: true
+url: "https://frohmannverlag.de/products/warum-heisst-es"
 tags:
   - books
   - illustration

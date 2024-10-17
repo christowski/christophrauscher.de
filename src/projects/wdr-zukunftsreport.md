@@ -5,6 +5,7 @@ intro: "I designed the future report on Synthetic Media for the WDR innovation h
 timestamp: "2021"
 displayOrder: 11
 featured: false
+url: "https://zukunft.wdr.de"
 tags:
   - art direction
   - editorial design
