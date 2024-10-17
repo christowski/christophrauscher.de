@@ -1268,6 +1268,16 @@ nav.nav--primary .cr-logo a img {
   height: 1.5rem;
 }
 @media (min-width: 769px) {
+  nav.nav--primary .cr-logo a img {
+    margin-right: 0.5rem;
+  }
+}
+@media (min-width: 769px) {
+  nav.nav--primary .cr-logo a {
+    flex-direction: row;
+  }
+}
+@media (min-width: 769px) {
   nav.nav--primary .cr-logo {
     margin-bottom: 0;
   }

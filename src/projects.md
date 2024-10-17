@@ -4,8 +4,7 @@ description: "From making books to building websites"
 layout: "layouts/collection.njk"
 ---
 
-<section>
-
+<!-- <section>
   <div class="section-header">
     <h2 class="header--title">Case Studies</h2>
   </div>
@@ -33,10 +32,10 @@ layout: "layouts/collection.njk"
   </ul>
 </section>
 
-<hr>
+<hr> -->
 
 <section>
-  <ul class="layout-grid--trio spacer-b--m">
+  <ul class="layout-grid--duo spacer-b--m">
     {% include "partials/list-projects.njk" %}
   </ul>
 </section>

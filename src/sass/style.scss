@@ -360,6 +360,12 @@ nav.nav--primary {
       img {
         width: 1.5rem;
         height: 1.5rem;
+        @media (min-width: $breakpoint-m-769) {
+          margin-right: 0.5rem;
+        }
+      }
+      @media (min-width: $breakpoint-m-769) {
+        flex-direction: row;
       }
     }
     @media (min-width: $breakpoint-m-769) {

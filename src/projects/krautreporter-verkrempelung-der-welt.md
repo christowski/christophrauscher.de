@@ -3,7 +3,7 @@ title: "Die Verkrempelung der Welt"
 description: "I am illustrating Gabriel Yoran’s Krautreporter column on the question why products get worse and worse, while they actually could get better."
 intro: "I am illustrating Gabriel Yoran’s Krautreporter column on the question why products get worse and worse, while they actually could get better."
 timestamp: "2024"
-displayOrder: 0
+displayOrder: 2
 featured: false
 projectPage: false
 tags:
