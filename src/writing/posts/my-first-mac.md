@@ -9,6 +9,10 @@ tags:
   - note
 ---
 
+<figure>
+  <img src="{{ image }}" alt=" {{ imageAlt }}">
+</figure>
+
 The Mac turns 40! And as [Marcel](https://marcel.io/posts/my-first-mac) and other people on [Mastodon](https://mastodon.social/tags/MyFirstMac) are sharing their first Macs, I’m going to do that too. It really was a turning point for me.
 
 I remember lurking around the iPod at Hertie (a big shopping center in Munich). Back in 2004, it wasn’t common in Germany to find Apple products in regular stores. I was thirteen years old, and started to get interested in design and tech, and as Marcel writes, there seemed no way around Apple products.

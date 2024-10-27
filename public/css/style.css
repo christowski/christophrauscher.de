@@ -209,6 +209,7 @@ body.body--post .post-container {
 }
 @media (min-width: 1024px) {
   body.body--post .post-container {
+    flex-direction: row;
     background-size: 2rem;
     margin: 4.5rem auto 2rem;
     transform: translateY(-2rem);

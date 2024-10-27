@@ -28,6 +28,7 @@ body.body--post {
     background-position: top right;
     background-repeat: no-repeat;
     @media (min-width: $breakpoint-l-1024) {
+      flex-direction: row;
       background-size: 2rem;
       margin: 4.5rem auto 2rem;
       transform: translateY(-2rem);

@@ -8,6 +8,10 @@ caption: ""
 tags: note
 ---
 
+<figure>
+  <img src="{{ image }}" alt=" {{ imageAlt }}">
+</figure>
+
 William Zinsser said something I often think about when writing: “I don’t like to write, I like to have written.” Admittedly I don‘t fully agree—sometimes, writing can be a cleansing and joyful process. But yes, it’s true, sometimes it’s hard. It’s hard to get started, it’s hard to stay focussed, it’s hard finding the right words. It’s hard to be witty and smart and all that.
 
 I struggle a lot with the focus part. My life is full of distractions. Therefore I only have two options: Write on paper (which works great, but is a slow process), or move myself to a remote place far away from any noises or social life or internet access. But that’s not always possible. I am not Thoreau; I cannot hide in a Walden hut, not yet. Until then, I sometimes use a technique I found in Seth Kenlon’s [Use This](https://usesthis.com/interviews/seth.kenlon/) interview:

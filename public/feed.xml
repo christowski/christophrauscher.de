@@ -4,12 +4,34 @@
 	<subtitle></subtitle>
 	<link href="https://christophrauscher.de/feed.xml" rel="self"/>
 	<link href="https://christophrauscher.de/"/>
-	<updated>2024-09-12T00:00:00Z</updated>
+	<updated>2024-10-27T00:00:00Z</updated>
 	<id>https://christophrauscher.de</id>
 	<author>
     <name>Christoph Rauscher</name>
     <email>mail@christophrauscher.de</email>
 	</author>
+	
+    
+    <entry>
+      <title>Why writing still matters</title>
+      <subtitle></subtitle>
+      <link href="https://christophrauscher.de/writing/posts/grafikmagazin-why-text-matters/"/>
+      <updated>2024-10-27T00:00:00Z</updated>
+      <id>https://christophrauscher.de/writing/posts/grafikmagazin-why-text-matters/</id>
+      <content type="html"><![CDATA[
+        <figure>
+  <img src="/media/postimg/grafikmagazin-text.jpg" alt=" A photo of the printed issue of Grafikmagazin">
+</figure>
+<p>For the new issue of the German design magazine <em>Grafikmagazin</em>, I was interviewed by <a href="https://www.typoint.com/patrick" target="_blank">Patrick Marc Sommer</a> for his  column “Zukunft gestalten” (“designing the future”). I got to talk about text as a design tool, and how I got into writing in the first place. I also explained why I think it still matters! Especially in times of quickly generated, machine-made and synthetic copy, designers ought to pay attention to detail. I write:</p>
+<blockquote>
+<p>As designers, we have two important skills: Paying attention to detail, and making the invisible visible. Writing, just like drawing, is good training for both. I believe that an insistence on precision is very important today. Our tools are incredibly fast, and at the same time we don’t want to live in a fleeting world where everything is only <em>good-enough</em>. Writing is a thought process to understand problems and recognize connections. If we make an effort to be precise, we gain insights that might otherwise remain hidden from us. Good wording can make our work more accessible - even to ourselves. Text is so omnipresent that we often overlook it. But our job is to look very closely.</p>
+</blockquote>
+<p>You can get the magazine (which is beautifully produced!) <a href="https://grafikmagazin.de" target="_blank">online</a> and in well-assorted German book stores.</p>
+<figure>
+  <img src="/media/postimg/grafikmagazin-text-inside.jpg" alt ="A photo of me in the printed issue of Grafikmagazin">
+</figure>
+      ]]></content>
+    </entry>
 	
     
     <entry>
@@ -47,7 +69,10 @@
       <updated>2024-08-15T00:00:00Z</updated>
       <id>https://christophrauscher.de/writing/posts/hundertwasser-the-straight-line-is-godless/</id>
       <content type="html"><![CDATA[
-        <p>After years, I revisited the Kunsthaus Wien, a museum showcasing the art of Friedensreich Hundertwasser. I wanted to come back here because I recently remembered the architecture, which I loved, and wanted to ensure that my memory didn’t fool me.</p>
+        <figure>
+  <img src="/media/postimg/hundertwasserhaus-vienna.jpg" alt=" A photo of the colorful Hundertwasser house in Vienna, with wonky walls and lots of trees">
+</figure>
+<p>After years, I revisited the Kunsthaus Wien, a museum showcasing the art of Friedensreich Hundertwasser. I wanted to come back here because I recently remembered the architecture, which I loved, and wanted to ensure that my memory didn’t fool me.</p>
 <p>Hundertwasser was an Austrian artist, painter, and ecological activist. He was interested in nature and our connection to it and expressed his ideas through manifestos, paintings, graphics, buildings and whole city concepts. He was a firm critic of growth and capitalism, and his art was always embraced imperfections—he was actively working against straight lines in all his works. “The straight line is godless” is one of his famous quotes.</p>
 <p>Looking at his paintings, I noticed that I don’t care much for them. I like the simplicity of his watercolors and Japanese woodcuts, but the motifs—not my vibe. However, he was able to do something that I really do struggle with:</p>
 <blockquote>
@@ -101,7 +126,10 @@
       <updated>2024-06-09T00:00:00Z</updated>
       <id>https://christophrauscher.de/writing/posts/feed-my-art-to-ai-nein-danke/</id>
       <content type="html"><![CDATA[
-        <p>From June 26 on, Meta will update its privacy policy to train its AI tools on user data. Instagram and Facebook users in the EU and UK can opt-out of that, through a dubious and somewhat wonky <a href="https://www.fastcompany.com/91132854/instagram-training-ai-on-your-data-its-nearly-impossible-to-opt-out" target="_blank">request form</a>. I mainly use Instagram to share my illustrations and writing, and quite frankly, I don’t want Meta to use this data to train their language models. So I opted out.</p>
+        <figure>
+  <img src="/media/postimg/feed-my-art-to-ai-nein-danke.jpg" alt=" A patch with a sad sun and the sentence: Feed my art to AI? Nein Danke">
+</figure>
+<p>From June 26 on, Meta will update its privacy policy to train its AI tools on user data. Instagram and Facebook users in the EU and UK can opt-out of that, through a dubious and somewhat wonky <a href="https://www.fastcompany.com/91132854/instagram-training-ai-on-your-data-its-nearly-impossible-to-opt-out" target="_blank">request form</a>. I mainly use Instagram to share my illustrations and writing, and quite frankly, I don’t want Meta to use this data to train their language models. So I opted out.</p>
 <p>To be honest though, I’m not sure if that really is of any use. I can’t believe that they haven’t scraped that data yet; they sure have. But the whole discussion, yet again, opens a bigger question of whether we should use platforms like Instagram in the first place (the answer is: No).</p>
 <p>It has never been a good idea to upload our art and writing to Meta-owned or big-tech platforms (be it Instagram, Pinterest, Behance, and the likes; basically anything of larger scale that is largely VC-funded at jumps on the AI train). With Meta now feeding our work to large language models to generate replicas of it (and do whatever other stupid things), it’s time to finally drop it. It sucks.</p>
 <p>I am not a big artist on Instagram. I do not have a huge following or exposure there. But I have a sense of ethics, and I really hate what big tech is doing. Reflecting on Instagram and how it changed over the years—it really does more harm than good (to me).</p>
@@ -150,7 +178,10 @@
       <updated>2024-03-21T00:00:00Z</updated>
       <id>https://christophrauscher.de/writing/posts/the-muse-visits-during-the-act-of-creation/</id>
       <content type="html"><![CDATA[
-        <p>I recently stumbled upon a <a href="https://www.linkedin.com/posts/tante_festival-crowd-boos-at-video-of-conference-activity-7175401061241778176-F012?utm_source=share&amp;utm_medium=member_desktop">LinkedIn post</a> by tante, commenting on the current hype of AI, more precisely, on the a recent incident at SXSW 2024, where a euphoric reel about AI and its future has been booed by the audience. I quite liked his thoughts and accusations towards the AI hype:</p>
+        <figure>
+  <img src="/media/postimg/joseph-steinmetz-egg-balancing-trick.jpg" alt=" Joseph Steinmetz doing an egg balancing trick">
+</figure>
+<p>I recently stumbled upon a <a href="https://www.linkedin.com/posts/tante_festival-crowd-boos-at-video-of-conference-activity-7175401061241778176-F012?utm_source=share&amp;utm_medium=member_desktop">LinkedIn post</a> by tante, commenting on the current hype of AI, more precisely, on the a recent incident at SXSW 2024, where a euphoric reel about AI and its future has been booed by the audience. I quite liked his thoughts and accusations towards the AI hype:</p>
 <blockquote>
 <p>Because where are all the promised gains in efficiency? Where is the better world? All we see is a wasteful technology that's propped up by VC and Microsoft money that's easily detected as a way to further centralize our digital infrastructures while laying our digital spaces to waste.</p>
 </blockquote>
@@ -178,7 +209,10 @@
       <updated>2024-01-25T00:00:00Z</updated>
       <id>https://christophrauscher.de/writing/posts/my-first-mac/</id>
       <content type="html"><![CDATA[
-        <p>The Mac turns 40! And as <a href="https://marcel.io/posts/my-first-mac">Marcel</a> and other people on <a href="https://mastodon.social/tags/MyFirstMac">Mastodon</a> are sharing their first Macs, I’m going to do that too. It really was a turning point for me.</p>
+        <figure>
+  <img src="/media/postimg/MyFirstMac-PowerMacG3.jpg" alt=" My first Mac: A PowerMac G3">
+</figure>
+<p>The Mac turns 40! And as <a href="https://marcel.io/posts/my-first-mac">Marcel</a> and other people on <a href="https://mastodon.social/tags/MyFirstMac">Mastodon</a> are sharing their first Macs, I’m going to do that too. It really was a turning point for me.</p>
 <p>I remember lurking around the iPod at Hertie (a big shopping center in Munich). Back in 2004, it wasn’t common in Germany to find Apple products in regular stores. I was thirteen years old, and started to get interested in design and tech, and as Marcel writes, there seemed no way around Apple products.</p>
 <p>I got an iPod, but a Mac was still too expensive. Eventually, I got the chance to buy a second-hand PowerMac G3 from a family friend. It was my first Mac! It ran MacOS 8 and had all Adobe products installed.</p>
 <p>But I wasn’t interested in Mac OS 8. I wanted Mac OS X! Panther! So I bought and installed it; it was slow and not really usable, but I loved it. Just like I loved the machine—the blue translucent plastic, the handles, the hatch to access the motherboard. Despite its slowness, it was so much fun to use iPhoto and iMovie and the likes on it.</p>
@@ -503,7 +537,10 @@
       <updated>2020-08-26T00:00:00Z</updated>
       <id>https://christophrauscher.de/writing/posts/the-last-screensaver/</id>
       <content type="html"><![CDATA[
-        <p>You know it from the first MacBook you bought, or from your school library’s computers, or from the backdrop of a film you recently watched. The Flurry screensaver, shipped with every Mac since 2002, has become an acquainted digital surface in movies, offices and homes.</p>
+        <figure>
+  <img src="/media/postimg/flurry.webp" alt=" Screenshot of the flurry screensaver; colored light streams moving like tentacles on black background">
+</figure>
+<p>You know it from the first MacBook you bought, or from your school library’s computers, or from the backdrop of a film you recently watched. The Flurry screensaver, shipped with every Mac since 2002, has become an acquainted digital surface in movies, offices and homes.</p>
 <p>But screensavers are a thing from the past: We all remember the infamous flying toasters, the virtual fish tanks and mesmerizing labyrinths that covered our grey CRT monitors when our dads entered the room. Flurry was different: it moved away from trashy aesthetics and added a soothing, ambient quality to computer screens. And since its release, it hasn’t changed: A variety of light streams gently move around the black screen, spreading colored particles at different speeds and magnitudes.</p>
 <p>Flurry was created by software developer Calum Robinson as a side project in 2002. Briefly after he published it online (you can still find it on <a href="https://github.com/calumr/flurry">Github!</a>), Apple contacted him to include it in their new operating system, Mac OS X “Jaguar”. It complemented the eccentric Aqua interface with a dark and subtle appearance, still colorful enough to catch your eye.</p>
 <p>Screensavers were made to protect CRT monitors from phosphor burn-in. If the phosphors glowed at a constant rate for too long, they left traces on the monitor’s glass surface. But we’ve moved away from that technology years ago. Today, it makes much more sense to simply switch off your display. No one would download and install a screensaver anymore, not even for fun. But Flurry is still there, moving its tentacles around empty offices, libraries, accidentally being activated through your Mac’s hot corners.</p>
@@ -750,7 +787,10 @@
       <updated>2019-01-02T00:00:00Z</updated>
       <id>https://christophrauscher.de/writing/posts/ibook-g3-as-a-typewriter/</id>
       <content type="html"><![CDATA[
-        <p>William Zinsser said something I often think about when writing: “I don’t like to write, I like to have written.” Admittedly I don‘t fully agree—sometimes, writing can be a cleansing and joyful process. But yes, it’s true, sometimes it’s hard. It’s hard to get started, it’s hard to stay focussed, it’s hard finding the right words. It’s hard to be witty and smart and all that.</p>
+        <figure>
+  <img src="/media/postimg/ibookg3.jpg" alt=" Alt">
+</figure>
+<p>William Zinsser said something I often think about when writing: “I don’t like to write, I like to have written.” Admittedly I don‘t fully agree—sometimes, writing can be a cleansing and joyful process. But yes, it’s true, sometimes it’s hard. It’s hard to get started, it’s hard to stay focussed, it’s hard finding the right words. It’s hard to be witty and smart and all that.</p>
 <p>I struggle a lot with the focus part. My life is full of distractions. Therefore I only have two options: Write on paper (which works great, but is a slow process), or move myself to a remote place far away from any noises or social life or internet access. But that’s not always possible. I am not Thoreau; I cannot hide in a Walden hut, not yet. Until then, I sometimes use a technique I found in Seth Kenlon’s <a href="https://usesthis.com/interviews/seth.kenlon/">Use This</a> interview:</p>
 <blockquote>
 <p>For writing, I have a 2001 G3 iBook with a 500mhz PowerPC processor, 128mb RAM, and a third-party battery that just never dies. It doesn't seem to want to do graphics, so I just boot to a text console using Debian Linux.</p>
@@ -791,7 +831,10 @@
       <updated>2018-12-20T00:00:00Z</updated>
       <id>https://christophrauscher.de/writing/posts/forget-being-a-genius/</id>
       <content type="html"><![CDATA[
-        <p>One of the best things I’ve read this week was art critic Jerry Saltz’s <a href="https://www.vulture.com/2018/11/jerry-saltz-how-to-be-an-artist.html">“How to Be an Artist”</a> (New York Magazine, Nov. 26, 2018). In 33 rules, he describes and explains how to deal with life as a creative person, and how to become a better, more confident artist. I nodded my head at almost every single point, but here are the quotes and ideas I actually enjoyed to most:</p>
+        <figure>
+  <img src="/media/postimg/jerrysaltz-vulture.jpg" alt=" Article screenshot from The Vulture">
+</figure>
+<p>One of the best things I’ve read this week was art critic Jerry Saltz’s <a href="https://www.vulture.com/2018/11/jerry-saltz-how-to-be-an-artist.html">“How to Be an Artist”</a> (New York Magazine, Nov. 26, 2018). In 33 rules, he describes and explains how to deal with life as a creative person, and how to become a better, more confident artist. I nodded my head at almost every single point, but here are the quotes and ideas I actually enjoyed to most:</p>
 <blockquote>
 <p>1: Don’t be Embarrassed. You often reveal things about yourself that others may find appalling, weird, boring, or stupid. People may think you’re abnormal or a hack. Fine. When I work, I feel sick to my stomach with thoughts like None of this is any good. It makes no sense. But art doesn’t have to make sense. It doesn’t even need to be good.</p>
 </blockquote>
@@ -942,7 +985,10 @@
       <updated>2017-11-17T00:00:00Z</updated>
       <id>https://christophrauscher.de/writing/posts/shape-changing-computers/</id>
       <content type="html"><![CDATA[
-        <p>During my media theory studies, we had a seminar about the establishment of the personal computer in ordinary homes. From a historical and media-theoretical point of view, we read and discussed essays and papers from engineers, philosophers and researchers from the 1960s to the late 1990s.</p>
+        <figure>
+  <img src="/media/postimg/invisible-machines.jpg" alt=" Invisible Machines">
+</figure>
+<p>During my media theory studies, we had a seminar about the establishment of the personal computer in ordinary homes. From a historical and media-theoretical point of view, we read and discussed essays and papers from engineers, philosophers and researchers from the 1960s to the late 1990s.</p>
 <p>I loved the seminar as I finally found the time to read stuff by really important people who paved the way to modern-day computer interaction—people like Ada Lovelace, Alan Kay, Adele Goldberg, and (my favorite!) Howard Rheingold. His very well-written book “Tools for Thought” is <a href="http://www.rheingold.com/texts/tft/">available online</a>, and guides perfectly through the history of computers as tools.</p>
 <p>During our semester break, I wrote an essay about one thing I found particularly interesting: The computer’s form and shape—and how it was always designed to disappear (eventually). With current technology trends like voice input and wearable tech, its starting to actually do so. I put a slightly shortened version only, have fun reading (if you’re interested)!</p>
 <p><a class="button" href="https://christophrauscher.de/invisiblemachines/en/">Read in English</a>

@@ -9,6 +9,10 @@ tags:
   - note
 ---
 
+<figure>
+  <img src="{{ image }}" alt=" {{ imageAlt }}">
+</figure>
+
 From June 26 on, Meta will update its privacy policy to train its AI tools on user data. Instagram and Facebook users in the EU and UK can opt-out of that, through a dubious and somewhat wonky <a href="https://www.fastcompany.com/91132854/instagram-training-ai-on-your-data-its-nearly-impossible-to-opt-out" target="_blank">request form</a>. I mainly use Instagram to share my illustrations and writing, and quite frankly, I don’t want Meta to use this data to train their language models. So I opted out.
 
 To be honest though, I’m not sure if that really is of any use. I can’t believe that they haven’t scraped that data yet; they sure have. But the whole discussion, yet again, opens a bigger question of whether we should use platforms like Instagram in the first place (the answer is: No).

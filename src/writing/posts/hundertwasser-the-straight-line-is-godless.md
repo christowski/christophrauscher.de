@@ -9,6 +9,10 @@ tags:
   - note
 ---
 
+<figure>
+  <img src="{{ image }}" alt=" {{ imageAlt }}">
+</figure>
+
 After years, I revisited the Kunsthaus Wien, a museum showcasing the art of Friedensreich Hundertwasser. I wanted to come back here because I recently remembered the architecture, which I loved, and wanted to ensure that my memory didn’t fool me.
 
 Hundertwasser was an Austrian artist, painter, and ecological activist. He was interested in nature and our connection to it and expressed his ideas through manifestos, paintings, graphics, buildings and whole city concepts. He was a firm critic of growth and capitalism, and his art was always embraced imperfections—he was actively working against straight lines in all his works. “The straight line is godless” is one of his famous quotes.

@@ -9,6 +9,10 @@ tags:
   - essay
 ---
 
+<figure>
+  <img src="{{ image }}" alt=" {{ imageAlt }}">
+</figure>
+
 You know it from the first MacBook you bought, or from your school library’s computers, or from the backdrop of a film you recently watched. The Flurry screensaver, shipped with every Mac since 2002, has become an acquainted digital surface in movies, offices and homes.
 
 But screensavers are a thing from the past: We all remember the infamous flying toasters, the virtual fish tanks and mesmerizing labyrinths that covered our grey CRT monitors when our dads entered the room. Flurry was different: it moved away from trashy aesthetics and added a soothing, ambient quality to computer screens. And since its release, it hasn’t changed: A variety of light streams gently move around the black screen, spreading colored particles at different speeds and magnitudes.

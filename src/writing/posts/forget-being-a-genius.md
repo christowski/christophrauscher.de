@@ -9,6 +9,10 @@ tags:
   - note
 ---
 
+<figure>
+  <img src="{{ image }}" alt=" {{ imageAlt }}">
+</figure>
+
 One of the best things I’ve read this week was art critic Jerry Saltz’s [“How to Be an Artist”](https://www.vulture.com/2018/11/jerry-saltz-how-to-be-an-artist.html) (New York Magazine, Nov. 26, 2018). In 33 rules, he describes and explains how to deal with life as a creative person, and how to become a better, more confident artist. I nodded my head at almost every single point, but here are the quotes and ideas I actually enjoyed to most:
 
 > 1: Don’t be Embarrassed. You often reveal things about yourself that others may find appalling, weird, boring, or stupid. People may think you’re abnormal or a hack. Fine. When I work, I feel sick to my stomach with thoughts like None of this is any good. It makes no sense. But art doesn’t have to make sense. It doesn’t even need to be good.
