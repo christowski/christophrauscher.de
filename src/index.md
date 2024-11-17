@@ -40,17 +40,17 @@ socialImage: "media/socialimage.png"
     {%- for item in collections.featuredProjects | limit(4) -%}
       <li class="project-grid--tile">
         {%- if (item.data.url) -%}
-          <a href="{{ item.data.url }}" target="_blank">
-            <img src="{{ item.data.hero.image }}" 
-              srcset="{{ item.data.hero.image }} 1x, {{ item.data.hero.image2x }} 2x"
-              alt="{{ item.data.hero.imageAlt }}" />
+          <a href="{{ item.data.url }}">
+            <img src="{{ item.data.teaser.image }}" 
+              srcset="{{ item.data.teaser.image }} 1x, {{ item.data.teaser.image2x }} 2x"
+              alt="{{ item.data.teaser.imageAlt }}" />
             <h3>{{ item.data.title }}</h3>
             <p>{{ item.data.description }}</p>
           </a>
         {%- else -%}
-          <img src="{{ item.data.hero.image }}" 
-            srcset="{{ item.data.hero.image }} 1x, {{ item.data.hero.image2x }} 2x"
-            alt="{{ item.data.hero.imageAlt }}" />
+          <img src="{{ item.data.teaser.image }}" 
+            srcset="{{ item.data.teaser.image }} 1x, {{ item.data.teaser.image2x }} 2x"
+            alt="{{ item.data.teaser.imageAlt }}" />
           <h3>{{ item.data.title }}</h3>
           <p>{{ item.data.description }}</p>
         {%- endif -%}

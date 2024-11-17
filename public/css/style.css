@@ -146,6 +146,15 @@ body.body--project .project-imagery img {
   width: 100%;
 }
 
+img.bookcover {
+  border-radius: 4px;
+  box-shadow: 0px 20px 52px 0px rgba(0, 0, 0, 0.25);
+}
+
+img.scaledown {
+  transform: scale(0.9);
+}
+
 @font-face {
   font-family: "Faktum";
   src: url("/media/fonts/Faktum-ConRegular/font.woff2") format("woff2"), url("../media/fonts/Faktum-ConRegular/font.woff") format("woff");

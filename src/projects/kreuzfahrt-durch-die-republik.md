@@ -3,7 +3,7 @@ title: "Kreuzfahrt durch die Republik"
 description: "I designed the book cover for Lorenz Meyer’s satirical collection of celeb impersonations."
 intro: "I designed the book cover for Lorenz Meyer’s satirical collection of celeb impersonations."
 timestamp: "2022"
-displayOrder: 10
+displayOrder: 4
 featured: false
 projectPage: true
 tags:
