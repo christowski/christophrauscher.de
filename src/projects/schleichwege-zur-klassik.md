@@ -9,6 +9,7 @@ projectPage: true
 url: "projects/schleichwege-zur-klassik"
 tags:
   - book
+socialImage: "/media/projectimg/schleichwegezurklassik-3x4.jpg"
 teaser:
   image: "/media/projectimg/schleichwegezurklassik-1x1.jpg"
   image2x: "/media/projectimg/schleichwegezurklassik-1x1@2x.jpg"
