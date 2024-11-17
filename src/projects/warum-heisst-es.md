@@ -9,7 +9,7 @@ url: "https://frohmannverlag.de/products/warum-heisst-es"
 tags:
   - books
   - illustration
-hero:
+teaser:
   image: "/media/projectimg/warum-heisst-es-teaser.jpg"
   image2x: "/media/projectimg/warum-heisst-es-teaser@2x.jpg"
   imageAlt: "Book shot of my book titled Warum heißt es Traum und nicht Memoryschaum"

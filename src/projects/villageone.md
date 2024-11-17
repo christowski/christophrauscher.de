@@ -11,7 +11,7 @@ tags:
   - branding
   - art direction
   - web design
-hero:
+teaser:
   image: "/media/projectimg/villageone-teaser.jpg"
   image2x: "/media/projectimg/villageone-teaser@2x.jpg"
   imageAlt: "Village One Cooperative"

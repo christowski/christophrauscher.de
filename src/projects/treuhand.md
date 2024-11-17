@@ -9,7 +9,7 @@ projectPage: false
 url: "https://treuhandanstalt.online"
 tags:
   - web design
-hero:
+teaser:
   image: "/media/projectimg/treuhand-teaser-1x1.jpg"
   image2x: "/media/projectimg/treuhand-teaser-1x1@2x.jpg"
   imageAlt: "Mobile and desktop design of the iteractive map and the timeline with important milestones. Label that the project was nomminated for the Grimme Online Award 2024"

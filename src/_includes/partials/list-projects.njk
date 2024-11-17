@@ -20,8 +20,8 @@
 
 {% for item in collections.projects %}
   <li class="project-grid--tile">
-    {%- if (item.data.url) -%}
-      <a href="{{ item.data.url }}" target="_blank">
+    {%- if (item.data.projectPage) -%}
+      <a href="{{ item.data.permalink }}{{ item.url }}">
         <img src="{{ item.data.teaser.image }}" 
           srcset="{{ item.data.teaser.image }} 1x, {{ item.data.teaser.image2x }} 2x"
           alt="{{ item.data.teaser.imageAlt }}" />

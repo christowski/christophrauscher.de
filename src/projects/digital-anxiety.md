@@ -7,7 +7,7 @@ displayOrder: 8
 featured: false
 tags:
   - art direction
-hero:
+teaser:
   image: "/media/projectimg/digital-anxiety-teaser.jpg"
   image2x: "/media/projectimg/digital-anxiety-teaser@2x.jpg"
   imageAlt: "Digital Anxieties photo series: a laptop flying through the sky"

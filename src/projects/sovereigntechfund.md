@@ -11,7 +11,7 @@ tags:
   - branding
   - web design
   - Village One
-hero:
+teaser:
   image: "/media/projectimg/sovereign-tech-fund-teaser-1x1.jpg"
   image2x: "/media/projectimg/sovereign-tech-fund-teaser-1x1@2x.jpg"
   imageAlt: "Sovereign Tech Fund Website"

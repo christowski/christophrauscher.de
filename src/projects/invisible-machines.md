@@ -10,7 +10,7 @@ tags:
   - writing
   - design
   - books
-hero:
+teaser:
   image: "/media/projectimg/invisible-machines-teaser.jpg"
   image2x: "/media/projectimg/invisible-machines-teaser@2x.jpg"
   imageAlt: "Disentchanting Invisible Machines – Master thesis book cover"

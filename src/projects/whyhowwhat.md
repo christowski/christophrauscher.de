@@ -7,7 +7,7 @@ displayOrder: 12
 featured: false
 tags:
   - writing
-hero:
+teaser:
   image: "/media/projectimg/whyhowwhat-teaser.jpg"
   image2x: "/media/projectimg/whyhowwhat-teaser@2x.jpg"
   imageAlt: "Why How What – Report book cover"

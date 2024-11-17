@@ -5,13 +5,13 @@ intro: "For the past years, I’ve been responsible for the design of Zeit Onlin
 timestamp: "2015 – 2020"
 displayOrder: 1
 featured: true
-projectPage: false
+projectPage: true
 tags:
   - art direction
   - web design
   - editorial design
   - casestudy
-hero:
+teaser:
   image: "/media/projectimg/zeitonline-teaser-1x1.jpg"
   image2x: "/media/projectimg/zeitonline-teaser-1x1@2x.jpg"
   imageAlt: "Zeit Online – Website design"

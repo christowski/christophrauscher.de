@@ -9,7 +9,7 @@ tags:
   - art direction
   - illustration
   - books
-hero:
+teaser:
   image: "/media/projectimg/66gebote-teaser.jpg"
   image2x: "/media/projectimg/66gebote-teaser@2x.jpg"
   imageAlt: "66 Gebote book cover illustration"

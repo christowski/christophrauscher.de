@@ -10,7 +10,7 @@ tags:
   - art direction
   - web design
   - editorial design
-hero:
+teaser:
   image: "/media/projectimg/zeit-wochenmarkt-design-teaser.jpg"
   image2x: "/media/projectimg/zeit-wochenmarkt-design-teaser@2x.jpg"
   imageAlt: "Zeit Online Wochenmarkt – Website design"

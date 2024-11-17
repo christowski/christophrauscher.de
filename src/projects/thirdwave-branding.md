@@ -9,7 +9,7 @@ tags:
   - project
   - branding
   - web design
-hero:
+teaser:
   image: "/media/projectimg/thirdwaveberlin-teaser.jpg"
   image2x: "/media/projectimg/thirdwaveberlin-teaser@2x.jpg"
   imageAlt: "Third Wave Berlin – Agency Branding"

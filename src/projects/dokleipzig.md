@@ -7,7 +7,7 @@ displayOrder: 9
 featured: false
 tags:
   - content strategy
-hero:
+teaser:
   image: "/media/projectimg/dokleipzig-content-teaser.jpg"
   image2x: "/media/projectimg/dokleipzig-content-teaser@2x.jpg"
   imageAlt: "DOK Leipzig logo"

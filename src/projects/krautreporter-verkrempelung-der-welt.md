@@ -9,7 +9,7 @@ projectPage: false
 url: "https://krautreporter.de/serien/462-verkrempelung_welt"
 tags:
   - illustration
-hero:
+teaser:
   image: "/media/projectimg/krautreporter-verkrempelung-illustration.jpg"
   image2x: "/media/projectimg/krautreporter-verkrempelung-illustration@2x.jpg"
   imageAlt: "Illustration for an article about the future; a gigantic man walking through the skyline of Frankfurt"

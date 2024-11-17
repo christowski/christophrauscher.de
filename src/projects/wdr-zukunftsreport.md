@@ -9,7 +9,7 @@ url: "https://zukunft.wdr.de"
 tags:
   - art direction
   - editorial design
-hero:
+teaser:
   image: "/media/projectimg/wdr-zukunftsreport-teaser.jpg"
   image2x: "/media/projectimg/wdr-zukunftsreport-teaser@2x.jpg"
   imageAlt: "Image Alt"
