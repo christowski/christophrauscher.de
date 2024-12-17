@@ -36,8 +36,8 @@ socialImage: "media/socialimage.png"
     </div>
   </div>
 
-  <ul class="layout-grid--duo project-grid"> 
-    {%- for item in collections.featuredProjects | limit(4) -%}
+  <ul class="layout-grid--trio project-grid"> 
+    {%- for item in collections.featuredProjects | limit(3) -%}
       <li class="project-grid--tile">
         {%- if (item.data.url) -%}
           <a href="{{ item.data.url }}">
