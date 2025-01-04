@@ -127,12 +127,7 @@ main {
   gap: 2rem; // gap between flex elements
   @media (min-width: $breakpoint-m-769) {
     margin: 4rem auto 5rem auto;
-  }
-  @media (min-width: $breakpoint-m-769) {
     padding: 0 2rem;
-  }
-  @media (min-width: $breakpoint-l-1024) {
-    padding: 0;
   }
 
   aside {

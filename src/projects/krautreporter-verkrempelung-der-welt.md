@@ -26,9 +26,9 @@ teaser:
     <small>Krautreporter</small>
   </aside>
   <div class="content">
-    <p>Products that have worked flawlessly become worse again with the next product generation for seemingly inexplicable reasons. Why is that so? Gabriel Yoran wrote a column for German magazine <em>Krautreporter</em>, which I illusted in a coherent style throughout the year.</p>
-    <p>I am sure you’ve noticed how many products don’t have physical buttons anymore, but touch interfaces, which often work slowly, or not at all. You’ve probably also heard about “Planned obsolescence”, a dubious economic practice that forces users to buy new products instead of reparing them. And, as it’s a hot topic with the current raise of useless “AI” tools, you might have stumbled upon the term “Enshittification”, the decay of digital platforms by creating shareholder value (which is of no use for actual users).</p>
-    <p>These observations can be examined from a philosophical, economical, as well as from a design persepctive, and Gabriel does all that. As the topics were sometimes quite abstract, illustrating them was a challenge, and therefore twice as fun!</p>
+    <p>Products that have worked flawlessly become worse again with the next product generation for seemingly inexplicable reasons. Why is that so? Gabriel Yoran wrote a column for the German magazine <em>Krautreporter</em>, which I illustrated in a coherent style throughout the year.</p>
+    <p>I am sure you’ve noticed how many products don’t have physical buttons anymore, but touch interfaces, which often work slowly, or not at all. You’ve probably also heard about “Planned obsolescence”, a dubious economic practice that forces users to buy new products instead of repairing them. And, as it’s a hot topic with the current raise of useless “AI” tools, you might have stumbled upon the term “Enshittification”, the decay of digital platforms for the sake of creating shareholder value (which is of no use for actual users).</p>
+    <p>These observations can be examined from a philosophical, economical, as well as from a design perspective, and Gabriel does all that. As the topics were sometimes quite abstract, illustrating them was a challenge, and therefore twice as fun!</p>
     <p>You can find all articles from the series on <a href="https://krautreporter.de/serien/462-verkrempelung_welt" target="_blank">Krautreporter</a> (in German).</p>
   </div>
 </div>

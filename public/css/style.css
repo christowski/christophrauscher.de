@@ -980,16 +980,7 @@ main {
 @media (min-width: 769px) {
   .content-container {
     margin: 4rem auto 5rem auto;
-  }
-}
-@media (min-width: 769px) {
-  .content-container {
     padding: 0 2rem;
-  }
-}
-@media (min-width: 1024px) {
-  .content-container {
-    padding: 0;
   }
 }
 .content-container aside {
