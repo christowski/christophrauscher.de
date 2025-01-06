@@ -39,7 +39,7 @@ I illustrated Gabriel Yoran’s introduction into classical music for Insel Verl
 
 And throughout the year, I illustrated Gabriel’s column for Krautreporter, in which he explores the question why products of everyday-life are getting worse and worse. The writing was very enlightening and sometimes quite complex, and it was fun to find visual metaphors for it. I finally published many of the drawings, <a href="/projects/krautreporter-verkrempelung-der-welt">have a look!</a>
 
-<a href="/projects/krautreporter-verkrempelung-der-welt"><img src="/media/newsletterimg/01-2024-krautreporter.gif" alt="Illustrations for Krautreporter">
+<a href="/projects/krautreporter-verkrempelung-der-welt"><img src="/media/newsletterimg/01-2024-krautreporter.gif" alt="Illustrations for Krautreporter"></a>
 
 ---
 
