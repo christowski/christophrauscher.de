@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% include "partials/meta-info.njk" %}
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
+
+  <style lang="scss" is:inline>
+    body.story-getreadwithme {
+      main {
+        background-image: image-set(
+          url("/media/storiesimg/getreadywithme-bg-pattern.gif") 1x,
+          url("/media/storiesimg/getreadywithme-bg-pattern.gif") 2x);
+        background-repeat: repeat-x repeat-y;
+        padding: 2rem;
+        
+        section.panel {
+            margin: 0 auto;
+            max-width: 600px;
+          img {
+            width: 100%;
+            mix-blend-mode: multiply;
+          }
+        }
+      }
+    }
+  </style>
+
+</head>
+<body class="story-getreadwithme">
+  
+  <div class="wrapper">
+    {% include "partials/navigation.njk" %}
+    
+    <main tabindex="-1">
+      {% block content %}
+      <div>
+        {{ content | safe }}
+      </div>
+      {% endblock %}
+    </main>
+
+    {% include "partials/footer.njk" %}
+  </div>
+  
+</body>
+</html>
