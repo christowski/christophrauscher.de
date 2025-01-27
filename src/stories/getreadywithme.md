@@ -4,5 +4,13 @@ layout: "layouts/stories/getreadywithme.njk"
 ---
 
 <section class="panel">
-  <img src="/media/storiesimg/getreadywithme-01-title.jpg">
+  <img src="/media/storiesimg/ready-web-01-2000.png">
+</section>
+
+<section class="panel">
+  <img src="/media/storiesimg/ready-web-02-2000.png">
+</section>
+
+<section class="panel">
+  <img src="/media/storiesimg/ready-web-03-2000.png">
 </section>
