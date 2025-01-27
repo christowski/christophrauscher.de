@@ -377,7 +377,12 @@ nav.nav--primary {
   }
 }
 
-nav.nav--secondary {
+nav.nav-secondary--dark,
+nav.nav-secondary--dark a {
+  color: $charcoal;
+}
+
+nav.nav-secondary {
   background-color: salmon;
   text-align: center;
   padding: 1rem;
@@ -406,7 +411,6 @@ nav.nav--secondary {
   // Default Nav link style
   a, a:active, a:visited {
     text-decoration: none;
-    color: $charcoal;
     &:hover, &:focus {
       color: $accent;
     }

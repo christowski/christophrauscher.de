@@ -1291,7 +1291,12 @@ nav.nav--primary a:hover, nav.nav--primary a:focus, nav.nav--primary a:active:ho
   color: #AF5F00;
 }
 
-nav.nav--secondary {
+nav.nav-secondary--dark,
+nav.nav-secondary--dark a {
+  color: #140D05;
+}
+
+nav.nav-secondary {
   background-color: salmon;
   text-align: center;
   padding: 1rem;
@@ -1299,31 +1304,30 @@ nav.nav--secondary {
   border-bottom: none;
 }
 @media (min-width: 769px) {
-  nav.nav--secondary {
+  nav.nav-secondary {
     border-bottom: 1px solid #CBC8C6;
   }
 }
 @media (min-width: 769px) {
-  nav.nav--secondary {
+  nav.nav-secondary {
     padding: 1rem 2rem;
   }
 }
-nav.nav--secondary .cr-logo a {
+nav.nav-secondary .cr-logo a {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-nav.nav--secondary .cr-logo a img {
+nav.nav-secondary .cr-logo a img {
   width: 1.5rem;
   height: 1.5rem;
   margin-right: 0.5rem;
 }
-nav.nav--secondary a, nav.nav--secondary a:active, nav.nav--secondary a:visited {
+nav.nav-secondary a, nav.nav-secondary a:active, nav.nav-secondary a:visited {
   text-decoration: none;
-  color: #140D05;
 }
-nav.nav--secondary a:hover, nav.nav--secondary a:focus, nav.nav--secondary a:active:hover, nav.nav--secondary a:active:focus, nav.nav--secondary a:visited:hover, nav.nav--secondary a:visited:focus {
+nav.nav-secondary a:hover, nav.nav-secondary a:focus, nav.nav-secondary a:active:hover, nav.nav-secondary a:active:focus, nav.nav-secondary a:visited:hover, nav.nav-secondary a:visited:focus {
   color: #AF5F00;
 }
 
