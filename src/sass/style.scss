@@ -210,6 +210,7 @@ main {
     max-width: 200px; 
     filter: grayscale(1);
     mix-blend-mode: multiply;
+    transform:translate3d(0,0,0); /* Safari fix */
   }
   @media (min-width: $breakpoint-s-420) {
     padding: 2.5rem 1.5rem;
