@@ -23,7 +23,7 @@ After Cristina participated in one of my [Writing = Design workshops](/writing/w
 
 > I am convinced, however, that we do not actually need it, and that most of the artists here underestimate the power and importance of real-life connections. By making our work so readily available to everyone for free, we are selling ourselves short, and if there is one thing I have learned over the few years I’ve been working as an illustrator, is that it is my responsibility to inform of my work’s worth.
 
-Another post/cartoon from Carson Ellis’ newsletter _[Slowpoke](https://carsonellis.substack.com)_ is making its rounds on Instagram, opening with the question “Should I Quit Instagram?”—especially after Meta announced to train its AI with user’s content, and the very recent shift towards a hellscape-X-like platform without content moderation (and therefore, actively promoting hate speech). Carson writes:
+Another [post/cartoon](https://carsonellis.substack.com/p/should-i-quit-instagram) from Carson Ellis’ newsletter _[Slowpoke](https://carsonellis.substack.com)_ is making its rounds on Instagram, opening with the question “Should I Quit Instagram?”—especially after Meta announced to train its AI with user’s content, and the very recent shift towards a hellscape-X-like platform without content moderation (and therefore, actively promoting hate speech). Carson writes:
 
 > [Instagram is] addictive by design. It willfully destroys the mental health of children. Endless scrolling is making me stupid. It’s powered by anger and hysteria, it’s powered by (very effectively) selling me shit, everyone complains about it. Nobody seems to like it. Mark Zuckerberg is an asshole. Whatever goodness I manage to extract from instagram is despite its evil intent.
 
