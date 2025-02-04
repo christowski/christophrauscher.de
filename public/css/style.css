@@ -191,6 +191,89 @@ img.scaledown {
   font-weight: 200;
   font-style: italic;
 }
+body.body--getreadywithme {
+  background-color: #e63600;
+}
+body.body--getreadywithme main {
+  background-size: 3px 3px;
+  background-image: radial-gradient(#F7BEAC 1.5px, transparent 0);
+  padding: 1rem;
+}
+@media (min-width: 769px) {
+  body.body--getreadywithme main {
+    padding: 2rem;
+  }
+}
+body.body--getreadywithme section.panel {
+  margin: 0 auto 5rem auto;
+  max-width: 720px;
+  text-align: center;
+  padding: 0;
+}
+body.body--getreadywithme section.panel img {
+  width: 100%;
+  mix-blend-mode: multiply;
+  margin-bottom: 2rem;
+}
+body.body--getreadywithme section.panel figcaption {
+  max-width: 600px;
+  margin: 0 auto;
+}
+body.body--getreadywithme section.panel figcaption p {
+  font-family: "GTAlpina-Regular", Georgia, "Times New Roman", serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+@media (min-width: 769px) {
+  body.body--getreadywithme section.panel figcaption p {
+    font-size: 1.3rem;
+  }
+}
+body.body--getreadywithme section.panel figcaption p span {
+  color: #FFF;
+  background: #e63600;
+  padding: 0.3rem 0.5rem;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  border-radius: 2px;
+}
+
+@font-face {
+  font-family: "Faktum";
+  src: url("/media/fonts/Faktum-ConRegular/font.woff2") format("woff2"), url("../media/fonts/Faktum-ConRegular/font.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Faktum";
+  src: url("/media/fonts/Faktum-ConSemiBold/font.woff2") format("woff2"), url("../media/fonts/Faktum-ConSemiBold/font.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GTAlpina-Light";
+  src: url("/media/fonts/GT-Alpina-Standard-Light.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GTAlpina-Light";
+  src: url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Light-Italic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GTAlpina-Regular";
+  src: url("/media/fonts/GT-Alpina-Standard-Regular.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GTAlpina-Regular";
+  src: url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff2") format("woff2"), url("/media/fonts/GT-Alpina-Standard-Regular-Italic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+}
 body.body--post main {
   margin-left: 1rem;
   margin-right: 1rem;

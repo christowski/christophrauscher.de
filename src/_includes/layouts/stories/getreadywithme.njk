@@ -9,39 +9,11 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
 
-  <style lang="scss" is:inline>
-    body.story-getreadwithme {
-    background-color: #e63600;
-      .wrapper {
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      main {
-        background-image: image-set(
-          url("/media/storiesimg/getreadywithme-bg-pattern.gif") 1x,
-          url("/media/storiesimg/getreadywithme-bg-pattern.gif") 2x);
-        background-repeat: repeat-x repeat-y;
-        padding: 2rem;
-        
-        section.panel {
-            margin: 0 auto;
-            max-width: 600px;
-          img {
-            width: 100%;
-            mix-blend-mode: multiply;
-          }
-        }
-      }
-    }
-  </style>
-
 </head>
-<body class="story-getreadwithme">
+<body class="body--getreadywithme">
   
   <div class="wrapper">
-    {% include "partials/navigation-small.njk" %}
+    {% include "partials/navigation.njk" %}
     
     <main tabindex="-1">
       {% block content %}
