@@ -2,6 +2,7 @@
 @import "variables.scss";
 @import "mixins.scss";
 @import "project.scss";
+@import "stories.scss";
 @import "post.scss";
 @import "drawings.scss";
 @import "layout.scss";
@@ -372,6 +373,45 @@ nav.nav--primary {
   a, a:active, a:visited {
     text-decoration: none;
     color: $charcoal;
+    &:hover, &:focus {
+      color: $accent;
+    }
+  }
+}
+
+nav.nav-secondary--dark,
+nav.nav-secondary--dark a {
+  color: $charcoal;
+}
+
+nav.nav-secondary {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.125rem;
+  border-bottom: none;
+  @media (min-width: $breakpoint-m-769) {
+    border-bottom: 1px solid $midgrey;
+  }
+  @media (min-width: $breakpoint-m-769) {
+    padding: 1rem 2rem;
+  }
+
+  .cr-logo {
+    a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+  // Default Nav link style
+  a, a:active, a:visited {
+    text-decoration: none;
     &:hover, &:focus {
       color: $accent;
     }

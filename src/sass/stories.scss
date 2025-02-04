@@ -1,0 +1,47 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+body.body--getreadywithme {
+  background-color: #e63600;
+  main {
+    background-size: 3px 3px;
+    background-image: radial-gradient(#F7BEAC 1.5px, transparent 0);
+    padding: 1rem;
+    @media (min-width: $breakpoint-m-769) {
+      padding: 2rem;
+    }
+  }
+
+  section.panel {
+    margin: 0 auto 5rem auto;
+    max-width: 720px;
+    text-align: center;
+    padding: 0;
+
+    img {
+      width: 100%;
+      mix-blend-mode: multiply;
+      margin-bottom: 2rem;
+    }
+    figcaption {
+      max-width: 600px;
+      margin: 0 auto;
+      p {
+        font-family: "GTAlpina-Regular", Georgia, "Times New Roman", serif;
+        font-size: 1.1rem;
+        line-height: 1.8;
+        @media (min-width: $breakpoint-m-769) {
+          font-size: 1.3rem;
+        }
+        span {
+          color: #FFF;
+          background: #e63600;
+          padding: 0.3rem 0.5rem;
+          -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
