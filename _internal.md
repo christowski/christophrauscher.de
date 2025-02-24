@@ -28,9 +28,10 @@ Collection: Projects (for, well, projects)
 [x] add some css
 [x] style newsletter
 [x] style footer
+[x] add content
+[x] add GitHub
 
 [] mobile styles für Newsletter module
-[] add content
 [] add „Now“ page
 [] add gallery
 
@@ -42,20 +43,8 @@ Collection: Projects (for, well, projects)
 [] add subnavigation
 [] modify date format
 [] responsive images
-[] add GitHub
 [] minify output
 [] add container queries for featured projects
-
-### Pages to be done
-[] home page
-[] projects overview
-[] articless posts, essays
-[] imprint
-[] newsletter signup
-[] newsletter archive
-[] colophone, changelog
-[] teaching
-[] library
 
 ---
 

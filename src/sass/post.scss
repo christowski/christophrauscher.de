@@ -23,7 +23,7 @@ body.body--post {
     margin: 1rem auto 3rem;
     padding: 2rem 1rem 3rem 1rem;
     background-color: white;
-    background-image: url("/media/donkeyear.svg");
+    background-image: url("/media/donkeyear-post.svg");
     background-size: 1.75rem;
     background-position: top right;
     background-repeat: no-repeat;
@@ -102,7 +102,6 @@ section.recent-posts {
     }
     @media (min-width: $breakpoint-m-769) {
       padding: 1.5rem 1rem;
-      flex-direction: row;
     }
   }
   img.post-teaser--thumb {
@@ -139,20 +138,19 @@ section.recent-posts {
       }
       p {
         @include font-serif;
-        color: $concrete;
-        // font-size: 1rem;
+        color: $dust;
       }
       // h2 only on /posts overview
       h2 { font-size: 1.25rem; }
 
+      .post-teaser--date {
+        @include uppercase-text;
+        color: $concrete;
+      }
       @media (min-width: $breakpoint-m-769) {
         h2 {font-size: 1.35rem;}
         p {font-size: 1.125rem;}
       }
-    }
-
-    .post-teaser--date {
-      @include uppercase-text;
     }
   }
 }

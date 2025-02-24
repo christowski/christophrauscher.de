@@ -294,7 +294,7 @@ body.body--post .post-container {
   margin: 1rem auto 3rem;
   padding: 2rem 1rem 3rem 1rem;
   background-color: white;
-  background-image: url("/media/donkeyear.svg");
+  background-image: url("/media/donkeyear-post.svg");
   background-size: 1.75rem;
   background-position: top right;
   background-repeat: no-repeat;
@@ -386,7 +386,6 @@ body.body--post .post-container .content img {
 @media (min-width: 769px) {
   .post-teaser a.post-teaser--link {
     padding: 1.5rem 1rem;
-    flex-direction: row;
   }
 }
 .post-teaser img.post-teaser--thumb {
@@ -431,10 +430,16 @@ body.body--post .post-container .content img {
 .post-teaser .post-teaser--data .post-teaser--title p {
   font-family: "GTAlpina-Regular", Georgia, "Times New Roman", serif;
   font-variant-numeric: oldstyle-nums;
-  color: #948F89;
+  color: #635E5B;
 }
 .post-teaser .post-teaser--data .post-teaser--title h2 {
   font-size: 1.25rem;
+}
+.post-teaser .post-teaser--data .post-teaser--title .post-teaser--date {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.875rem;
+  color: #948F89;
 }
 @media (min-width: 769px) {
   .post-teaser .post-teaser--data .post-teaser--title h2 {
@@ -443,11 +448,6 @@ body.body--post .post-container .content img {
   .post-teaser .post-teaser--data .post-teaser--title p {
     font-size: 1.125rem;
   }
-}
-.post-teaser .post-teaser--data .post-teaser--date {
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-size: 0.875rem;
 }
 
 body.body--post .post-teaser a.post-teaser--link:hover, body.body--post .post-teaser a.post-teaser--link:focus {
@@ -823,7 +823,7 @@ h3 {
 
 small {
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.1rem;
   font-size: 0.875rem;
 }
 
@@ -1071,7 +1071,7 @@ main {
   flex-shrink: 0;
   width: 100%;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.1rem;
   font-size: 0.875rem;
   border-top: 1px dashed #CBC8C6;
   padding-top: 1.5rem;
@@ -1249,7 +1249,7 @@ a.button, a.button-arrow, button {
   -moz-osx-font-smoothing: grayscale;
   font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.1rem;
   font-size: 0.875rem;
   background-color: #140D05;
   color: white;
@@ -1275,7 +1275,7 @@ a.button-arrow:after, button.button-arrow:after {
 
 a.link--pill {
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.1rem;
   font-size: 0.875rem;
   font-size: 1rem;
   text-decoration: none;
@@ -1294,7 +1294,7 @@ a.link--pill:hover {
 
 a.link--more {
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.1rem;
   font-size: 0.875rem;
 }
 a.link--more:after {
@@ -1621,6 +1621,7 @@ footer a:hover, footer a:visited:hover {
 
 .section-header {
   display: flex;
+  align-items: start;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 1.5rem;
@@ -1632,6 +1633,7 @@ footer a:hover, footer a:visited:hover {
 }
 .section-header .header--title {
   background-color: none;
+  flex-grow: 1;
 }
 .section-header .header--meta {
   background-color: none;
@@ -1664,6 +1666,38 @@ footer a:hover, footer a:visited:hover {
   .layout-grid--trio {
     grid-gap: 2.5rem;
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.layout-grid--writing .layout-writing--newsletter {
+  padding: 1rem;
+  background-color: #EEE9E6;
+  background-image: url("/media/donkeyear-sidebar.svg");
+  background-size: 1.75rem;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+@media (min-width: 769px) {
+  .layout-grid--writing {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: start;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 769px) and (min-width: 769px) {
+  .layout-grid--writing {
+    gap: 2.5rem;
+  }
+}
+@media (min-width: 769px) {
+  .layout-grid--writing .layout-writing--notes {
+    flex-grow: 1;
+  }
+  .layout-grid--writing .layout-writing--newsletter {
+    padding: 1.5rem;
+    width: 30%;
   }
 }
 
@@ -1781,7 +1815,7 @@ section.writing .section-header {
 }
 .writing-card .kicker p {
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.1rem;
   font-size: 0.875rem;
   font-size: 1rem;
 }
@@ -1896,6 +1930,65 @@ section.writing .section-header {
   }
 }
 
+.newsletter-column--header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.newsletter-column--header h2 {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+.newsletter-column--header img {
+  max-width: 180px;
+  margin: 0 auto 1.5rem auto;
+  display: block;
+}
+
+.newsletter-teaser--small {
+  border-bottom: 1px solid #CBC8C6;
+}
+.newsletter-teaser--small:first-of-type {
+  border-top: 1px solid #CBC8C6;
+}
+.newsletter-teaser--small a {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: left;
+  flex-grow: 0;
+  gap: 1.25rem;
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+}
+.newsletter-teaser--small a img {
+  max-width: 60px;
+  border-radius: 30px;
+  aspect-ratio: 1/1;
+  filter: grayscale(1);
+}
+.newsletter-teaser--small a div {
+  flex-grow: 1;
+}
+.newsletter-teaser--small a h2, .newsletter-teaser--small a h3 {
+  font-family: "Faktum", Helvetica, Arial, sansserif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+.newsletter-teaser--small a p, .newsletter-teaser--small a date {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.875rem;
+  color: #948F89;
+}
+.newsletter-teaser--small a:hover, .newsletter-teaser--small a:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.newsletter-teaser--small a:hover img, .newsletter-teaser--small a:focus img {
+  filter: grayscale(0);
+}
+
 .newsletter-teaser {
   border-bottom: 1px solid #CBC8C6;
 }
@@ -1949,7 +2042,7 @@ section.writing .section-header {
 }
 .newsletter-teaser .newsletter-teaser--data .newsletter-teaser--title p {
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.1rem;
   font-size: 0.875rem;
   color: #948F89;
 }

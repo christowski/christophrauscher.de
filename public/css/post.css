@@ -54,7 +54,7 @@ body.body--post .post-container {
   margin: 1rem auto 3rem;
   padding: 2rem 1rem 3rem 1rem;
   background-color: white;
-  background-image: url("/media/donkeyear.svg");
+  background-image: url("/media/donkeyear-post.svg");
   background-size: 1.75rem;
   background-position: top right;
   background-repeat: no-repeat;
@@ -146,7 +146,6 @@ body.body--post .post-container .content img {
 @media (min-width: 769px) {
   .post-teaser a.post-teaser--link {
     padding: 1.5rem 1rem;
-    flex-direction: row;
   }
 }
 .post-teaser img.post-teaser--thumb {
@@ -191,10 +190,16 @@ body.body--post .post-container .content img {
 .post-teaser .post-teaser--data .post-teaser--title p {
   font-family: "GTAlpina-Regular", Georgia, "Times New Roman", serif;
   font-variant-numeric: oldstyle-nums;
-  color: #948F89;
+  color: #635E5B;
 }
 .post-teaser .post-teaser--data .post-teaser--title h2 {
   font-size: 1.25rem;
+}
+.post-teaser .post-teaser--data .post-teaser--title .post-teaser--date {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.875rem;
+  color: #948F89;
 }
 @media (min-width: 769px) {
   .post-teaser .post-teaser--data .post-teaser--title h2 {
@@ -203,11 +208,6 @@ body.body--post .post-container .content img {
   .post-teaser .post-teaser--data .post-teaser--title p {
     font-size: 1.125rem;
   }
-}
-.post-teaser .post-teaser--data .post-teaser--date {
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-size: 0.875rem;
 }
 
 body.body--post .post-teaser a.post-teaser--link:hover, body.body--post .post-teaser a.post-teaser--link:focus {

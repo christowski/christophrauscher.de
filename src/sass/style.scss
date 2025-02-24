@@ -612,6 +612,7 @@ footer {
 
 .section-header {
   display: flex;
+  align-items: start;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 1.5rem;
@@ -620,6 +621,7 @@ footer {
   }
   .header--title {
     background-color: none;
+    flex-grow: 1;
   }
   .header--meta {
     background-color: none;
@@ -647,6 +649,35 @@ footer {
   @media (min-width: $breakpoint-m-769) {
     grid-gap: 2.5rem;
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.layout-grid--writing {
+  .layout-writing--newsletter {
+    padding: 1rem;
+    background-color: $warmgrey;
+    background-image: url("/media/donkeyear-sidebar.svg");
+    background-size: 1.75rem;
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+  
+  @media (min-width: $breakpoint-m-769) {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: start;
+    align-items: flex-start;
+    @media (min-width: $breakpoint-m-769) {
+      gap: 2.5rem;
+    }
+    .layout-writing--notes {
+      flex-grow: 1;
+    }
+    .layout-writing--newsletter {
+      padding: 1.5rem;
+      width: 30%;
+    }
   }
 }
 
@@ -848,6 +879,61 @@ section.writing {
   }
 }
 
+.newsletter-column--header {
+  text-align: center;
+  margin-bottom: 2rem;
+  h2 {
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  img {
+    max-width: 180px;
+    margin: 0 auto 1.5rem auto;
+    display: block;
+  }
+}
+
+.newsletter-teaser--small {
+  border-bottom: 1px solid $midgrey;
+  &:first-of-type {
+    border-top: 1px solid $midgrey;
+  }
+  a {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    flex-grow: 0;
+    gap: 1.25rem;
+    text-decoration: none;
+    padding: 1rem 0.5rem;
+    img {
+      max-width: 60px;
+      border-radius: 30px;
+      aspect-ratio: 1 / 1;
+      filter: grayscale(1);
+    }
+    div {
+      flex-grow: 1;
+    }
+    h2, h3 {
+      @include sansstack;
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 0;
+    }
+    p, date {
+      @include uppercase-text;
+      color: $concrete;
+    }
+    &:hover, &:focus {
+      background-color: rgba(255,255,255, 0.5);
+      img {
+        filter: grayscale(0);
+      }
+    }
+  }
+  
+}
 .newsletter-teaser {
   border-bottom: 1px solid $midgrey;
   &:first-of-type {
