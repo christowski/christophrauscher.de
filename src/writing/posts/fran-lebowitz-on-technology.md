@@ -3,9 +3,9 @@ title: "Fran Lebowitz on Technology"
 date: "2025-04-23"
 abstract: "Maybe not owning a computer is the key to happiness?"
 image: "/media/postimg/fran-lebowitz.webp"
-imageAlt: "A wood cut of man fleeing a dragon, tinted in bright instagram brand gradients"
+imageAlt: "A collage of a photo of the New York intellectual Fran Lebowitz"
 caption: "Fran Lebowitz by Christopher Macsurak (cc-by-2.0)"
-socialImage: "/media/postimg/instagram-hypnerotomachia-poliphili-social.jpg"
+socialImage: "/media/postimg/fran-lebowitz.webp"
 tags: 
   - note
 ---
