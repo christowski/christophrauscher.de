@@ -31,7 +31,7 @@ Collection: Projects (for, well, projects)
 [x] add content
 [x] add GitHub
 
-[] mobile styles für Newsletter module
+[x] mobile styles für Newsletter module
 [] add „Now“ page
 [] add gallery
 
