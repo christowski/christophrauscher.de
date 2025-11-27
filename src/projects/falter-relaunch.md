@@ -3,7 +3,7 @@ title: "Falter.at Relaunch"
 description: "I redesigned the website for Vienna’s newspaper FALTER, featuring a broad visual overhaul, illustrations and more."
 intro: "A new website design for Vienna’s weekly newspaper"
 timestamp: "2024"
-displayOrder: 1
+displayOrder: 3
 featured: true
 projectPage: true
 url: "projects/falter-relaunch"

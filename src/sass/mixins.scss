@@ -91,6 +91,7 @@
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 0.875rem;
+  line-height: 1.4;
 }
 @mixin sansstack {
   font-family: $sansstack;

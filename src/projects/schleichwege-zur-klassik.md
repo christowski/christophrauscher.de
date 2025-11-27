@@ -3,8 +3,8 @@ title: "Schleichwege zur Klassik"
 description: "Hidden Paths to Classical Music: I designed the book cover for Gabriel Yoran’s musical musings."
 intro: "Hidden Paths to Classical Music: I designed the book cover for Gabriel Yoran’s musical musings."
 timestamp: "2024"
-displayOrder: 2
-featured: true
+displayOrder: 5
+featured: false
 projectPage: true
 url: "projects/schleichwege-zur-klassik"
 tags:
