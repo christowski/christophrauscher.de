@@ -15,8 +15,8 @@ socialImage: "/media/socialimage-writingisdesign-workshop.jpg"
 
 <div class="content-container">
   <div class="content container--narrow">
-    <h2>Workshop 2025<h2>
-    <p>We’ll take a break in 2025. To find out about upcoming workshops, sign up to my <a href="/newsletter">newsletter</a>, follow me on <a href="https://mastodon.social/@christowski" target="_blank">Mastodon</a> or <a href="https://instagram.com/christowski" target="_blank">Instagram</a>.</p>
+    <h2>Workshop 2026<h2>
+    <p>We’ll be back in June 2026, and I’m already excited! To to get notified about the upcoming workshop, sign up to my <a href="/newsletter">newsletter</a>, follow me on <a href="https://mastodon.social/@christowski" target="_blank">Mastodon</a> or <a href="https://instagram.com/christowski" target="_blank">Instagram</a>.</p>
     <a class="button" href="/newsletter">Newsletter Sign-up</a>
   </div>
 </div>
