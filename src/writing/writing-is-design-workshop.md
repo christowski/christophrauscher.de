@@ -16,8 +16,8 @@ socialImage: "/media/socialimage-writingisdesign-workshop.jpg"
 <div class="content-container">
   <div class="content container--narrow">
     <h2>Workshop 2026<h2>
-    <p>We’ll be back in June 2026, and I’m already excited! To to get notified about the upcoming workshop, sign up to my <a href="/newsletter">newsletter</a>, follow me on <a href="https://mastodon.social/@christowski" target="_blank">Mastodon</a> or <a href="https://instagram.com/christowski" target="_blank">Instagram</a>.</p>
-    <a class="button" href="/newsletter">Newsletter Sign-up</a>
+    <p>The next workshop is from June 1–5, 2026 in Berlin. Application deadline: May 3, 2026. You can find all <a href="https://summer-university.udk-berlin.de/?id=641" target="_blank">details here</a>. I’m already excited to seeing you there!</p>
+    <p><a class="button" href="https://summer-university.udk-berlin.de/?id=641" target="_blank">Sign up now</a></p>
   </div>
 </div>
 
