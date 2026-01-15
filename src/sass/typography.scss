@@ -31,6 +31,7 @@ h3 {
 
 small {
   @include uppercase-text;
+  @include sansstack;
 }
 p, li {
   @include lh-body;
@@ -45,6 +46,17 @@ strong, b {
 }
 em {
   font-style: italic;
+}
+
+p#GermanVersion {
+  background: $warmgrey;
+  color: $charcoal;
+  padding: 0.5rem 1rem;
+  @include uppercase-text;
+  @include sansstack;
+  border-radius: 1.5rem;
+  margin-bottom: 2rem;
+  display: inline-block;
 }
 // ----------------------------------------
 
