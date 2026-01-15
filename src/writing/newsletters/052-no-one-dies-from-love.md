@@ -6,7 +6,7 @@ image: "/media/newsletterimg/01-2026.webp"
 imageAlt: "Ink drawing of two people reading newspapers, with eyes out out. They look at each other."
 caption: ""
 featured: false
-socialImage: "/media/newsletterimg/01-2026.webp"
+socialImage: "/media/newsletterimg/01-2026-opengraph.jpg"
 
 ---
 
