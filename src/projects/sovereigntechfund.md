@@ -3,7 +3,7 @@ title: "Sovereign Tech Fund"
 description: "As Village One, we are working with the Sovereign Tech Fund on their brand and website, to strengthen Open Source software infrastructure."
 intro: "As Village One, we are working with the Sovereign Tech Fund on their brand and website, to strengthen Open Source software infrastructure."
 timestamp: "2023"
-displayOrder: 4
+displayOrder: 6
 featured: true
 projectPage: false
 url: "https://www.sovereigntechfund.de"

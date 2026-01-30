@@ -3,7 +3,7 @@ title: "Die Treuhand und die Folgen"
 description: "Designed a vast data portal about the Treuhand and the paths of East German companies after the German reunification. A timeline, an interactive map and an object calague make the research accessible. Grimme Online Award Nominee 2024."
 intro: "Designed a vast data portal about the Treuhand and the paths of East German companies after the German reunification. A timeline, an interactive map and an object calague make the research accessible. Grimme Online Award Nominee 2024."
 timestamp: "2022"
-displayOrder: 4
+displayOrder: 7
 featured: false
 projectPage: false
 url: "https://treuhandanstalt.online"
