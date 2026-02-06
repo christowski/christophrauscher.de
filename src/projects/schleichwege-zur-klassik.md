@@ -17,7 +17,7 @@ teaser:
 ---
 
 <figure class="container--huge">
-  {% image "/media/projectimg/schleichwegezurklassik-3x4@2x.jpg", "{{ item.data.teaser.imageAlt }}" %}
+  {% projectimage "/media/projectimg/schleichwegezurklassik-3x4@2x.jpg", "{{ item.data.teaser.imageAlt }}" %}
 </figure>
 
 <div class="content-container container--normal">
@@ -35,15 +35,15 @@ teaser:
 <div class="content-container">
   <div class="content container--wide layout-grid--trio">
     <figure>
-      {% image "/media/projectimg/schleichwegezurklassik-scribble-1.jpg", "Book cover scribble with notes dancing around" %}
+      {% projectimage "/media/projectimg/schleichwegezurklassik-scribble-1.jpg", "Book cover scribble with notes dancing around" %}
       <figcaption>Concept A</figcaption>
     </figure>
      <figure>
-      {% image "/media/projectimg/schleichwegezurklassik-scribble-2.jpg", "Book cover scribble with a path with a claviature running through" %}
+      {% projectimage "/media/projectimg/schleichwegezurklassik-scribble-2.jpg", "Book cover scribble with a path with a claviature running through" %}
       <figcaption>Concept B</figcaption>
     </figure>
     <figure>
-      {% image "/media/projectimg/schleichwegezurklassik-scribble-3.jpg", "Book cover scribble with a hand holding compass showing different notes" %}
+      {% projectimage "/media/projectimg/schleichwegezurklassik-scribble-3.jpg", "Book cover scribble with a hand holding compass showing different notes" %}
       <figcaption>Concept C</figcaption>
     </figure>
   </div>

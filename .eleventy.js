@@ -71,7 +71,7 @@ module.exports = function(eleventyConfig) {
 
   // Responsive image shortcode
   // Usage: {% image "media/projectimg/example.jpg", "Alt text", "(min-width: 768px) 50vw, 100vw" %}
-  eleventyConfig.addAsyncShortcode("image", async function(src, alt, sizes = "100vw") {
+  eleventyConfig.addAsyncShortcode("projectimage", async function(src, alt, sizes = "100vw") {
     if (!alt) {
       throw new Error(`Missing \`alt\` on image from: ${src}`);
     }
@@ -89,8 +89,8 @@ module.exports = function(eleventyConfig) {
     let metadata = await Image(imagePath, {
       widths: [400, 800, 1600, 2200],
       formats: ["webp", "jpeg"],
-      outputDir: "./public/img/",
-      urlPath: "/img/",
+      outputDir: "./public/media/projectimg/",
+      urlPath: "/media/projectimg/",
       filenameFormat: function (id, src, width, format, options) {
         const extension = path.extname(src);
         const name = path.basename(src, extension);

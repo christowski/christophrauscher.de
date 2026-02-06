@@ -19,7 +19,7 @@ socialImage: "/media/projectimg/publix-openhouse25-stage-16x9.jpg"
 ---
 
 <figure class="container--huge">
-  {% image "/media/projectimg/publix-openhouse25-stage-16x9@2x.jpg", "Photo of the Publix Open House posters glued on a wall with a person walking by" %}
+  {% projectimage "/media/projectimg/publix-openhouse25-stage-16x9@2x.jpg", "Photo of the Publix Open House posters glued on a wall with a person walking by" %}
 </figure>
 
 <div class="content-container container--normal">
@@ -37,19 +37,19 @@ socialImage: "/media/projectimg/publix-openhouse25-stage-16x9.jpg"
 <div class="content-container">
   <div class="content container--wide layout-grid--duo">
      <figure>
-       {% image "/media/projectimg/publix-openhouse25-poster-purple-3x4@2x.jpg", "Poster visual on purple background" %}
+       {% projectimage "/media/projectimg/publix-openhouse25-poster-purple-3x4@2x.jpg", "Poster visual on purple background" %}
       <figcaption>Poster variant</figcaption>
     </figure>
     <figure>
-      {% image "/media/projectimg/publix-openhouse25-website-3x4@2x.jpg", "Website adaption of the visual, mockup in a phone" %}
+      {% projectimage "/media/projectimg/publix-openhouse25-website-3x4@2x.jpg", "Website adaption of the visual, mockup in a phone" %}
       <figcaption>Website banners</figcaption>
     </figure>
     <figure>
-      {% image "/media/projectimg/publix-openhouse25-instagram-3x4@2x.jpg", "Instagram adaption of the visual, mockup in a phone" %}
+      {% projectimage "/media/projectimg/publix-openhouse25-instagram-3x4@2x.jpg", "Instagram adaption of the visual, mockup in a phone" %}
       <figcaption>Instagram Share Cards</figcaption>
     </figure>
     <figure>
-      {% image "/media/projectimg/publix-openhouse25-poster-yellow-3x4@2x.jpg", "oster visual on yellow background" %}
+      {% projectimage "/media/projectimg/publix-openhouse25-poster-yellow-3x4@2x.jpg", "oster visual on yellow background" %}
       <figcaption>Poster variant</figcaption>
     </figure>
   </div>

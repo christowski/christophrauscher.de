@@ -37,7 +37,7 @@ socialImage: "/media/projectimg/ueberbrueckungsfonds-social-16x9.jpg"
 <div class="content-container">
   <div class="content container--normal">
     <figure>
-      {% image "/media/projectimg/ueberbrueckungsfonds-spenden-bewerben@2x.webp", "Screenshots of the website, showing the application and donation pages" %}
+      {% projectimage "/media/projectimg/ueberbrueckungsfonds-spenden-bewerben@2x.webp", "Screenshots of the website, showing the application and donation pages" %}
       <figcaption>Page templates and interactive modules for both donations and fund applications.</figcaption>
     </figure>
   </div>
@@ -52,11 +52,11 @@ socialImage: "/media/projectimg/ueberbrueckungsfonds-social-16x9.jpg"
 <div class="content-container">
   <div class="content container--wide layout-grid--duo">
      <figure>
-      {% image "/media/projectimg/ueberbrueckungsfonds-mobile-home@2x.webp", "Screenshot of the mobile homepage and main navigation" %}
+      {% projectimage "/media/projectimg/ueberbrueckungsfonds-mobile-home@2x.webp", "Screenshot of the mobile homepage and main navigation" %}
       <figcaption>Mobile homepage layout</figcaption>
     </figure>
     <figure>
-      {% image "/media/projectimg/ueberbrueckungsfonds-mobile-about@2x.webp", "Screenshot of the lilac-colored About section (mobile view)" %}
+      {% projectimage "/media/projectimg/ueberbrueckungsfonds-mobile-about@2x.webp", "Screenshot of the lilac-colored About section (mobile view)" %}
       <figcaption>Mobile About section</figcaption>
     </figure>
   </div>
@@ -71,7 +71,7 @@ socialImage: "/media/projectimg/ueberbrueckungsfonds-social-16x9.jpg"
 <div class="content-container">
   <div class="content container--wide">
     <figure>
-      {% image "/media/projectimg/ueberbrueckungsfonds-map@2x.webp", "Screenshot of the interactive map element with a highlighted organization + description" %}
+      {% projectimage "/media/projectimg/ueberbrueckungsfonds-map@2x.webp", "Screenshot of the interactive map element with a highlighted organization + description" %}
       <figcaption>An interactive map shows organizations supported by the fund</figcaption>
     </figure>
   </div>
