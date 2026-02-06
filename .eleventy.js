@@ -1,6 +1,8 @@
 // Packages and plugins
 const fg = require("fast-glob");
+const path = require("path");
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
+const Image = require("@11ty/eleventy-img");
 
 // Date filters
 const dateFilter = require('./src/filters/date-filter.js');
@@ -66,7 +68,46 @@ module.exports = function(eleventyConfig) {
 
   // For the footer: Add the current year
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-  
+
+  // Responsive image shortcode
+  // Usage: {% image "media/projectimg/example.jpg", "Alt text", "(min-width: 768px) 50vw, 100vw" %}
+  eleventyConfig.addAsyncShortcode("image", async function(src, alt, sizes = "100vw") {
+    if (!alt) {
+      throw new Error(`Missing \`alt\` on image from: ${src}`);
+    }
+
+    // Handle both absolute paths starting with / and relative paths
+    let imagePath;
+    if (src.startsWith("/media/")) {
+      imagePath = path.join("./src", src);
+    } else if (src.startsWith("media/")) {
+      imagePath = path.join("./src", src);
+    } else {
+      imagePath = src;
+    }
+
+    let metadata = await Image(imagePath, {
+      widths: [400, 800, 1600, 2200],
+      formats: ["webp", "jpeg"],
+      outputDir: "./public/img/",
+      urlPath: "/img/",
+      filenameFormat: function (id, src, width, format, options) {
+        const extension = path.extname(src);
+        const name = path.basename(src, extension);
+        return `${name}-${width}w.${format}`;
+      }
+    });
+
+    let imageAttributes = {
+      alt,
+      sizes,
+      loading: "lazy",
+      decoding: "async",
+    };
+
+    return Image.generateHTML(metadata, imageAttributes);
+  });
+
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',

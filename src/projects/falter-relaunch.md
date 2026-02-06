@@ -20,9 +20,7 @@ socialImage: "/media/projectimg/falter-redesign-socialimage.jpg"
 ---
 
 <figure class="container--huge">
-  <img src="/media/projectimg/falter-relaunch-stage.jpg" 
-      srcset="/media/falter-relaunch-stage.jpg 1x, /media/projectimg/falter-relaunch-stage@2x.jpg 2x"
-      alt="{{ item.data.teaser.imageAlt }}" />
+  {% image "/media/projectimg/falter-relaunch-stage@2x.jpg", "{{ item.data.teaser.imageAlt }}" %}
 </figure>
 
 <div class="content-container container--normal">
@@ -42,10 +40,7 @@ socialImage: "/media/projectimg/falter-redesign-socialimage.jpg"
 <div class="content-container">
   <div class="content container--normal">
     <figure>
-      <img src="/media/projectimg/falter-relaunch-moodboard.jpg" 
-      srcset="/media/projectimg/falter-relaunch-moodboard.jpg 1x, 
-      /media/projectimg/falter-relaunch-moodboard@2x.jpg 2x"
-      alt="Snippets from old Falter print issues">
+      {% image "/media/projectimg/falter-relaunch-moodboard@2x.jpg", "Snippets from old Falter print issues" %}
       <figcaption>Gathering inspiration from archived Falter print issues</figcaption>
     </figure>
   </div>
@@ -61,45 +56,27 @@ socialImage: "/media/projectimg/falter-redesign-socialimage.jpg"
 <div class="content-container">
   <div class="content container--wide layout-grid--duo">
      <figure>
-      <img src="/media/projectimg/falter-relaunch-article-mobile.jpg" 
-      srcset="/media/projectimg/falter-relaunch-article-mobile.jpg 1x, 
-      /media/projectimg/falter-relaunch-article-mobile@2x.jpg 2x"
-      alt="Screenshot of Falter mobile article layout">
+      {% image "/media/projectimg/falter-relaunch-article-mobile@2x.jpg", "Screenshot of Falter mobile article layout" %}
       <figcaption>Mobile article layout</figcaption>
     </figure>
     <figure>
-      <img src="/media/projectimg/falter-relaunch-article-desktop.jpg" 
-      srcset="/media/projectimg/falter-relaunch-article-desktop.jpg 1x, 
-      /media/projectimg/falter-relaunch-article-desktop@2x.jpg 2x"
-      alt="Screenshot of Falter desktop article layout">
+      {% image "/media/projectimg/falter-relaunch-article-desktop@2x.jpg", "Screenshot of Falter desktop article layout" %}
       <figcaption>Desktop article layout</figcaption>
     </figure>
     <figure>
-      <img src="/media/projectimg/falter-relaunch-newsletters-desktop.jpg" 
-      srcset="/media/projectimg/falter-relaunch-newsletters-desktop.jpg 1x, 
-      /media/projectimg/falter-relaunch-newsletters-desktop@2x.jpg 2x"
-      alt="Screenshot of Falter Newsletter offering">
+      {% image "/media/projectimg/falter-relaunch-newsletters-desktop@2x.jpg", "Screenshot of Falter Newsletter offering" %}
       <figcaption>Newsletter offering</figcaption>
     </figure>
      <figure>
-      <img src="/media/projectimg/falter-relaunch-kino-mobile.jpg" 
-      srcset="/media/projectimg/falter-relaunch-kino-mobile.jpg 1x, 
-      /media/projectimg/falter-relaunch-kino-mobile@2x.jpg 2x"
-      alt="Screenshot of movie reviews page">
+      {% image "/media/projectimg/falter-relaunch-kino-mobile@2x.jpg", "Screenshot of movie reviews page" %}
       <figcaption>Movie reviews</figcaption>
     </figure>
     <figure>
-      <img src="/media/projectimg/falter-relaunch-lokalfuehrer-desktop.jpg" 
-      srcset="/media/projectimg/falter-relaunch-lokalfuehrer-desktop.jpg 1x, 
-      /media/projectimg/falter-relaunch-lokalfuehrer-desktop@2x.jpg 2x"
-      alt="Screenshot of Falter restaurant database interface">
+      {% image "/media/projectimg/falter-relaunch-lokalfuehrer-desktop@2x.jpg", "Screenshot of Falter restaurant database interface" %}
       <figcaption>The vast restaurant database</figcaption>
     </figure>
      <figure>
-      <img src="/media/projectimg/falter-relaunch-lokalfuehrer-mobile.jpg" 
-      srcset="/media/projectimg/falter-relaunch-lokalfuehrer-mobile.jpg 1x, 
-      /media/projectimg/falter-relaunch-lokalfuehrer-mobile@2x.jpg 2x"
-      alt="Screenshot of Falter city guide: Daily restaurant recommendations">
+      {% image "/media/projectimg/falter-relaunch-lokalfuehrer-mobile@2x.jpg", "Screenshot of Falter city guide: Daily restaurant recommendations" %}
       <figcaption>Curated city guides</figcaption>
     </figure>
   </div>
@@ -108,10 +85,7 @@ socialImage: "/media/projectimg/falter-redesign-socialimage.jpg"
 <div class="content-container">
   <div class="content container--wide">
     <figure>
-      <img src="/media/projectimg/falter-relaunch-teasers.jpg" 
-      srcset="/media/projectimg/falter-relaunch-teasers.jpg 1x, 
-      /media/projectimg/falter-relaunch-teasers@2x.jpg 2x"
-      alt="A collage of various teaser designs">
+      {% image "/media/projectimg/falter-relaunch-teasers@2x.jpg", "A collage of various teaser designs" %}
       <figcaption>Various teasers</figcaption>
     </figure>
   </div>
@@ -127,10 +101,7 @@ socialImage: "/media/projectimg/falter-redesign-socialimage.jpg"
 <div class="content-container">
   <div class="content container--normal">
     <figure>
-      <img src="/media/projectimg/falter-relaunch-spots.jpg" 
-      srcset="/media/projectimg/falter-relaunch-spots.jpg 1x, 
-      /media/projectimg/falter-relaunch-spots@2x.jpg 2x"
-      alt="Falter spot illustrations">
+      {% image "/media/projectimg/falter-relaunch-spots@2x.jpg", "Falter spot illustrations" %}
     </figure>
   </div>
 </div>
@@ -146,10 +117,7 @@ socialImage: "/media/projectimg/falter-redesign-socialimage.jpg"
 <div class="content-container">
   <div class="content container--wide">
     <figure>
-      <img src="/media/projectimg/falter-relaunch-olddesigns.jpg" 
-      srcset="/media/projectimg/falter-relaunch-olddesigns.jpg 1x, 
-      /media/projectimg/falter-relaunch-olddesigns@2x.jpg 2x"
-      alt="An old screenshot from 2004, next to the print issue of 2024">
+      {% image "/media/projectimg/falter-relaunch-olddesigns@2x.jpg", "An old screenshot from 2004, next to the print issue of 2024" %}
       <figcaption>An old screenshot from 2004, next to the print issue of 2024</figcaption>
     </figure>
   </div>

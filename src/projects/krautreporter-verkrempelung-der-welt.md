@@ -15,9 +15,7 @@ teaser:
 ---
 
 <figure class="container--huge">
-  <img src="/media/projectimg/krautreporter-verkrempelung-fortschritt.jpg" 
-      srcset="/media/projectimg/krautreporter-verkrempelung-fortschritt.jpg 1x, /media/projectimg/krautreporter-verkrempelung-fortschritt@2x.jpg 2x"
-      alt="Illustration for an article about the future; a gigantic man walking through the skyline of Frankfurt" />
+  {% image "/media/projectimg/krautreporter-verkrempelung-fortschritt@2x.jpg", "Illustration for an article about the future; a gigantic man walking through the skyline of Frankfurt" %}
 </figure>
 
 <div class="content-container container--normal">
@@ -36,31 +34,19 @@ teaser:
 <div class="content-container">
   <div class="content container--wide layout-grid--duo">
      <figure>
-      <img src="/media/projectimg/krautreporter-verkrempelung-herd.jpg" 
-      srcset="/media/projectimg/krautreporter-verkrempelung-herd.jpg 1x, 
-      /media/projectimg/krautreporter-verkrempelung-herd@2x.jpg 2x"
-      alt="Illustration of a man trying to use a complicated modern kitchen">
+      {% image "/media/projectimg/krautreporter-verkrempelung-herd@2x.jpg", "Illustration of a man trying to use a complicated modern kitchen" %}
       <figcaption>Do products really get worse and worse?</figcaption>
     </figure>
     <figure>
-      <img src="/media/projectimg/krautreporter-verkrempelung-dusche.jpg" 
-      srcset="/media/projectimg/krautreporter-verkrempelung-dusche.jpg 1x, 
-      /media/projectimg/krautreporter-verkrempelung-dusche@2x.jpg 2x"
-      alt="Illustration of a person being entangled in a shower hose">
+      {% image "/media/projectimg/krautreporter-verkrempelung-dusche@2x.jpg", "Illustration of a person being entangled in a shower hose" %}
       <figcaption>Why are many normal products so badly produced?</figcaption>
     </figure>
     <figure>
-      <img src="/media/projectimg/krautreporter-verkrempelung-notifications.jpg" 
-      srcset="/media/projectimg/krautreporter-verkrempelung-notifications.jpg 1x, 
-      /media/projectimg/krautreporter-verkrempelung-notifications@2x.jpg 2x"
-      alt="Illustration of a man being desperate over his laptop’s notifications">
+      {% image "/media/projectimg/krautreporter-verkrempelung-notifications@2x.jpg", "Illustration of a man being desperate over his laptop’s notifications" %}
       <figcaption>Everything wants our attention!</figcaption>
     </figure>
     <figure>
-      <img src="/media/projectimg/krautreporter-verkrempelung-kaffee.jpg" 
-      srcset="/media/projectimg/krautreporter-verkrempelung-kaffee.jpg 1x, 
-      /media/projectimg/krautreporter-verkrempelung-kaffee@2x.jpg 2x"
-      alt="Illustration of a coffee machine">
+      {% image "/media/projectimg/krautreporter-verkrempelung-kaffee@2x.jpg", "Illustration of a coffee machine" %}
       <figcaption>The coffee machine as an adult’s toy</figcaption>
     </figure>
   </div>
@@ -69,10 +55,7 @@ teaser:
 <div class="content-container">
   <div class="content container--wide">
     <figure>
-      <img src="/media/projectimg/krautreporter-verkrempelung-shave.jpg" 
-      srcset="/media/projectimg/krautreporter-verkrempelung-shave.jpg 1x, 
-      /media/projectimg/krautreporter-verkrempelung-shave@2x.jpg 2x"
-      alt="Illustration of a content man shaving, while his reflection in the mirror is sad about his soggy shaving cream">
+      {% image "/media/projectimg/krautreporter-verkrempelung-shave@2x.jpg", "Illustration of a content man shaving, while his reflection in the mirror is sad about his soggy shaving cream" %}
       <figcaption>Why is Italian shaving cream so much better?</figcaption>
     </figure>
   </div>
@@ -81,10 +64,7 @@ teaser:
 <div class="content-container">
   <div class="content container--normal">
     <figure>
-      <img src="/media/projectimg/krautreporter-verkrempelung-support-sketch.jpg" 
-      srcset="/media/projectimg/krautreporter-verkrempelung-support-sketch.jpg 1x, 
-      /media/projectimg/krautreporter-verkrempelung-support-sketch@2x.jpg 2x"
-      alt="Sketches of a drawing of a man entangled in a red phone cord">
+      {% image "/media/projectimg/krautreporter-verkrempelung-support-sketch@2x.jpg", "Sketches of a drawing of a man entangled in a red phone cord" %}
       <figcaption>Concept sketches</figcaption>
     </figure>
   </div>
@@ -93,10 +73,7 @@ teaser:
 <div class="content-container">
   <div class="content container--wide">
     <figure>
-      <img src="/media/projectimg/krautreporter-verkrempelung-support.jpg" 
-      srcset="/media/projectimg/krautreporter-verkrempelung-support.jpg 1x, 
-      /media/projectimg/krautreporter-verkrempelung-support@2x.jpg 2x"
-      alt="Illustration of a man entangled in a red phone cord">
+      {% image "/media/projectimg/krautreporter-verkrempelung-support@2x.jpg", "Illustration of a man entangled in a red phone cord" %}
       <figcaption>Why are support hotlines so horrible?</figcaption>
     </figure>
   </div>

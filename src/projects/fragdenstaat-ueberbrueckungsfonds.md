@@ -37,10 +37,7 @@ socialImage: "/media/projectimg/ueberbrueckungsfonds-social-16x9.jpg"
 <div class="content-container">
   <div class="content container--normal">
     <figure>
-      <img src="/media/projectimg/ueberbrueckungsfonds-spenden-bewerben.webp" 
-      srcset="/media/projectimg/ueberbrueckungsfonds-spenden-bewerben.webp 1x, 
-      /media/projectimg/ueberbrueckungsfonds-spenden-bewerben@2x.webp 2x"
-      alt="Screenshots of the website, showing the application and donation pages">
+      {% image "/media/projectimg/ueberbrueckungsfonds-spenden-bewerben@2x.webp", "Screenshots of the website, showing the application and donation pages" %}
       <figcaption>Page templates and interactive modules for both donations and fund applications.</figcaption>
     </figure>
   </div>
@@ -55,17 +52,11 @@ socialImage: "/media/projectimg/ueberbrueckungsfonds-social-16x9.jpg"
 <div class="content-container">
   <div class="content container--wide layout-grid--duo">
      <figure>
-      <img src="/media/projectimg/ueberbrueckungsfonds-mobile-home.webp" 
-      srcset="/media/projectimg/ueberbrueckungsfonds-mobile-home.webp 1x, 
-      /media/projectimg/ueberbrueckungsfonds-mobile-home@2x.webp 2x"
-      alt="Screenshot of the mobile homepage and main navigation">
+      {% image "/media/projectimg/ueberbrueckungsfonds-mobile-home@2x.webp", "Screenshot of the mobile homepage and main navigation" %}
       <figcaption>Mobile homepage layout</figcaption>
     </figure>
     <figure>
-      <img src="/media/projectimg/ueberbrueckungsfonds-mobile-about.webp" 
-      srcset="/media/projectimg/ueberbrueckungsfonds-mobile-about.webp 1x, 
-      /media/projectimg/ueberbrueckungsfonds-mobile-about@2x.webp 2x"
-      alt="Screenshot of the lilac-colored About section (mobile view)">
+      {% image "/media/projectimg/ueberbrueckungsfonds-mobile-about@2x.webp", "Screenshot of the lilac-colored About section (mobile view)" %}
       <figcaption>Mobile About section</figcaption>
     </figure>
   </div>
@@ -80,10 +71,7 @@ socialImage: "/media/projectimg/ueberbrueckungsfonds-social-16x9.jpg"
 <div class="content-container">
   <div class="content container--wide">
     <figure>
-      <img src="/media/projectimg/ueberbrueckungsfonds-map.webp" 
-      srcset="/media/projectimg/ueberbrueckungsfonds-map.webp 1x, 
-      /media/projectimg/ueberbrueckungsfonds-map@2x.webp 2x"
-      alt="Screenshot of the interactive map element with a highlighted organization + description">
+      {% image "/media/projectimg/ueberbrueckungsfonds-map@2x.webp", "Screenshot of the interactive map element with a highlighted organization + description" %}
       <figcaption>An interactive map shows organizations supported by the fund</figcaption>
     </figure>
   </div>

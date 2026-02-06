@@ -15,9 +15,7 @@ teaser:
 ---
 
 <figure class="container--full">
-  <img src="/media/projectimg/kreuzfahrtdurchdierepublik-3x4.jpg" 
-      srcset="/media/projectimg/kreuzfahrtdurchdierepublik-3x4.jpg 1x, /media/projectimg/kreuzfahrtdurchdierepublik-3x4@2x.jpg 2x"
-      alt="{{ item.data.teaser.imageAlt }}" />
+  {% image "/media/projectimg/kreuzfahrtdurchdierepublik-3x4@2x.jpg", "{{ item.data.teaser.imageAlt }}" %}
 </figure>
 
 <div class="content-container container--normal">
@@ -31,13 +29,13 @@ teaser:
 </div>
 
 <figure class="container--wide spacer-b--s">
-  <img src="/media/projectimg/kreuzfahrtdurchdierepublik-portraits-1.jpg" alt="illustrated ink portraits of Frank Thelen, Frauke Ludowig and Richard David Precht">
+  {% image "/media/projectimg/kreuzfahrtdurchdierepublik-portraits-1.jpg", "illustrated ink portraits of Frank Thelen, Frauke Ludowig and Richard David Precht" %}
 </figure>
 
 <figure class="container--wide spacer-b--s">
-  <img src="/media/projectimg/kreuzfahrtdurchdierepublik-portraits-2.jpg" alt="illustrated ink portraits of Harald Martenstein, Angela Merkel and Kevin Kühnert">
+  {% image "/media/projectimg/kreuzfahrtdurchdierepublik-portraits-2.jpg", "illustrated ink portraits of Harald Martenstein, Angela Merkel and Kevin Kühnert" %}
 </figure>
 
 <figure class="container--wide spacer-b--s">
-  <img src="/media/projectimg/kreuzfahrtdurchdierepublik-portraits-3.jpg" alt="illustrated ink portraits of Thomas Gottschalk, Barbara Schöneberger and Armin Laschet">
+  {% image "/media/projectimg/kreuzfahrtdurchdierepublik-portraits-3.jpg", "illustrated ink portraits of Thomas Gottschalk, Barbara Schöneberger and Armin Laschet" %}
 </figure>
