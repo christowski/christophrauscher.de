@@ -16,8 +16,8 @@ socialImage: "/media/socialimage-writingisdesign-workshop.jpg"
 <div class="content-container">
   <div class="content container--narrow">
     <h2>Workshop 2026<h2>
-    <p>The next workshop is from June 1–5, 2026 in Berlin. Application deadline: May 3, 2026. You can find all <a href="https://summer-university.udk-berlin.de/?id=641" target="_blank">details here</a>. I’m already excited to seeing you there!</p>
-    <p><a class="button" href="https://summer-university.udk-berlin.de/?id=641" target="_blank">Sign up now</a></p>
+    <p>Our 2026 workshop already took place—we opened the Berlin Summer University workshop weeks with our session during June 1–5. For the record, all details can be found <a href="https://summer-university.udk-berlin.de/?id=641" target="_blank">here</a>.</p>
+    <p>Feel free to subscribe to my <a href="/newsletter">newsletter</a> to learn about upcoming workshops in 2026, 2027 and beyond!</p>
   </div>
 </div>
 
