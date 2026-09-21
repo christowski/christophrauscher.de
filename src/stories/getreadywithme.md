@@ -9,12 +9,18 @@ socialImage: "/media/storiesimg/getready-social.jpg"
 ---
 
 <section class="panel">
-  <img src="/media/storiesimg/getready-01-title.webp">
+  <figure>
+    <img src="/media/storiesimg/getready-01-title.webp" style="margin: 2rem 0;"
+      alt="Cartoon of a nude man, titled: Get ready with me">
+    <figcaption>
+      <p><em>A brief guide to dressing for a successful day</em></p>
+    </figcaption>
+  </figure>
 </section>
 
 <section class="panel">
   <figure>
-    <img src="/media/storiesimg/getready-02-nude.webp" style="max-width: 250px;"
+    <img src="/media/storiesimg/getready-02-nude.webp" style="max-width: 150px;"
       alt="Cartoon of a nude man, titled: Get ready with me">
     <figcaption>
       <p><span>Start in the nude. Fully undress! Look at yourself in the mirror and realize: This is it. This is what I’m working with.</span></p>
@@ -24,7 +30,7 @@ socialImage: "/media/storiesimg/getready-social.jpg"
 
 <section class="panel">
   <figure>
-    <img src="/media/storiesimg/getready-03-socks.webp" style="max-width: 550px;"
+    <img src="/media/storiesimg/getready-03-socks.webp" style="max-width: 350px;"
       alt="Cartoon of a nude man">
     <figcaption>
       <p><span>Ok, now get dressed already and put on some underwear! Make sure to check for left/right labels on your socks. If you mess this up, your day will be ruined!</span></p>
@@ -34,7 +40,7 @@ socialImage: "/media/storiesimg/getready-social.jpg"
 
 <section class="panel flex">
   <figure>
-    <img src="/media/storiesimg/getready-04-shirt.webp" style="max-width: 550px;"
+    <img src="/media/storiesimg/getready-04-shirt.webp" style="max-width: 350px;"
       alt="Tha chartoon character wearing a white shirt">
     <figcaption>
       <p><span>A shirt or blouse are never a bad idea! <br/>If done right, it forces you to keep your upper body in a stiff and uncomfortable position.</span></p>
@@ -64,7 +70,7 @@ socialImage: "/media/storiesimg/getready-social.jpg"
 
 <section class="panel">
   <figure>
-    <img src="/media/storiesimg/getready-07-hat.webp" style="max-width: 500px;"
+    <img src="/media/storiesimg/getready-07-hat.webp" style="max-width: 400px;"
       alt="The cartoon character wearing a hat, covering his eyes">
     <figcaption>
       <p><span>Final touches: The headpiece. <br/>A true necessity to conceal the balding spots.</span></p>
@@ -74,7 +80,7 @@ socialImage: "/media/storiesimg/getready-social.jpg"
 
 <section class="panel">
   <figure>
-    <img src="/media/storiesimg/getready-08-dressed.webp" style="max-width: 280px;"
+    <img src="/media/storiesimg/getready-08-dressed.webp" style="max-width: 180px;"
       alt="The cartoon character standing there, fully dressed, looking unhappy">
     <figcaption>
       <p><span>Once you’re ready, take a step back and reconsider. It’s probably best to just stay at home instead. These clothes are uncomfortable, and it’s cozy here, and you hate loud music and chit chat anyway.</span></p>
@@ -84,7 +90,7 @@ socialImage: "/media/storiesimg/getready-social.jpg"
 
 <section class="panel">
   <figure>
-    <img src="/media/storiesimg/getready-09-chair.webp" style="max-width: 660px;"
+    <img src="/media/storiesimg/getready-09-chair.webp" style="max-width: 700px;"
       alt="Cartoon of a cozy armchair visible from the back, with our character lounding in it">
     <figcaption>
       <p><span>A perfect day to stay inside.<br>
