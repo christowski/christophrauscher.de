@@ -8,8 +8,9 @@ layout: "layouts/textpage.njk"
 Responsible for the content of this website:
 
 Christoph Rauscher\
-Berlin, Germany\
-Address on request
+ALTMOABIT19 Bürogemeinschaft\
+Alt-Moabit 19\
+10559 Berlin
 
 All contents (mainly texts and imagery) on this website are copyright-protected and may not be copied/distributed/used without my written consent.
 

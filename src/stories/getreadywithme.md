@@ -21,7 +21,7 @@ socialImage: "/media/storiesimg/getready-social.jpg"
 <section class="panel">
   <figure>
     <img src="/media/storiesimg/getready-02-nude.webp" style="max-width: 150px;"
-      alt="Cartoon of a nude man, titled: Get ready with me">
+      alt="Cartoon of a nude man">
     <figcaption>
       <p><span>Start in the nude. Fully undress! Look at yourself in the mirror and realize: This is it. This is what I’m working with.</span></p>
     </figcaption>
@@ -31,7 +31,7 @@ socialImage: "/media/storiesimg/getready-social.jpg"
 <section class="panel">
   <figure>
     <img src="/media/storiesimg/getready-03-socks.webp" style="max-width: 350px;"
-      alt="Cartoon of a nude man">
+      alt="Drawing of a pair of socks">
     <figcaption>
       <p><span>Ok, now get dressed already and put on some underwear! Make sure to check for left/right labels on your socks. If you mess this up, your day will be ruined!</span></p>
     </figcaption>
@@ -61,7 +61,7 @@ socialImage: "/media/storiesimg/getready-social.jpg"
 <section class="panel">
   <figure>
     <img src="/media/storiesimg/getready-06-shoes.webp" style="max-width: 650px;"
-      alt="A cartoon of a hand holding a tablet with sparkling leather loafers">
+      alt="A cartoon of a hand holding a tablet with shiny leather loafers">
     <figcaption>
       <p><span>Shoes? Don’t hold back! Choose the leather loafers you never wear. They will make all the difference. The more uncomfortable, the better the impression.</span></p>
     </figcaption>
