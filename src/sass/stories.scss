@@ -46,3 +46,152 @@ body.body--getreadywithme {
     }
   }
 }
+
+// ---------------- Story: Six Fingers --------------
+
+body.body--sixfingers {
+  color: #281E04;
+  main {
+    background: #F3BD28;
+  }
+  
+  h1 {font-size: 8vw;
+    font-family: $serifstack;
+    font-style: italic;
+    text-align: center;
+    padding: 2rem;
+  }
+  // Hiding the radio buttons
+  .switch-input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+  }
+  
+  // Main content wrapper
+  .story-stage {
+    display: grid;
+  }
+  
+  .pair {
+    /* stack every pair in the same grid cell so fades cross over
+       without any layout jump */
+    grid-row: 1;
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.6s ease, visibility 0s linear 0.6s;
+  }
+  
+  .text-panel, .image-panel {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  
+  .text-panel p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: $serifstack;
+    line-height: 1.3;
+    max-width: 28rem;
+    margin: 0 auto;
+  }
+  
+  .next-link {
+    align-self: flex-start;
+    display: inline-block;
+    font-size: 1.1rem;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: inherit;
+  }
+  
+  .next-link:hover {
+    color: green;
+  }
+  
+  .image-panel {
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+  }
+  
+  .image-panel img {
+    max-width: 100%;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto 16px auto;
+    border-radius: 2px;
+    mix-blend-mode: multiply;
+  }
+  
+  .image-caption {
+    font-size: 1.4rem;
+    color: #444;
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 28px;
+  }
+  
+  .dots label {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ccc;
+    cursor: pointer;
+    display: inline-block;
+    transition: background 0.2s ease;
+  }
+  
+  .dots label:hover {
+    background: #999;
+  }
+  
+  /* --- The core show/hide logic, no JavaScript --- */
+  #p1:checked ~ .story-stage .pair1,
+  #p2:checked ~ .story-stage .pair2,
+  #p3:checked ~ .story-stage .pair3,
+  #p4:checked ~ .story-stage .pair4,
+  #p5:checked ~ .story-stage .pair5,
+  #p6:checked ~ .story-stage .pair6 {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transition: opacity 0.6s ease, visibility 0s linear 0s;
+  }
+  
+  #p1:checked ~ .dots .dot1,
+  #p2:checked ~ .dots .dot2,
+  #p3:checked ~ .dots .dot3,
+  #p4:checked ~ .dots .dot4,
+  #p5:checked ~ .dots .dot5,
+  #p6:checked ~ .dots .dot6 {
+    background: #333;
+  }
+  
+  @media (max-width: 720px) {
+    .pair {
+      grid-template-columns: 1fr;
+    }
+    .text-panel, .image-panel {
+      min-height: 320px;
+      padding: 28px;
+    }
+  }
+}
